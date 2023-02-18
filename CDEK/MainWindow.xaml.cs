@@ -87,6 +87,11 @@ namespace CDEK
 			}
 		}
 
+		/// <summary>
+		/// Метод pbManager_KeyDown предназначена для отслеживания события нажатия кнопки enter и запуска метода btnSetApplication_Click
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void pbManager_KeyDown(object sender, KeyEventArgs e)
 		{
 			if(e.Key == Key.Enter)

@@ -35,7 +35,7 @@
             <Label x:Name="lbAdressRecipient" VerticalContentAlignment="Center" Content="Adress recipient" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" FontSize="14" FontWeight="Bold" Margin="21,120,0,0"/>
 
         </Grid>
-        <Button x:Name="btnSend" Content="Send" HorizontalAlignment="Center" Margin="0,489,0,0" VerticalAlignment="Top" Width="142" Height="41" FontSize="22" FontWeight="Bold"/>
+        <Button x:Name="btnSend" Content="Send" HorizontalAlignment="Center" Margin="0,489,0,0" VerticalAlignment="Top" Width="142" Height="41" FontSize="22" FontWeight="Bold" Click="btnSend_Click"/>
 
     </Grid>
 </Window>

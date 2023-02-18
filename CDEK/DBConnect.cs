@@ -85,6 +85,23 @@ namespace CDEK
 			adapter.Fill(dt);
 		}
 
+		public static void Add_to_table(string sql, string command)
+		{
+			sqlConn = new SqlConnection(sql);
+
+			sqlConn.Open();
+			SqlCommand sqlCommand = new SqlCommand();
+			sqlCommand.CommandType = System.Data.CommandType.Text;
+			sqlCommand.CommandText = command;
+			//"INSERT MAC_Table (MAC) VALUES ('" + macAddresses + "');"
+			sqlCommand.Connection = sqlConn;
+
+			//sqlConn.Open();
+			sqlCommand.ExecuteNonQuery();
+			sqlConn.Close();
+
+		}
+
 		public static void SQLQueryAutorization(string id, string password, string nameTable, string nameColumnMail, string nameColumnPassword, out bool Autorization)//отправление sql-запросов на авторизацию
 		{
 			string sqlQuery = "SELECT * FROM [dbo].[" + nameTable + "] WHERE [" + nameColumnMail + "]= '" + id + "' and [" + nameColumnPassword + "]='" + password + "'";
