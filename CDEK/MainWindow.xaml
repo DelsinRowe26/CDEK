@@ -1,0 +1,28 @@
+﻿<Window x:Name="Autorization" x:Class="CDEK.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CDEK"
+        mc:Ignorable="d"
+        Title="Autorization" Height="237" Width="489" ResizeMode="NoResize" Loaded="Autorization_Loaded">
+    <Grid>
+        <TabControl x:Name="tcChoise">
+            <TabItem x:Name="tiUser" Header="User">
+                <Grid>
+                    <Button x:Name="btnSetApplication" Content="Submit your application" HorizontalAlignment="Center" Margin="0,61,0,0" VerticalAlignment="Top" Height="61" Width="254" FontSize="20" FontWeight="Bold" Click="btnSetApplication_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tiManager" Header="Manager">
+                <Grid>
+                    <TextBox x:Name="tbLogin" HorizontalAlignment="Center" VerticalContentAlignment="Center" Margin="0,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" Height="36" FontSize="18"/>
+                    <PasswordBox x:Name="pbManager" HorizontalAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center" Width="315" Height="35" KeyDown="pbManager_KeyDown"/>
+                    <Button x:Name="btnSignIn" Content="Sign In" HorizontalAlignment="Center" Margin="0,135,0,0" VerticalAlignment="Top" Width="96" Height="36" FontSize="16" FontWeight="Bold" Click="btnSignIn_Click"/>
+                    <Label x:Name="lbLogin" Content="Login" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" Width="69" Height="36" FontWeight="Bold"/>
+                    <Label x:Name="lbPassword" Content="Password" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Width="69" Height="36" FontWeight="Bold"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
