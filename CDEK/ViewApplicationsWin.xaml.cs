@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,5 +24,20 @@ namespace CDEK
 		{
 			InitializeComponent();
 		}
-	}
+
+		private void ViewApplicationWin_Loaded(object sender, RoutedEventArgs e)
+		{
+			string sqlConn = @"Data Source = DESKTOP-R2UPGH3\DR; Initial Catalog = CDEK; Integrated Security = True";
+			string tableName = "Application_Table";
+			DataTable dt;
+			DBConnect.LoadedDB(sqlConn, tableName, out dt);
+
+
+			//int count = dt.Columns.Count;
+			
+			dgApplication.ItemsSource = dt.DefaultView;
+			//dgApplication.Width = dt.Columns.Count;
+			//this.Width = dgApplication.Width;
+		}
+    }
 }

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Autorization" Height="237" Width="489" ResizeMode="NoResize" Loaded="Autorization_Loaded">
     <Grid>
-        <TabControl x:Name="tcChoise">
+        <TabControl x:Name="tcChoise" IsTabStop="True">
             <TabItem x:Name="tiUser" Header="User">
                 <Grid>
                     <Button x:Name="btnSetApplication" Content="Submit your application" HorizontalAlignment="Center" Margin="0,61,0,0" VerticalAlignment="Top" Height="61" Width="254" FontSize="20" FontWeight="Bold" Click="btnSetApplication_Click"/>

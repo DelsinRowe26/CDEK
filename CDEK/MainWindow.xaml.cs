@@ -24,6 +24,7 @@ namespace CDEK
 		/// <summary>
 		/// Метод MainWindow предназначен для инициализации компонентов.
 		/// </summary>
+		int countTab = 0;
 		public MainWindow()
 		{
 			InitializeComponent();
@@ -96,7 +97,7 @@ namespace CDEK
 		{
 			if(e.Key == Key.Enter)
 			{
-				btnSetApplication_Click(sender, e);
+				btnSignIn_Click(sender, e);
 			}
 		}
 	}
