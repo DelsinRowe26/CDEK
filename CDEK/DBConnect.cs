@@ -48,14 +48,10 @@ namespace CDEK
 		/// <summary>
 		/// Метод LoadedDB предназначен для вывода таблицы из бд в DataGrid
 		/// </summary>
-		/// <param name="sql">Переменная в которую нужна присваивать путь подключения к бд</param>
 		/// <param name="nameTable">Название таблицы которую будем выводит в DataGrid</param>
 		/// <param name="dt">Переменная для записи в неё таблицы с бд</param>
-		public static void LoadedDB(string sql,string nameTable, out DataTable dt)//предназначен при загрузке и выводе определенной таблицы
+		public static void LoadedDB(string nameTable, out DataTable dt)//предназначен при загрузке и выводе определенной таблицы
 		{
-			
-			sqlConn = new SqlConnection(sql);
-
 			sqlConn.Open();
 
 			string Get_Data = "SELECT * FROM [" + nameTable + "]";
@@ -72,13 +68,11 @@ namespace CDEK
 		/// <summary>
 		/// Метод DateFilter предназначен для фильтрации данных в таблице из бд по датам
 		/// </summary>
-		/// <param name="sql">Переменная в которую нужна присваивать путь подключения к бд</param>
 		/// <param name="nameTable">Название таблицы в которой мы будем делать фильтрацию</param>
 		/// <param name="Date">Переменная даты по которой происходит фильтрация</param>
 		/// <param name="dt">Переменная для записи отфильтрованной таблицы</param>
-		public static void DateFilter(string sql, string nameTable , string Date, out DataTable dt)//фильтр по дате
+		public static void DateFilter(string nameTable , string Date, out DataTable dt)//фильтр по дате
 		{
-			sqlConn = new SqlConnection(sql);
 
 			sqlConn.Open();
 
@@ -95,14 +89,11 @@ namespace CDEK
 		/// <summary>
 		/// Метод EventFilter предназначен для фильтрации данных в таблице из бд по событиям
 		/// </summary>
-		/// <param name="sql">Переменная в которую нужна присваивать путь подключения к бд</param>
 		/// <param name="nameTable">Название таблицы в которой мы будем делать фильтрацию</param>
 		/// <param name="nameEvent">Переменная для фильтрации таблицы по событиям</param>
 		/// <param name="dt">Переменная для записи отфильтрованной таблицы и вывода её</param>
-		public static void EventFilter(string sql, string nameTable, string nameEvent, out DataTable dt)//фильтр по событиям
+		public static void EventFilter(string nameTable, string nameEvent, out DataTable dt)//фильтр по событиям
 		{
-			sqlConn = new SqlConnection(sql);
-
 			sqlConn.Open();
 
 			string Get_Data = "SELECT * FROM [" + nameTable + "] WHERE [Событие] = " + "'" + nameEvent + "'";
@@ -118,12 +109,9 @@ namespace CDEK
 		/// <summary>
 		/// Метод Add_to_table предназначен для добавления данных в таблицу 
 		/// </summary>
-		/// <param name="sql">Переменная в которую нужна присваивать путь подключения к бд</param>
 		/// <param name="command">Пременная в которую мы вносим команду для добавления данных в таблицу бд</param>
-		public static void Add_to_table(string sql, string command)
+		public static void Add_to_table(string command)
 		{
-			sqlConn = new SqlConnection(sql);
-
 			sqlConn.Open();
 			SqlCommand sqlCommand = new SqlCommand();
 			sqlCommand.CommandType = System.Data.CommandType.Text;

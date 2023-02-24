@@ -31,10 +31,21 @@ namespace CDEK
 		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void btnSend_Click(object sender, RoutedEventArgs e)
 		{
-			string sqlConn = @"Data Source = DESKTOP-R2UPGH3\DR; Initial Catalog = CDEK; Integrated Security = True";
-			string command = "INSERT Application_Table (Firstname_sender, Secondname_sender, Number_phone_sender, Type_package, Firstname_recipient, Secondname_recipient, Number_phone_recipient, Adress_recipient) VALUES ('" + tbFirstnameSender.Text + "','" + tbSecondnameSender.Text + "','" + tbNumberPhoneSender.Text + "','" + cmbTypePackage.Text + "','" + tbFirstnameRecipient.Text + "','" + tbSecondnameRecipient.Text + "','" + tbNumberPhoneRecipient.Text + "','" + tbAdressRecipient.Text + "');";
-			DBConnect.Add_to_table(sqlConn,command);
-			this.Close();
+			if (tbFirstnameSender.Text != "" && tbSecondnameSender.Text != "" && tbNumberPhoneSender.Text != "" && cmbTypePackage.Text != "" && tbAdressSender.Text != "" && tbFirstnameRecipient.Text != "" && tbSecondnameRecipient.Text != "" && tbNumberPhoneRecipient.Text != "" && tbAdressRecipient.Text != "") {
+				string command = "INSERT Table_Application (Firstname_sender, Secondname_sender, Number_phone_sender, Type_package, Adress_sender, Firstname_recipient, Secondname_recipient, Number_phone_recipient, Adress_recipient) VALUES ('" + tbFirstnameSender.Text + "','" + tbSecondnameSender.Text + "','" + tbNumberPhoneSender.Text + "','" + cmbTypePackage.Text + "','" + tbAdressSender.Text + "','" + tbFirstnameRecipient.Text + "','" + tbSecondnameRecipient.Text + "','" + tbNumberPhoneRecipient.Text + "','" + tbAdressRecipient.Text + "');";
+				DBConnect.Add_to_table(command);
+				this.Close();
+			}
+			else
+			{
+				MessageBox.Show("Fill in all the fields.");
+			}
 		}
-    }
+
+		private void AppWin_Loaded(object sender, RoutedEventArgs e)
+		{
+			string sqlConn = @"Data Source = DESKTOP-R2UPGH3\DR; Initial Catalog = CDEK; Integrated Security = True";
+			DBConnect.DataBaseConn(sqlConn);
+		}
+	}
 }

@@ -1,0 +1,13 @@
+﻿<Window x:Name="RepWin" x:Class="CDEK.ReportWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CDEK"
+        mc:Ignorable="d"
+        Title="ReportWin" Height="450" Width="800" Loaded="RepWin_Loaded">
+    <Grid>
+        <TextBox x:Name="tbReport" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="584" Height="356"/>
+
+    </Grid>
+</Window>
