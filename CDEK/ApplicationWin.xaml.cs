@@ -31,8 +31,8 @@ namespace CDEK
 		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void btnSend_Click(object sender, RoutedEventArgs e)
 		{
-			if (tbFirstnameSender.Text != "" && tbSecondnameSender.Text != "" && tbNumberPhoneSender.Text != "" && cmbTypePackage.Text != "" && tbAdressSender.Text != "" && tbFirstnameRecipient.Text != "" && tbSecondnameRecipient.Text != "" && tbNumberPhoneRecipient.Text != "" && tbAdressRecipient.Text != "") {
-				string command = "INSERT Table_Application (Firstname_sender, Secondname_sender, Number_phone_sender, Type_package, Adress_sender, Firstname_recipient, Secondname_recipient, Number_phone_recipient, Adress_recipient) VALUES ('" + tbFirstnameSender.Text + "','" + tbSecondnameSender.Text + "','" + tbNumberPhoneSender.Text + "','" + cmbTypePackage.Text + "','" + tbAdressSender.Text + "','" + tbFirstnameRecipient.Text + "','" + tbSecondnameRecipient.Text + "','" + tbNumberPhoneRecipient.Text + "','" + tbAdressRecipient.Text + "');";
+			if (tbFirstnameSender.Text != "" && tbSecondnameSender.Text != "" && tbNumberPhoneSender.Text != "" && cmbTypePackage.Text != "" && tbAdressSender.Text != "" && tbFirstnameRecipient.Text != "" && tbSecondnameRecipient.Text != "" && tbNumberPhoneRecipient.Text != "" && tbAdressRecipient.Text != "" && tbMailSender.Text != "") {
+				string command = "INSERT Table_Application (Firstname_sender, Secondname_sender, Number_phone_sender, Type_package, Adress_sender, Firstname_recipient, Secondname_recipient, Number_phone_recipient, Adress_recipient, Email) VALUES ('" + tbFirstnameSender.Text + "','" + tbSecondnameSender.Text + "','" + tbNumberPhoneSender.Text + "','" + cmbTypePackage.Text + "','" + tbAdressSender.Text + "','" + tbFirstnameRecipient.Text + "','" + tbSecondnameRecipient.Text + "','" + tbNumberPhoneRecipient.Text + "','" + tbAdressRecipient.Text + "','" + tbMailSender.Text + "');";
 				DBConnect.Add_to_table(command);
 				this.Close();
 			}

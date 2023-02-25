@@ -55,6 +55,7 @@ namespace CDEK
 			DataSenderRecipient.Secondname_recipient = ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[7].ToString();
 			DataSenderRecipient.Number_phone_recipient = ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[8].ToString();
 			DataSenderRecipient.Adress_recipient = ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[9].ToString();
+			DataSenderRecipient.Mail = ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[10].ToString();
 
 			ReportWin win = new ReportWin();
 			win.Show();

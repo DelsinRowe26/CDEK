@@ -18,5 +18,6 @@ namespace CDEK
 		public static string Secondname_recipient;
 		public static string Number_phone_recipient;
 		public static string Adress_recipient;
+		public static string Mail;
 	}
 }

@@ -5,9 +5,72 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CDEK"
         mc:Ignorable="d"
-        Title="ReportWin" Height="450" Width="800" Loaded="RepWin_Loaded">
-    <Grid>
-        <TextBox x:Name="tbReport" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="584" Height="356"/>
+        Title="ReportWin" Height="698" Width="537" Loaded="RepWin_Loaded">
+    <ScrollViewer Margin="0,0,0,5">
+        <Grid ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" Height="932" Width="537">
+            <Grid x:Name="gridNumberApplic" HorizontalAlignment="Center" Height="39" Margin="0,10,0,0" VerticalAlignment="Top" Width="144">
+                <TextBlock x:Name="tblNumberApplic" HorizontalAlignment="Left" Margin="40,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="104" Height="32" FontSize="22" TextAlignment="Center"/>
+                <Label x:Name="lbNumberApplic" Content="№" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="22" FontWeight="Bold"/>
+            </Grid>
+            <Grid HorizontalAlignment="Center" Height="249" Margin="0,54,0,0" VerticalAlignment="Top" Width="443">
+                <Label x:Name="lbSenderData" Content="Sender data" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="165,0,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+                <Label x:Name="lbFirstname_sender" Content="Firstname" HorizontalAlignment="Left" Margin="0,31,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <Label x:Name="lbSecondname" Content="Secondtname" HorizontalAlignment="Left" Margin="-28,67,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <Label x:Name="lbNumber_phone" Content="Number phone" HorizontalAlignment="Left" Margin="-39,103,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <Label x:Name="lbTypePackage" Content="Type package" HorizontalAlignment="Left" Margin="-27,139,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <Label x:Name="lbAdress_sender" Content="Adress" HorizontalAlignment="Left" Margin="22,175,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <TextBox x:Name="tbFirstname_sender" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="83,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="344" Height="31" FontSize="16" BorderBrush="{x:Null}" IsReadOnly="True" SelectionBrush="{x:Null}"/>
+                <TextBox x:Name="tbSecondname_sender" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="83,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="344" Height="31" FontSize="16" BorderBrush="{x:Null}" IsReadOnly="True" SelectionBrush="{x:Null}"/>
+                <TextBox x:Name="tbNumber_phone_sender" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="83,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="344" Height="31" FontSize="16" BorderBrush="{x:Null}" IsReadOnly="True" SelectionBrush="{x:Null}"/>
+                <TextBox x:Name="tbTypePackage" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="83,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="344" Height="31" FontSize="16" BorderBrush="{x:Null}" IsReadOnly="True" SelectionBrush="{x:Null}"/>
+                <TextBox x:Name="tbAdress_sender" HorizontalAlignment="Left" Margin="83,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="344" Height="64" FontSize="16" BorderBrush="{x:Null}" IsReadOnly="True" SelectionBrush="{x:Null}"/>
 
-    </Grid>
+            </Grid>
+            <Grid x:Name="gridRecipientData" HorizontalAlignment="Center" Height="239" Margin="0,308,0,0" VerticalAlignment="Top" Width="443">
+                <Label x:Name="lbRecipientData" Content="Recipient data" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="163,0,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+                <Label x:Name="lbFirstname_recipient" Content="Firstname" HorizontalAlignment="Left" Margin="1,36,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <Label x:Name="lbSecondname_recipient" Content="Secondname" HorizontalAlignment="Left" Margin="-22,72,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <Label x:Name="lbNumber_Phone_recipient" Content="Number phone" HorizontalAlignment="Left" Margin="-38,108,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <Label x:Name="lbAdress_recipient" Content="Adress" HorizontalAlignment="Left" Margin="23,144,0,0" VerticalAlignment="Top" FontSize="16"/>
+                <TextBox x:Name="tbFirstname_recipient" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="84,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="344" Height="31" FontSize="16" BorderBrush="{x:Null}" IsReadOnly="True" SelectionBrush="{x:Null}"/>
+                <TextBox x:Name="tbSecondname_recipient" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="84,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="344" Height="31" FontSize="16" BorderBrush="{x:Null}" IsReadOnly="True" SelectionBrush="{x:Null}"/>
+                <TextBox x:Name="tbNumber_phone_recipient" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="84,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="344" Height="31" FontSize="16" BorderBrush="{x:Null}" IsReadOnly="True" SelectionBrush="{x:Null}"/>
+                <TextBox x:Name="tbAdress_recipient" HorizontalAlignment="Left" Margin="84,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="344" Height="85" FontSize="16" BorderBrush="{x:Null}" IsReadOnly="True" SelectionBrush="{x:Null}"/>
+
+            </Grid>
+            <TabControl x:Name="tcDeliveryType" Margin="0,587,0,189" BorderBrush="{x:Null}" Background="{x:Null}">
+                <TabItem x:Name="tbiMessage" Header="Message" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="{x:Null}" Visibility="Hidden">
+                    <Grid/>
+                </TabItem>
+                <TabItem x:Name="tbiPackage" Header="Package" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Visibility="Hidden">
+                    <Grid>
+                        <Grid x:Name="gridDataPack" HorizontalAlignment="Left" Height="101" Margin="10,10,0,0" VerticalAlignment="Top" Width="220">
+                            <TextBox x:Name="tbLengthPack" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="65,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155" Height="30" FontSize="16" KeyDown="tbLengthPack_KeyDown"/>
+                            <Label x:Name="lbLengthPack" Content="Length" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="30" FontSize="14" FontWeight="Bold"/>
+                            <TextBox x:Name="tbWidthPack" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="65,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="155" Height="30" FontSize="16" KeyDown="tbWidthPack_KeyDown"/>
+                            <Label x:Name="lbWidthPack" Content="Width" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Width="60" Height="30" FontSize="14" FontWeight="Bold"/>
+                            <TextBox x:Name="tbHeightPack" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="65,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155" Height="30" FontSize="16" KeyDown="tbHeightPack_KeyDown"/>
+                            <Label x:Name="lbHeightPack" Content="Height" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="0,71,0,0" VerticalAlignment="Top" Width="60" Height="30" FontSize="14" FontWeight="Bold"/>
+                        </Grid>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+            <Grid x:Name="gridDeliveryType" HorizontalAlignment="Center" Margin="0,552,0,0" VerticalAlignment="Top" Width="340">
+                <ComboBox x:Name="cmbDeliveryCompany" HorizontalAlignment="Left" Margin="95,0,0,0" VerticalAlignment="Top" Width="245" Height="30" SelectionChanged="cmbDeliveryCompany_SelectionChanged">
+                    <ComboBoxItem Content="Inside the city"/>
+                    <ComboBoxItem Content="Between cities"/>
+                    <ComboBoxItem Content="Between countries"/>
+                </ComboBox>
+                <Label x:Name="lbDeliveryType" Content="Delivery type" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="14"/>
+
+            </Grid>
+            <Label x:Name="lbSignatureSpace" Content="____________________________" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="371,781,0,0" VerticalAlignment="Top" Height="34" Width="119" FontSize="18"/>
+            <Label x:Name="lbSignature" Content="Signature" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Margin="274,781,0,0"/>
+            <Grid x:Name="gridPrice" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="256" Margin="10,781,0,0">
+                <Label x:Name="lbPrice" Content="Price" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="18" FontWeight="Bold"/>
+                <Label x:Name="lbSum" Content="" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="57,0,0,0" VerticalAlignment="Center" Height="34" Width="199" FontSize="18"/>
+            </Grid>
+
+        </Grid>
+    </ScrollViewer>
 </Window>

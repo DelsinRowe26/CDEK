@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CDEK"
         mc:Ignorable="d"
-        Title="ApplicationWin" Height="690" Width="582" Loaded="AppWin_Loaded">
+        Title="ApplicationWin" Height="734" Width="582" Loaded="AppWin_Loaded">
     <Grid>
         <Label x:Name="lbTitle" Content="Application" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="250" Height="38" FontSize="20" FontWeight="Bold"/>
         <Grid x:Name="gridSender" HorizontalAlignment="Center" Margin="0,66,0,0" VerticalAlignment="Top" Width="500">
@@ -15,11 +15,13 @@
             <Label x:Name="lbSecondnameSender" VerticalContentAlignment="Center" Content="Secondname sender" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" FontSize="14" FontWeight="Bold" Margin="-5,40,0,0"/>
             <TextBox x:Name="tbNumberPhoneSender" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="142,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="352" Height="35" FontSize="22"/>
             <Label x:Name="lbNumberPhoneSender" VerticalContentAlignment="Center" Content="Number phone sender" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" FontSize="14" FontWeight="Bold" Margin="-21,80,0,0"/>
-            <TextBox x:Name="tbAdressSender" HorizontalAlignment="Left" Margin="142,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="352" Height="100" FontSize="22"/>
-            <Label x:Name="lbAdressSender" VerticalContentAlignment="Center" Content="Adress sender" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" FontSize="14" FontWeight="Bold" Margin="35,120,0,0"/>
+            <TextBox x:Name="tbAdressSender" HorizontalAlignment="Left" Margin="142,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="352" Height="100" FontSize="16"/>
+            <Label x:Name="lbAdressSender" VerticalContentAlignment="Center" Content="Adress sender" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" FontSize="14" FontWeight="Bold" Margin="35,160,0,0"/>
+            <TextBox x:Name="tbMailSender" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="142,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="352" Height="35" FontSize="22"/>
+            <Label x:Name="lbMailSender" VerticalContentAlignment="Center" Content="Mail" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" FontSize="14" FontWeight="Bold" Margin="98,120,0,0"/>
 
         </Grid>
-        <Grid x:Name="gridPackage" HorizontalAlignment="Left" VerticalAlignment="Top" Width="323" Margin="69,291,0,0">
+        <Grid x:Name="gridPackage" HorizontalAlignment="Left" VerticalAlignment="Top" Width="323" Margin="74,331,0,0">
             <Label x:Name="lbTypePackage" VerticalContentAlignment="Center" Content="Type package" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" FontSize="14" FontWeight="Bold"/>
             <ComboBox x:Name="cmbTypePackage" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="105,0,0,0" VerticalAlignment="Top" Width="218" Height="35" FontSize="16">
                 <ComboBoxItem x:Name="cmbiMessage" Content="Message"/>
@@ -27,7 +29,7 @@
                 <ComboBoxItem x:Name="cmbiFragilePackage" Content="Fragile package"/>
             </ComboBox>
         </Grid>
-        <Grid x:Name="gridRecipient" HorizontalAlignment="Center" VerticalAlignment="Top" Width="494" Margin="0,337,0,0">
+        <Grid x:Name="gridRecipient" HorizontalAlignment="Center" VerticalAlignment="Top" Width="494" Margin="0,371,0,0">
             <Label x:Name="lbFirstnameRecipient" VerticalContentAlignment="Center" Content="Firstname recipient" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" FontSize="14" FontWeight="Bold"/>
             <TextBox x:Name="tbFirstnameRecipient" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="142,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="352" Height="35" FontSize="22"/>
             <Label x:Name="lbSecondnameRecipient" VerticalContentAlignment="Center" Content="Secondname recipient" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" FontSize="14" FontWeight="Bold" Margin="-19,40,0,0"/>
@@ -38,7 +40,7 @@
             <Label x:Name="lbAdressRecipient" VerticalContentAlignment="Center" Content="Adress recipient" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" FontSize="14" FontWeight="Bold" Margin="21,120,0,0"/>
 
         </Grid>
-        <Button x:Name="btnSend" Content="Send" HorizontalAlignment="Center" Margin="0,562,0,0" VerticalAlignment="Top" Width="142" Height="41" FontSize="22" FontWeight="Bold" Click="btnSend_Click"/>
+        <Button x:Name="btnSend" Content="Send" HorizontalAlignment="Center" Margin="0,601,0,0" VerticalAlignment="Top" Width="142" Height="41" FontSize="22" FontWeight="Bold" Click="btnSend_Click"/>
 
     </Grid>
 </Window>
