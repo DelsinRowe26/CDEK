@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CDEK"
         mc:Ignorable="d"
-        Title="ReportWin" Height="631" Width="537" Loaded="RepWin_Loaded">
+        Title="ReportWin" Height="541" Width="537" Loaded="RepWin_Loaded">
     <ScrollViewer Margin="0,0,0,5">
         <Grid ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" Height="932" Width="537">
             <Grid x:Name="gridNumberApplic" HorizontalAlignment="Center" Height="39" Margin="0,10,0,0" VerticalAlignment="Top" Width="144">
@@ -70,7 +70,7 @@
                 <Label x:Name="lbPrice" Content="Price" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center" FontSize="18" FontWeight="Bold"/>
                 <Label x:Name="lbSum" Content="" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="57,0,0,0" VerticalAlignment="Center" Height="34" Width="199" FontSize="18"/>
             </Grid>
-            <Button x:Name="btnSaveSend" Content="Send" HorizontalAlignment="Center" Margin="0,840,0,0" VerticalAlignment="Top" Width="144" Height="42" FontSize="22" FontWeight="Bold"/>
+            <Button x:Name="btnSaveSend" Content="Send" HorizontalAlignment="Center" Margin="0,840,0,0" VerticalAlignment="Top" Width="144" Height="42" FontSize="22" FontWeight="Bold" Click="btnSaveSend_Click"/>
 
         </Grid>
     </ScrollViewer>

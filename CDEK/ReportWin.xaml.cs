@@ -5,12 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Net.Mail;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Data.Entity.Core.Objects;
+using Microsoft.Win32;
+using System.IO;
+using System.Data;
+using System.ComponentModel.DataAnnotations;
+using Path = System.IO.Path;
+using System.Net;
 
 namespace CDEK
 {
@@ -21,6 +29,7 @@ namespace CDEK
 	{
 
 		int lengt, width, height, sum;
+		SaveFileDialog saveFileDialog = new SaveFileDialog();
 
 		private void tbLengthPack_KeyDown(object sender, KeyEventArgs e)
 		{
@@ -35,7 +44,7 @@ namespace CDEK
 		{
 			if(e.Key == Key.Enter)
 			{
-				sum = (int)(sum + (Convert.ToInt32(tbLengthPack.Text) * 0.25));
+				sum = (int)(sum + (Convert.ToInt32(tbWidthPack.Text) * 0.25));
 				lbSum.Content = sum + "$";
 			}
 		}
@@ -44,14 +53,60 @@ namespace CDEK
 		{
 			if (e.Key == Key.Enter)
 			{
-				sum = (int)(sum + (Convert.ToInt32(tbLengthPack.Text) * 0.25));
+				sum = (int)(sum + (Convert.ToInt32(tbHeightPack.Text) * 0.25));
 				lbSum.Content = sum + "$";
 			}
+		}
+
+		private async void btnSaveSend_Click(object sender, RoutedEventArgs e)
+		{
+			/*if (saveFileDialog.ShowDialog() == DialogResult.)
+				return;*/
+			saveFileDialog.ShowDialog();
+			DateTime date = DateTime.Today;
+			string fileName = saveFileDialog.FileName;
+			string doc = lbNumberApplic.Content + " " + tblNumberApplic.Text + "\n\n" + lbSenderData.Content + "\n\n"
+				+ lbFirstname_sender.Content + ": " + tbFirstname_sender.Text + "\n"
+				+ lbSecondname.Content + ": " + tbSecondname_sender.Text + "\n"
+				+ lbNumber_phone.Content + ": " + tbNumber_phone_sender.Text + "\n"
+				+ lbTypePackage.Content + ": " + tbTypePackage.Text + "\n"
+				+ lbAdress_sender.Content + ": " + tbAdress_sender.Text + "\n\n"
+				+ lbRecipientData.Content + "\n\n"
+				+ lbFirstname_recipient.Content + ": " + tbFirstname_recipient.Text + "\n"
+				+ lbSecondname_recipient.Content + ": " + tbSecondname_recipient.Text + "\n"
+				+ lbNumber_Phone_recipient.Content + ": " + tbNumber_phone_recipient.Text + "\n"
+				+ lbAdress_recipient.Content + ": " + tbAdress_recipient.Text + "\n"
+				+ lbDeliveryType.Content + ": " + cmbDeliveryCompany.Text + "\n"
+				+ lbLengthPack.Content + ": " + tbLengthPack.Text + "\n"
+				+ lbWidthPack.Content + ": " + tbWidthPack.Text + "\n"
+				+ lbHeightPack.Content + ": " + tbHeightPack.Text + "\n"
+				+ "Date: " + date.ToString() + "\n"
+				+ lbPrice.Content + ": " + lbSum.Content + "    " + lbSignature.Content + " " + lbSignatureSpace.Content;
+			File.WriteAllText(fileName, doc);
+			MessageBox.Show("File saved.");
+
+			string path = Path.GetFullPath(fileName);
+
+			MailAddress from = new MailAddress("npl1u1pc@mail.ru", "Company");
+			MailAddress to = new MailAddress(DataSenderRecipient.Mail);
+			MailMessage message = new MailMessage(from, to);
+			message.Subject = "Treaty";
+			message.Attachments.Add(new Attachment(path));
+			message.Body = "Delivery contract";
+			message.IsBodyHtml = true;
+			SmtpClient smtpClient = new SmtpClient("smtp.mail.ru", 465);
+			smtpClient.Credentials = new NetworkCredential("npl1u1pc@mail.ru", "NPL_npl");
+			smtpClient.EnableSsl = true;
+			await smtpClient.SendMailAsync(message);
+
+			this.Close();
 		}
 
 		public ReportWin()
 		{
 			InitializeComponent();
+
+			saveFileDialog.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
 		}
 
 		private void RepWin_Loaded(object sender, RoutedEventArgs e)
