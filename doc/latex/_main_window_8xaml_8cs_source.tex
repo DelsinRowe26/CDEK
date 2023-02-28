@@ -1,0 +1,84 @@
+\doxysection{Main\+Window.\+xaml.\+cs}
+\label{_main_window_8xaml_8cs_source}\index{E:/programs/CDEK/CDEK/MainWindow.xaml.cs@{E:/programs/CDEK/CDEK/MainWindow.xaml.cs}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{00003\ \textcolor{keyword}{using\ }System.Linq;}
+\DoxyCodeLine{00004\ \textcolor{keyword}{using\ }System.Text;}
+\DoxyCodeLine{00005\ \textcolor{keyword}{using\ }System.Threading.Tasks;}
+\DoxyCodeLine{00006\ \textcolor{keyword}{using\ }System.Windows;}
+\DoxyCodeLine{00007\ \textcolor{keyword}{using\ }System.Data.SqlClient;}
+\DoxyCodeLine{00008\ \textcolor{keyword}{using\ }System.Windows.Controls;}
+\DoxyCodeLine{00009\ \textcolor{keyword}{using\ }System.Windows.Data;}
+\DoxyCodeLine{00010\ \textcolor{keyword}{using\ }System.Windows.Documents;}
+\DoxyCodeLine{00011\ \textcolor{keyword}{using\ }System.Windows.Input;}
+\DoxyCodeLine{00012\ \textcolor{keyword}{using\ }System.Windows.Media;}
+\DoxyCodeLine{00013\ \textcolor{keyword}{using\ }System.Windows.Media.Imaging;}
+\DoxyCodeLine{00014\ \textcolor{keyword}{using\ }System.Windows.Navigation;}
+\DoxyCodeLine{00015\ \textcolor{keyword}{using\ }System.Windows.Shapes;}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{namespace\ }CDEK}
+\DoxyCodeLine{00018\ \{}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{partial\ class\ }MainWindow\ :\ Window}
+\DoxyCodeLine{00023\ \ \ \ \ \{}
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ countTab\ =\ 0;}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ MainWindow()}
+\DoxyCodeLine{00029\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00030\ \ \ \ \ \ \ \ \ \ \ \ \ InitializeComponent();}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ btnSetApplication\_Click(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \ \ \ \ ApplicationWin\ win\ =\ \textcolor{keyword}{new}\ ApplicationWin();}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \ \ \ \ win.Show();}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \ \ \ \ this.Close();}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ Autorization\_Loaded(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{00051\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{try}}
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ sqlConn\ =\ \textcolor{stringliteral}{@"{}Data\ Source\ =\ DESKTOP-\/R2UPGH3\(\backslash\)DR;\ Initial\ Catalog\ =\ CDEK;\ Integrated\ Security\ =\ True"{}};}
+\DoxyCodeLine{00055\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DBConnect.DataBaseConn(sqlConn);}
+\DoxyCodeLine{00056\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00057\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{catch}}
+\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00059\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ MessageBox.Show(\textcolor{stringliteral}{"{}No\ connection"{}});}
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00062\ }
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ btnSignIn\_Click(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{try}}
+\DoxyCodeLine{00071\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00072\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ Autorization;}
+\DoxyCodeLine{00073\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DBConnect.SQLQueryAutorization(tbLogin.Text,\ pbManager.Password,\ \textcolor{stringliteral}{"{}ManagerTable"{}},\ \textcolor{stringliteral}{"{}Login"{}},\ \textcolor{stringliteral}{"{}Password"{}},\ out\ Autorization);}
+\DoxyCodeLine{00074\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}(Autorization)}
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00076\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ViewApplicationsWin\ applicationsWin\ =\ \textcolor{keyword}{new}\ ViewApplicationsWin();}
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ applicationsWin.Show();}
+\DoxyCodeLine{00078\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ this.Close();}
+\DoxyCodeLine{00079\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00082\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ MessageBox.Show(\textcolor{stringliteral}{"{}Login\ or\ password\ entered\ incorrectly"{}});}
+\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00085\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{catch}}
+\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ MessageBox.Show(\textcolor{stringliteral}{"{}No\ connection\ or\ incorrect\ data\ entered"{}});}
+\DoxyCodeLine{00088\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00096\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ pbManager\_KeyDown(\textcolor{keywordtype}{object}\ sender,\ KeyEventArgs\ e)}
+\DoxyCodeLine{00097\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00098\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}(e.Key\ ==\ Key.Enter)}
+\DoxyCodeLine{00099\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00100\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ btnSignIn\_Click(sender,\ e);}
+\DoxyCodeLine{00101\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00102\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00103\ \ \ \ \ \}}
+\DoxyCodeLine{00104\ \}}
+
+\end{DoxyCode}

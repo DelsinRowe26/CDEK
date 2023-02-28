@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__app_8g_8cs_source" xml:lang="ru">
+<title>App.g.cs</title>
+<indexterm><primary>E:/programs/CDEK/CDEK/obj/Debug/App.g.cs</primary></indexterm>
+<programlisting linenumbering="unnumbered"><anchor xml:id="__app_8g_8cs_source_1l00001"/>00001 <emphasis role="preprocessor">#pragma&#32;checksum&#32;&quot;..\..\App.xaml&quot;</emphasis>&#32;&quot;{8829d00f-11b8-4213-878b-770e8597ac16}&quot;&#32;&quot;7C8718536171F0FFF66A5D5016BACF54918CA8F4F63017ECF0EA73BF8E76427F&quot;
+<anchor xml:id="__app_8g_8cs_source_1l00002"/>00002 <emphasis role="comment">//------------------------------------------------------------------------------</emphasis>
+<anchor xml:id="__app_8g_8cs_source_1l00003"/>00003 <emphasis role="comment">//&#32;&lt;auto-generated&gt;</emphasis>
+<anchor xml:id="__app_8g_8cs_source_1l00004"/>00004 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Этот&#32;код&#32;создан&#32;программой.</emphasis>
+<anchor xml:id="__app_8g_8cs_source_1l00005"/>00005 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Исполняемая&#32;версия:4.0.30319.42000</emphasis>
+<anchor xml:id="__app_8g_8cs_source_1l00006"/>00006 <emphasis role="comment">//</emphasis>
+<anchor xml:id="__app_8g_8cs_source_1l00007"/>00007 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Изменения&#32;в&#32;этом&#32;файле&#32;могут&#32;привести&#32;к&#32;неправильной&#32;работе&#32;и&#32;будут&#32;потеряны&#32;в&#32;случае</emphasis>
+<anchor xml:id="__app_8g_8cs_source_1l00008"/>00008 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;повторной&#32;генерации&#32;кода.</emphasis>
+<anchor xml:id="__app_8g_8cs_source_1l00009"/>00009 <emphasis role="comment">//&#32;&lt;/auto-generated&gt;</emphasis>
+<anchor xml:id="__app_8g_8cs_source_1l00010"/>00010 <emphasis role="comment">//------------------------------------------------------------------------------</emphasis>
+<anchor xml:id="__app_8g_8cs_source_1l00011"/>00011 
+<anchor xml:id="__app_8g_8cs_source_1l00012"/>00012 <emphasis role="keyword">using&#32;</emphasis><link linkend="_namespace_c_d_e_k">CDEK</link>;
+<anchor xml:id="__app_8g_8cs_source_1l00013"/>00013 <emphasis role="keyword">using&#32;</emphasis>System;
+<anchor xml:id="__app_8g_8cs_source_1l00014"/>00014 <emphasis role="keyword">using&#32;</emphasis>System.Diagnostics;
+<anchor xml:id="__app_8g_8cs_source_1l00015"/>00015 <emphasis role="keyword">using&#32;</emphasis>System.Windows;
+<anchor xml:id="__app_8g_8cs_source_1l00016"/>00016 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Automation;
+<anchor xml:id="__app_8g_8cs_source_1l00017"/>00017 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Controls;
+<anchor xml:id="__app_8g_8cs_source_1l00018"/>00018 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Controls.Primitives;
+<anchor xml:id="__app_8g_8cs_source_1l00019"/>00019 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Data;
+<anchor xml:id="__app_8g_8cs_source_1l00020"/>00020 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Documents;
+<anchor xml:id="__app_8g_8cs_source_1l00021"/>00021 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Ink;
+<anchor xml:id="__app_8g_8cs_source_1l00022"/>00022 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Input;
+<anchor xml:id="__app_8g_8cs_source_1l00023"/>00023 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Markup;
+<anchor xml:id="__app_8g_8cs_source_1l00024"/>00024 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media;
+<anchor xml:id="__app_8g_8cs_source_1l00025"/>00025 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media.Animation;
+<anchor xml:id="__app_8g_8cs_source_1l00026"/>00026 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media.Effects;
+<anchor xml:id="__app_8g_8cs_source_1l00027"/>00027 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media.Imaging;
+<anchor xml:id="__app_8g_8cs_source_1l00028"/>00028 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media.Media3D;
+<anchor xml:id="__app_8g_8cs_source_1l00029"/>00029 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media.TextFormatting;
+<anchor xml:id="__app_8g_8cs_source_1l00030"/>00030 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Navigation;
+<anchor xml:id="__app_8g_8cs_source_1l00031"/>00031 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Shapes;
+<anchor xml:id="__app_8g_8cs_source_1l00032"/>00032 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Shell;
+<anchor xml:id="__app_8g_8cs_source_1l00033"/>00033 
+<anchor xml:id="__app_8g_8cs_source_1l00034"/>00034 
+<anchor xml:id="__app_8g_8cs_source_1l00035"/>00035 <emphasis role="keyword">namespace&#32;</emphasis><link linkend="_namespace_c_d_e_k">CDEK</link>&#32;{
+<anchor xml:id="__app_8g_8cs_source_1l00036"/>00036 &#32;&#32;&#32;&#32;
+<anchor xml:id="__app_8g_8cs_source_1l00037"/>00037 &#32;&#32;&#32;&#32;
+<anchor xml:id="__app_8g_8cs_source_1l00041"/>00041 &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">partial&#32;class&#32;</emphasis><link linkend="_class_c_d_e_k_1_1_app">App</link>&#32;:&#32;System.Windows.Application&#32;{
+<anchor xml:id="__app_8g_8cs_source_1l00042"/>00042 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__app_8g_8cs_source_1l00046"/>00046 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.DebuggerNonUserCodeAttribute()]
+<anchor xml:id="__app_8g_8cs_source_1l00047"/>00047 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.CodeDom.Compiler.GeneratedCodeAttribute(<emphasis role="stringliteral">&quot;PresentationBuildTasks&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;4.0.0.0&quot;</emphasis>)]
+<anchor xml:id="__app_8g_8cs_source_1l00048"/><link linkend="_class_c_d_e_k_1_1_app_1a7f08321370251f4f8b2bc606a8ce691b">00048</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_c_d_e_k_1_1_app_1a7f08321370251f4f8b2bc606a8ce691b">InitializeComponent</link>()&#32;{
+<anchor xml:id="__app_8g_8cs_source_1l00049"/>00049 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__app_8g_8cs_source_1l00050"/>00050 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;5&#32;&quot;..\..\App.xaml&quot;</emphasis>
+<anchor xml:id="__app_8g_8cs_source_1l00051"/>00051 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.StartupUri&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;System.Uri(<emphasis role="stringliteral">&quot;MainWindow.xaml&quot;</emphasis>,&#32;System.UriKind.Relative);
+<anchor xml:id="__app_8g_8cs_source_1l00052"/>00052 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__app_8g_8cs_source_1l00053"/>00053 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__app_8g_8cs_source_1l00054"/>00054 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__app_8g_8cs_source_1l00055"/>00055 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__app_8g_8cs_source_1l00056"/>00056 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__app_8g_8cs_source_1l00060"/>00060 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.STAThreadAttribute()]
+<anchor xml:id="__app_8g_8cs_source_1l00061"/>00061 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.DebuggerNonUserCodeAttribute()]
+<anchor xml:id="__app_8g_8cs_source_1l00062"/>00062 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.CodeDom.Compiler.GeneratedCodeAttribute(<emphasis role="stringliteral">&quot;PresentationBuildTasks&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;4.0.0.0&quot;</emphasis>)]
+<anchor xml:id="__app_8g_8cs_source_1l00063"/><link linkend="_class_c_d_e_k_1_1_app_1af55d221a486aee89feb2518703ce7753">00063</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_c_d_e_k_1_1_app_1af55d221a486aee89feb2518703ce7753">Main</link>()&#32;{
+<anchor xml:id="__app_8g_8cs_source_1l00064"/>00064 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_class_c_d_e_k_1_1_app">CDEK.App</link>&#32;app&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_namespace_c_d_e_k">CDEK</link>.<link linkend="_class_c_d_e_k_1_1_app">App</link>();
+<anchor xml:id="__app_8g_8cs_source_1l00065"/>00065 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;app.<link linkend="_class_c_d_e_k_1_1_app_1a7f08321370251f4f8b2bc606a8ce691b">InitializeComponent</link>();
+<anchor xml:id="__app_8g_8cs_source_1l00066"/>00066 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;app.Run();
+<anchor xml:id="__app_8g_8cs_source_1l00067"/>00067 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__app_8g_8cs_source_1l00068"/>00068 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__app_8g_8cs_source_1l00069"/>00069 }
+<anchor xml:id="__app_8g_8cs_source_1l00070"/>00070 
+</programlisting></section>

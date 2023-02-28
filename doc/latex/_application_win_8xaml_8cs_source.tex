@@ -1,0 +1,49 @@
+\doxysection{Application\+Win.\+xaml.\+cs}
+\label{_application_win_8xaml_8cs_source}\index{E:/programs/CDEK/CDEK/ApplicationWin.xaml.cs@{E:/programs/CDEK/CDEK/ApplicationWin.xaml.cs}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{00003\ \textcolor{keyword}{using\ }System.Linq;}
+\DoxyCodeLine{00004\ \textcolor{keyword}{using\ }System.Text;}
+\DoxyCodeLine{00005\ \textcolor{keyword}{using\ }System.Threading.Tasks;}
+\DoxyCodeLine{00006\ \textcolor{keyword}{using\ }System.Windows;}
+\DoxyCodeLine{00007\ \textcolor{keyword}{using\ }System.Windows.Controls;}
+\DoxyCodeLine{00008\ \textcolor{keyword}{using\ }System.Windows.Data;}
+\DoxyCodeLine{00009\ \textcolor{keyword}{using\ }System.Windows.Documents;}
+\DoxyCodeLine{00010\ \textcolor{keyword}{using\ }System.Windows.Input;}
+\DoxyCodeLine{00011\ \textcolor{keyword}{using\ }System.Windows.Media;}
+\DoxyCodeLine{00012\ \textcolor{keyword}{using\ }System.Windows.Media.Imaging;}
+\DoxyCodeLine{00013\ \textcolor{keyword}{using\ }System.Windows.Shapes;}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{namespace\ }CDEK}
+\DoxyCodeLine{00016\ \{}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{partial\ class\ }ApplicationWin\ :\ Window}
+\DoxyCodeLine{00021\ \ \ \ \ \{}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ ApplicationWin()}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ \ \ \ \ InitializeComponent();}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ btnSend\_Click(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (tbFirstnameSender.Text\ !=\ \textcolor{stringliteral}{"{}"{}}\ \&\&\ tbSecondnameSender.Text\ !=\ \textcolor{stringliteral}{"{}"{}}\ \&\&\ tbNumberPhoneSender.Text\ !=\ \textcolor{stringliteral}{"{}"{}}\ \&\&\ cmbTypePackage.Text\ !=\ \textcolor{stringliteral}{"{}"{}}\ \&\&\ tbAdressSender.Text\ !=\ \textcolor{stringliteral}{"{}"{}}\ \&\&\ tbFirstnameRecipient.Text\ !=\ \textcolor{stringliteral}{"{}"{}}\ \&\&\ tbSecondnameRecipient.Text\ !=\ \textcolor{stringliteral}{"{}"{}}\ \&\&\ tbNumberPhoneRecipient.Text\ !=\ \textcolor{stringliteral}{"{}"{}}\ \&\&\ tbAdressRecipient.Text\ !=\ \textcolor{stringliteral}{"{}"{}}\ \&\&\ tbMailSender.Text\ !=\ \textcolor{stringliteral}{"{}"{}})\ \{}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ command\ =\ \textcolor{stringliteral}{"{}INSERT\ Table\_Application\ (Firstname\_sender,\ Secondname\_sender,\ Number\_phone\_sender,\ Type\_package,\ Adress\_sender,\ Firstname\_recipient,\ Secondname\_recipient,\ Number\_phone\_recipient,\ Adress\_recipient,\ Email)\ VALUES\ ('"{}}\ +\ tbFirstnameSender.Text\ +\ \textcolor{stringliteral}{"{}','"{}}\ +\ tbSecondnameSender.Text\ +\ \textcolor{stringliteral}{"{}','"{}}\ +\ tbNumberPhoneSender.Text\ +\ \textcolor{stringliteral}{"{}','"{}}\ +\ cmbTypePackage.Text\ +\ \textcolor{stringliteral}{"{}','"{}}\ +\ tbAdressSender.Text\ +\ \textcolor{stringliteral}{"{}','"{}}\ +\ tbFirstnameRecipient.Text\ +\ \textcolor{stringliteral}{"{}','"{}}\ +\ tbSecondnameRecipient.Text\ +\ \textcolor{stringliteral}{"{}','"{}}\ +\ tbNumberPhoneRecipient.Text\ +\ \textcolor{stringliteral}{"{}','"{}}\ +\ tbAdressRecipient.Text\ +\ \textcolor{stringliteral}{"{}','"{}}\ +\ tbMailSender.Text\ +\ \textcolor{stringliteral}{"{}');"{}};}
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DBConnect.Add\_to\_table(command);}
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ this.Close();}
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ MessageBox.Show(\textcolor{stringliteral}{"{}Fill\ in\ all\ the\ fields."{}});}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00050\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ AppWin\_Loaded(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{00051\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ sqlConn\ =\ \textcolor{stringliteral}{@"{}Data\ Source\ =\ DESKTOP-\/R2UPGH3\(\backslash\)DR;\ Initial\ Catalog\ =\ CDEK;\ Integrated\ Security\ =\ True"{}};}
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ \ \ \ \ DBConnect.DataBaseConn(sqlConn);}
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00055\ \ \ \ \ \}}
+\DoxyCodeLine{00056\ \}}
+
+\end{DoxyCode}

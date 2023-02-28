@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="dir_7a0815783acdad98941f7f48394889b8" kind="dir">
+    <compoundname>E:/programs/CDEK/CDEK/obj/Debug</compoundname>
+    <innerfile refid="_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs">.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="_8_n_e_t_framework_00_version_0av4_88_8_assembly_attributes_8cs">.NETFramework,Version=v4.8.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="_app_8g_8cs">App.g.cs</innerfile>
+    <innerfile refid="_app_8g_8i_8cs">App.g.i.cs</innerfile>
+    <innerfile refid="_application_win_8g_8cs">ApplicationWin.g.cs</innerfile>
+    <innerfile refid="_application_win_8g_8i_8cs">ApplicationWin.g.i.cs</innerfile>
+    <innerfile refid="_autorization_8g_8i_8cs">Autorization.g.i.cs</innerfile>
+    <innerfile refid="_c_d_e_k___content_8g_8i_8cs">CDEK_Content.g.i.cs</innerfile>
+    <innerfile refid="_main_window_8g_8cs">MainWindow.g.cs</innerfile>
+    <innerfile refid="_main_window_8g_8i_8cs">MainWindow.g.i.cs</innerfile>
+    <innerfile refid="_report_win_8g_8cs">ReportWin.g.cs</innerfile>
+    <innerfile refid="_report_win_8g_8i_8cs">ReportWin.g.i.cs</innerfile>
+    <innerfile refid="_view_applications_win_8g_8cs">ViewApplicationsWin.g.cs</innerfile>
+    <innerfile refid="_view_applications_win_8g_8i_8cs">ViewApplicationsWin.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/programs/CDEK/CDEK/obj/Debug/"/>
+  </compounddef>
+</doxygen>

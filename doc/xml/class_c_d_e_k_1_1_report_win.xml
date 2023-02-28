@@ -1,0 +1,831 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="class_c_d_e_k_1_1_report_win" kind="class" language="C#" prot="public">
+    <compoundname>CDEK::ReportWin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a69cc6397b7760c84114be111df462bdb" prot="package" static="no" mutable="no">
+        <type><ref refid="class_c_d_e_k_1_1_report_win" kindref="compound">CDEK.ReportWin</ref></type>
+        <definition>CDEK ReportWin CDEK.ReportWin::RepWin</definition>
+        <argsstring></argsstring>
+        <name>RepWin</name>
+        <qualifiedname>CDEK.ReportWin.RepWin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="46" column="32" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a995293a187dc62b54638a4131dceff64" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid CDEK.ReportWin::gridNumberApplic</definition>
+        <argsstring></argsstring>
+        <name>gridNumberApplic</name>
+        <qualifiedname>CDEK.ReportWin.gridNumberApplic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="54" column="44" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a43b4a7bbdaf2d68175a65e5fd7572c7e" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBlock</type>
+        <definition>System Windows Controls TextBlock CDEK.ReportWin::tblNumberApplic</definition>
+        <argsstring></argsstring>
+        <name>tblNumberApplic</name>
+        <qualifiedname>CDEK.ReportWin.tblNumberApplic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="62" column="49" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a051d03dbfe4dc1c2b02f7dbee6b45f4f" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbNumberApplic</definition>
+        <argsstring></argsstring>
+        <name>lbNumberApplic</name>
+        <qualifiedname>CDEK.ReportWin.lbNumberApplic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="70" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a478943f2fdec231679c27bef5b4212e5" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbSenderData</definition>
+        <argsstring></argsstring>
+        <name>lbSenderData</name>
+        <qualifiedname>CDEK.ReportWin.lbSenderData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="78" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1aba63dedffaf93d969e99d3fad0d11543" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbFirstname_sender</definition>
+        <argsstring></argsstring>
+        <name>lbFirstname_sender</name>
+        <qualifiedname>CDEK.ReportWin.lbFirstname_sender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="86" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1acaa5b618e8f891c1928405593bc084ee" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbSecondname</definition>
+        <argsstring></argsstring>
+        <name>lbSecondname</name>
+        <qualifiedname>CDEK.ReportWin.lbSecondname</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="94" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1ad3fce4cb833f88b9d69c5a470c3fcaa0" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbNumber_phone</definition>
+        <argsstring></argsstring>
+        <name>lbNumber_phone</name>
+        <qualifiedname>CDEK.ReportWin.lbNumber_phone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="102" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1ae56aad902f2e040532628b10159e70e4" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbTypePackage</definition>
+        <argsstring></argsstring>
+        <name>lbTypePackage</name>
+        <qualifiedname>CDEK.ReportWin.lbTypePackage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="110" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a9df7d0a4151a494e44601ab714e5e928" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbAdress_sender</definition>
+        <argsstring></argsstring>
+        <name>lbAdress_sender</name>
+        <qualifiedname>CDEK.ReportWin.lbAdress_sender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="118" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a88ec0010357dc7f63ac1124b7ded66d0" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ReportWin::tbFirstname_sender</definition>
+        <argsstring></argsstring>
+        <name>tbFirstname_sender</name>
+        <qualifiedname>CDEK.ReportWin.tbFirstname_sender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="126" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a5e80fa9bea09ec46f081e5c18e82912b" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ReportWin::tbSecondname_sender</definition>
+        <argsstring></argsstring>
+        <name>tbSecondname_sender</name>
+        <qualifiedname>CDEK.ReportWin.tbSecondname_sender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="134" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a3ac1a87881069fed0196856bf61e8593" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ReportWin::tbNumber_phone_sender</definition>
+        <argsstring></argsstring>
+        <name>tbNumber_phone_sender</name>
+        <qualifiedname>CDEK.ReportWin.tbNumber_phone_sender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="142" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a9ae00e9116900689815f747f200f3e26" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ReportWin::tbTypePackage</definition>
+        <argsstring></argsstring>
+        <name>tbTypePackage</name>
+        <qualifiedname>CDEK.ReportWin.tbTypePackage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="150" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1ab220a308f5eb5803c5b0ee2172805cda" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ReportWin::tbAdress_sender</definition>
+        <argsstring></argsstring>
+        <name>tbAdress_sender</name>
+        <qualifiedname>CDEK.ReportWin.tbAdress_sender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="158" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a1f6e40657031e72b083d3f5efd9e84c5" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid CDEK.ReportWin::gridRecipientData</definition>
+        <argsstring></argsstring>
+        <name>gridRecipientData</name>
+        <qualifiedname>CDEK.ReportWin.gridRecipientData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="166" column="44" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1ac1799af7d3140a1f1dacb0857e3d1345" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbRecipientData</definition>
+        <argsstring></argsstring>
+        <name>lbRecipientData</name>
+        <qualifiedname>CDEK.ReportWin.lbRecipientData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="174" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a3f8bf69d48f738601b9a00f255f8c3fc" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbFirstname_recipient</definition>
+        <argsstring></argsstring>
+        <name>lbFirstname_recipient</name>
+        <qualifiedname>CDEK.ReportWin.lbFirstname_recipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="182" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1ab7c1a14ea2d31ae4fd37aba1ef4aa7e9" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbSecondname_recipient</definition>
+        <argsstring></argsstring>
+        <name>lbSecondname_recipient</name>
+        <qualifiedname>CDEK.ReportWin.lbSecondname_recipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="190" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a240d8b752708f15a138509abdf66e9c2" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbNumber_Phone_recipient</definition>
+        <argsstring></argsstring>
+        <name>lbNumber_Phone_recipient</name>
+        <qualifiedname>CDEK.ReportWin.lbNumber_Phone_recipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="198" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1af0974bdd73c8374d7f66a337f2b76dee" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbAdress_recipient</definition>
+        <argsstring></argsstring>
+        <name>lbAdress_recipient</name>
+        <qualifiedname>CDEK.ReportWin.lbAdress_recipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="206" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1af1004ad3c12f43cfde6688197fb4399e" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ReportWin::tbFirstname_recipient</definition>
+        <argsstring></argsstring>
+        <name>tbFirstname_recipient</name>
+        <qualifiedname>CDEK.ReportWin.tbFirstname_recipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="214" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a68b985660ecc05b29049074f8d70e28c" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ReportWin::tbSecondname_recipient</definition>
+        <argsstring></argsstring>
+        <name>tbSecondname_recipient</name>
+        <qualifiedname>CDEK.ReportWin.tbSecondname_recipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="222" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a78462a89f8fbf74dc3db0aa105010fc3" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ReportWin::tbNumber_phone_recipient</definition>
+        <argsstring></argsstring>
+        <name>tbNumber_phone_recipient</name>
+        <qualifiedname>CDEK.ReportWin.tbNumber_phone_recipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="230" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a7b247053f2e8b456e6ac3860c89ed8d3" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ReportWin::tbAdress_recipient</definition>
+        <argsstring></argsstring>
+        <name>tbAdress_recipient</name>
+        <qualifiedname>CDEK.ReportWin.tbAdress_recipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="238" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1ab89cc76c3a3f6772f96a14783296e3da" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TabControl</type>
+        <definition>System Windows Controls TabControl CDEK.ReportWin::tcDeliveryType</definition>
+        <argsstring></argsstring>
+        <name>tcDeliveryType</name>
+        <qualifiedname>CDEK.ReportWin.tcDeliveryType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="246" column="50" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a197025d45760d35ee118376fa5d0e6da" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TabItem</type>
+        <definition>System Windows Controls TabItem CDEK.ReportWin::tbiMessage</definition>
+        <argsstring></argsstring>
+        <name>tbiMessage</name>
+        <qualifiedname>CDEK.ReportWin.tbiMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="254" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a4c4cdb228ce2c05a8957f29b3bc3a4cb" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TabItem</type>
+        <definition>System Windows Controls TabItem CDEK.ReportWin::tbiPackage</definition>
+        <argsstring></argsstring>
+        <name>tbiPackage</name>
+        <qualifiedname>CDEK.ReportWin.tbiPackage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="262" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a7b53176afc5a7a276837997ac87745d4" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid CDEK.ReportWin::gridDataPack</definition>
+        <argsstring></argsstring>
+        <name>gridDataPack</name>
+        <qualifiedname>CDEK.ReportWin.gridDataPack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="270" column="44" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a8a1e03219f69b283ed1ebbdd1e8a96b1" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ReportWin::tbLengthPack</definition>
+        <argsstring></argsstring>
+        <name>tbLengthPack</name>
+        <qualifiedname>CDEK.ReportWin.tbLengthPack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="278" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1ab56d32852be9c44f4f37059c98205467" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbLengthPack</definition>
+        <argsstring></argsstring>
+        <name>lbLengthPack</name>
+        <qualifiedname>CDEK.ReportWin.lbLengthPack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="286" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1aeb5a73411109443af445d97ef785a21d" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ReportWin::tbWidthPack</definition>
+        <argsstring></argsstring>
+        <name>tbWidthPack</name>
+        <qualifiedname>CDEK.ReportWin.tbWidthPack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="294" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1ae866fa66b68ca6f93eed319ab24ebe6c" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbWidthPack</definition>
+        <argsstring></argsstring>
+        <name>lbWidthPack</name>
+        <qualifiedname>CDEK.ReportWin.lbWidthPack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="302" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a1cafabf801c438107e7168e73b0cd44f" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ReportWin::tbHeightPack</definition>
+        <argsstring></argsstring>
+        <name>tbHeightPack</name>
+        <qualifiedname>CDEK.ReportWin.tbHeightPack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="310" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a86f45aead81bcb96fd6786b8fd28c190" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbHeightPack</definition>
+        <argsstring></argsstring>
+        <name>lbHeightPack</name>
+        <qualifiedname>CDEK.ReportWin.lbHeightPack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="318" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a28416d793405dda440f4a8f143ea06b0" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid CDEK.ReportWin::gridDeliveryType</definition>
+        <argsstring></argsstring>
+        <name>gridDeliveryType</name>
+        <qualifiedname>CDEK.ReportWin.gridDeliveryType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="326" column="44" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1ac03ec51f58756c2cadbd0921b6357a79" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox CDEK.ReportWin::cmbDeliveryCompany</definition>
+        <argsstring></argsstring>
+        <name>cmbDeliveryCompany</name>
+        <qualifiedname>CDEK.ReportWin.cmbDeliveryCompany</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="334" column="48" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a2473acc1a8beebe92a35cc0d1c32492f" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbDeliveryType</definition>
+        <argsstring></argsstring>
+        <name>lbDeliveryType</name>
+        <qualifiedname>CDEK.ReportWin.lbDeliveryType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="342" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a5109c92b1020e0b859770a007ea1c679" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbSignatureSpace</definition>
+        <argsstring></argsstring>
+        <name>lbSignatureSpace</name>
+        <qualifiedname>CDEK.ReportWin.lbSignatureSpace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="350" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a5fd5e075fcf9db44828c29d24b7e66ba" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbSignature</definition>
+        <argsstring></argsstring>
+        <name>lbSignature</name>
+        <qualifiedname>CDEK.ReportWin.lbSignature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="358" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a326033cfe3252939e279fb879e3feee7" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid CDEK.ReportWin::gridPrice</definition>
+        <argsstring></argsstring>
+        <name>gridPrice</name>
+        <qualifiedname>CDEK.ReportWin.gridPrice</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="366" column="44" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1afb4aa37c870b9028ef57833bea5a991c" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbPrice</definition>
+        <argsstring></argsstring>
+        <name>lbPrice</name>
+        <qualifiedname>CDEK.ReportWin.lbPrice</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="374" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a71da091fd2e5523443cb8ad884329699" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ReportWin::lbSum</definition>
+        <argsstring></argsstring>
+        <name>lbSum</name>
+        <qualifiedname>CDEK.ReportWin.lbSum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="382" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a5726e216124aa00f8b04f85094a06b4f" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button CDEK.ReportWin::btnSaveSend</definition>
+        <argsstring></argsstring>
+        <name>btnSaveSend</name>
+        <qualifiedname>CDEK.ReportWin.btnSaveSend</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="390" column="46" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="390" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_report_win_1a52d6ffbd939fc2129630936e8107c910" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CDEK.ReportWin::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>CDEK.ReportWin._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="395" column="22" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_d_e_k_1_1_report_win_1a1c648a909ee4b45b5ff0c799182c3979" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.ReportWin.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>CDEK.ReportWin.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="402" column="21" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="402" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_report_win_1a1c648a909ee4b45b5ff0c799182c3979" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.ReportWin.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>CDEK.ReportWin.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.i.cs" line="402" column="21" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.i.cs" bodystart="402" bodyend="414"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_d_e_k_1_1_report_win_1ac5720e813c6824fb21fdd09b355db6bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. CDEK.ReportWin.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>CDEK.ReportWin.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="422" column="52" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="422" bodyend="595"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_report_win_1ac5720e813c6824fb21fdd09b355db6bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. CDEK.ReportWin.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>CDEK.ReportWin.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.i.cs" line="422" column="52" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.i.cs" bodystart="422" bodyend="595"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ReportWin. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CDEK.ReportWin</label>
+        <link refid="class_c_d_e_k_1_1_report_win"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>CDEK</label>
+      </node>
+      <node id="1">
+        <label>CDEK.ReportWin</label>
+        <link refid="class_c_d_e_k_1_1_report_win"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>RepWin</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>btnSaveSend</edgelabel>
+          <edgelabel>cmbDeliveryCompany</edgelabel>
+          <edgelabel>gridDataPack</edgelabel>
+          <edgelabel>gridDeliveryType</edgelabel>
+          <edgelabel>gridNumberApplic</edgelabel>
+          <edgelabel>gridPrice</edgelabel>
+          <edgelabel>gridRecipientData</edgelabel>
+          <edgelabel>lbAdress_recipient</edgelabel>
+          <edgelabel>lbAdress_sender</edgelabel>
+          <edgelabel>lbDeliveryType</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" line="41" column="19" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ReportWin.g.cs" bodystart="41" bodyend="596"/>
+    <listofallmembers>
+      <member refid="class_c_d_e_k_1_1_report_win_1a52d6ffbd939fc2129630936e8107c910" prot="private" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>_contentLoaded</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a5726e216124aa00f8b04f85094a06b4f" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>btnSaveSend</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1ac03ec51f58756c2cadbd0921b6357a79" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>cmbDeliveryCompany</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1ac5720e813c6824fb21fdd09b355db6bc" prot="private" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>Connect</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1ac5720e813c6824fb21fdd09b355db6bc" prot="private" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>Connect</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a7b53176afc5a7a276837997ac87745d4" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>gridDataPack</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a28416d793405dda440f4a8f143ea06b0" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>gridDeliveryType</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a995293a187dc62b54638a4131dceff64" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>gridNumberApplic</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a326033cfe3252939e279fb879e3feee7" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>gridPrice</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a1f6e40657031e72b083d3f5efd9e84c5" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>gridRecipientData</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a1c648a909ee4b45b5ff0c799182c3979" prot="public" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>InitializeComponent</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a1c648a909ee4b45b5ff0c799182c3979" prot="public" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>InitializeComponent</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1af0974bdd73c8374d7f66a337f2b76dee" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbAdress_recipient</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a9df7d0a4151a494e44601ab714e5e928" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbAdress_sender</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a2473acc1a8beebe92a35cc0d1c32492f" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbDeliveryType</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a3f8bf69d48f738601b9a00f255f8c3fc" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbFirstname_recipient</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1aba63dedffaf93d969e99d3fad0d11543" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbFirstname_sender</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a86f45aead81bcb96fd6786b8fd28c190" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbHeightPack</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1ab56d32852be9c44f4f37059c98205467" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbLengthPack</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1ad3fce4cb833f88b9d69c5a470c3fcaa0" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbNumber_phone</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a240d8b752708f15a138509abdf66e9c2" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbNumber_Phone_recipient</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a051d03dbfe4dc1c2b02f7dbee6b45f4f" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbNumberApplic</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1afb4aa37c870b9028ef57833bea5a991c" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbPrice</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1ac1799af7d3140a1f1dacb0857e3d1345" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbRecipientData</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1acaa5b618e8f891c1928405593bc084ee" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbSecondname</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1ab7c1a14ea2d31ae4fd37aba1ef4aa7e9" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbSecondname_recipient</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a478943f2fdec231679c27bef5b4212e5" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbSenderData</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a5fd5e075fcf9db44828c29d24b7e66ba" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbSignature</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a5109c92b1020e0b859770a007ea1c679" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbSignatureSpace</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a71da091fd2e5523443cb8ad884329699" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbSum</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1ae56aad902f2e040532628b10159e70e4" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbTypePackage</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1ae866fa66b68ca6f93eed319ab24ebe6c" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>lbWidthPack</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a69cc6397b7760c84114be111df462bdb" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>RepWin</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a7b247053f2e8b456e6ac3860c89ed8d3" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbAdress_recipient</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1ab220a308f5eb5803c5b0ee2172805cda" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbAdress_sender</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1af1004ad3c12f43cfde6688197fb4399e" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbFirstname_recipient</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a88ec0010357dc7f63ac1124b7ded66d0" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbFirstname_sender</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a1cafabf801c438107e7168e73b0cd44f" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbHeightPack</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a197025d45760d35ee118376fa5d0e6da" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbiMessage</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a4c4cdb228ce2c05a8957f29b3bc3a4cb" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbiPackage</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a8a1e03219f69b283ed1ebbdd1e8a96b1" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbLengthPack</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a43b4a7bbdaf2d68175a65e5fd7572c7e" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tblNumberApplic</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a78462a89f8fbf74dc3db0aa105010fc3" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbNumber_phone_recipient</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a3ac1a87881069fed0196856bf61e8593" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbNumber_phone_sender</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a68b985660ecc05b29049074f8d70e28c" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbSecondname_recipient</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a5e80fa9bea09ec46f081e5c18e82912b" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbSecondname_sender</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1a9ae00e9116900689815f747f200f3e26" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbTypePackage</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1aeb5a73411109443af445d97ef785a21d" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tbWidthPack</name></member>
+      <member refid="class_c_d_e_k_1_1_report_win_1ab89cc76c3a3f6772f96a14783296e3da" prot="package" virt="non-virtual"><scope>CDEK::ReportWin</scope><name>tcDeliveryType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

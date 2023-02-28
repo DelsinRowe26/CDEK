@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_c_d_e_k_1_1_main_window" xml:lang="ru">
+<title>Класс CDEK.MainWindow</title>
+<indexterm><primary>CDEK.MainWindow</primary></indexterm>
+<para>
+
+<para>Логика взаимодействия для MainWindow.xaml. </para>
+ 
+</para>
+<para>Граф наследования:CDEK.MainWindow:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_c_d_e_k_1_1_main_window.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea">InitializeComponent</link> ()</para>
+
+<para>InitializeComponent. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea">InitializeComponent</link> ()</para>
+
+<para>InitializeComponent. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea">InitializeComponent</link> ()</para>
+
+<para>InitializeComponent. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Логика взаимодействия для MainWindow.xaml. </para>
+
+
+
+<para>MainWindow. </para>
+<para>
+См. определение в файле <link linkend="__main_window_8xaml_8cs_source">MainWindow.xaml.cs</link> строка <link linkend="__main_window_8xaml_8cs_source_1l00022">22</link></para>
+</section>
+<section>
+<title>Конструктор(ы)</title>
+<anchor xml:id="_class_c_d_e_k_1_1_main_window_1a2180d7ab00a0c7a34e06562099d0e993"/><section>
+    <title>MainWindow()</title>
+<indexterm><primary>MainWindow</primary><secondary>CDEK.MainWindow</secondary></indexterm>
+<indexterm><primary>CDEK.MainWindow</primary><secondary>MainWindow</secondary></indexterm>
+<para><computeroutput>CDEK.MainWindow.MainWindow ( )</computeroutput></para><para>
+См. определение в файле <link linkend="__main_window_8xaml_8cs_source">MainWindow.xaml.cs</link> строка <link linkend="__main_window_8xaml_8cs_source_1l00028">28</link></para>
+</section>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea"/><section>
+    <title>InitializeComponent()<computeroutput>[1/3]</computeroutput></title>
+<indexterm><primary>InitializeComponent</primary><secondary>CDEK.MainWindow</secondary></indexterm>
+<indexterm><primary>CDEK.MainWindow</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void CDEK.MainWindow.InitializeComponent ( )</computeroutput></para><para>
+
+<para>InitializeComponent. </para>
+</para>
+<para>
+См. определение в файле <link linkend="__autorization_8g_8i_8cs_source">Autorization.g.i.cs</link> строка <link linkend="__autorization_8g_8i_8cs_source_1l00058">58</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea"/><section>
+    <title>InitializeComponent()<computeroutput>[2/3]</computeroutput></title>
+<indexterm><primary>InitializeComponent</primary><secondary>CDEK.MainWindow</secondary></indexterm>
+<indexterm><primary>CDEK.MainWindow</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void CDEK.MainWindow.InitializeComponent ( )</computeroutput></para><para>
+
+<para>InitializeComponent. </para>
+</para>
+<para>
+См. определение в файле <link linkend="__main_window_8g_8cs_source">MainWindow.g.cs</link> строка <link linkend="__main_window_8g_8cs_source_1l00130">130</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea"/><section>
+    <title>InitializeComponent()<computeroutput>[3/3]</computeroutput></title>
+<indexterm><primary>InitializeComponent</primary><secondary>CDEK.MainWindow</secondary></indexterm>
+<indexterm><primary>CDEK.MainWindow</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void CDEK.MainWindow.InitializeComponent ( )</computeroutput></para><para>
+
+<para>InitializeComponent. </para>
+</para>
+<para>
+См. определение в файле <link linkend="__main_window_8g_8i_8cs_source">MainWindow.g.i.cs</link> строка <link linkend="__main_window_8g_8i_8cs_source_1l00130">130</link></para>
+</section>
+<para>
+Объявления и описания членов классов находятся в файлах:</para>
+E:/programs/CDEK/CDEK/MainWindow.xaml.csE:/programs/CDEK/CDEK/obj/Debug/Autorization.g.i.csE:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.csE:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.i.cs</section>
+</section>

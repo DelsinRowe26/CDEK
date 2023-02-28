@@ -1,0 +1,717 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="class_c_d_e_k_1_1_application_win" kind="class" language="C#" prot="public">
+    <compoundname>CDEK::ApplicationWin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1ab6974433df1e104a679aa6398af3fe8c" prot="package" static="no" mutable="no">
+        <type><ref refid="class_c_d_e_k_1_1_application_win" kindref="compound">CDEK.ApplicationWin</ref></type>
+        <definition>CDEK ApplicationWin CDEK.ApplicationWin::AppWin</definition>
+        <argsstring></argsstring>
+        <name>AppWin</name>
+        <qualifiedname>CDEK.ApplicationWin.AppWin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="46" column="37" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a76ee7062b83bdbd1a6321011d71f24de" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ApplicationWin::lbTitle</definition>
+        <argsstring></argsstring>
+        <name>lbTitle</name>
+        <qualifiedname>CDEK.ApplicationWin.lbTitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="54" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a7f75357f5fdad6118963acd812b041af" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid CDEK.ApplicationWin::gridSender</definition>
+        <argsstring></argsstring>
+        <name>gridSender</name>
+        <qualifiedname>CDEK.ApplicationWin.gridSender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="62" column="44" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a50e1ba762f36824ae70990ea71b2401d" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ApplicationWin::tbFirstnameSender</definition>
+        <argsstring></argsstring>
+        <name>tbFirstnameSender</name>
+        <qualifiedname>CDEK.ApplicationWin.tbFirstnameSender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="70" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a59fbb11e751d097def8b4175181d4aca" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ApplicationWin::lbFirstnameSender</definition>
+        <argsstring></argsstring>
+        <name>lbFirstnameSender</name>
+        <qualifiedname>CDEK.ApplicationWin.lbFirstnameSender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="78" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a5580488764c13df4cbdb6e8149c55684" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ApplicationWin::tbSecondnameSender</definition>
+        <argsstring></argsstring>
+        <name>tbSecondnameSender</name>
+        <qualifiedname>CDEK.ApplicationWin.tbSecondnameSender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="86" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a1bcc5647ef30533adadbe9e24946d586" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ApplicationWin::lbSecondnameSender</definition>
+        <argsstring></argsstring>
+        <name>lbSecondnameSender</name>
+        <qualifiedname>CDEK.ApplicationWin.lbSecondnameSender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="94" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a2b81dab1fe4c904f5303c1ebbbf51085" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ApplicationWin::tbNumberPhoneSender</definition>
+        <argsstring></argsstring>
+        <name>tbNumberPhoneSender</name>
+        <qualifiedname>CDEK.ApplicationWin.tbNumberPhoneSender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="102" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a38ddc7e5e22b471a12c67d75784e1124" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ApplicationWin::lbNumberPhoneSender</definition>
+        <argsstring></argsstring>
+        <name>lbNumberPhoneSender</name>
+        <qualifiedname>CDEK.ApplicationWin.lbNumberPhoneSender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="110" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a2cd1918bfe00ac026afe15e584ca0b10" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ApplicationWin::tbAdressSender</definition>
+        <argsstring></argsstring>
+        <name>tbAdressSender</name>
+        <qualifiedname>CDEK.ApplicationWin.tbAdressSender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="118" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a67d6fc26aec989bc5df38c68d5e49347" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ApplicationWin::lbAdressSender</definition>
+        <argsstring></argsstring>
+        <name>lbAdressSender</name>
+        <qualifiedname>CDEK.ApplicationWin.lbAdressSender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="126" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1aaa309c38556489f2dda8c4988854210e" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ApplicationWin::tbMailSender</definition>
+        <argsstring></argsstring>
+        <name>tbMailSender</name>
+        <qualifiedname>CDEK.ApplicationWin.tbMailSender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="134" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a7d5861d4bd965293405a020e377fd86c" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ApplicationWin::lbMailSender</definition>
+        <argsstring></argsstring>
+        <name>lbMailSender</name>
+        <qualifiedname>CDEK.ApplicationWin.lbMailSender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="142" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a6351bc90ad2b14647165188a9317dc74" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid CDEK.ApplicationWin::gridPackage</definition>
+        <argsstring></argsstring>
+        <name>gridPackage</name>
+        <qualifiedname>CDEK.ApplicationWin.gridPackage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="150" column="44" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a72b8d4d57b4ba4d86aabb762a3abdee1" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ApplicationWin::lbTypePackage</definition>
+        <argsstring></argsstring>
+        <name>lbTypePackage</name>
+        <qualifiedname>CDEK.ApplicationWin.lbTypePackage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="158" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a264014c99de609b12a3eae2f1b9f48b3" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox CDEK.ApplicationWin::cmbTypePackage</definition>
+        <argsstring></argsstring>
+        <name>cmbTypePackage</name>
+        <qualifiedname>CDEK.ApplicationWin.cmbTypePackage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="166" column="48" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1ae6288affda92a9e0a8d6d99f1165265e" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBoxItem</type>
+        <definition>System Windows Controls ComboBoxItem CDEK.ApplicationWin::cmbiMessage</definition>
+        <argsstring></argsstring>
+        <name>cmbiMessage</name>
+        <qualifiedname>CDEK.ApplicationWin.cmbiMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="174" column="52" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a6d97acf85eb1212e8beaeafa476e7c5b" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBoxItem</type>
+        <definition>System Windows Controls ComboBoxItem CDEK.ApplicationWin::cmbiPackage</definition>
+        <argsstring></argsstring>
+        <name>cmbiPackage</name>
+        <qualifiedname>CDEK.ApplicationWin.cmbiPackage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="182" column="52" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a0909b2e5b8c9a4d9785222c8aba1396a" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBoxItem</type>
+        <definition>System Windows Controls ComboBoxItem CDEK.ApplicationWin::cmbiFragilePackage</definition>
+        <argsstring></argsstring>
+        <name>cmbiFragilePackage</name>
+        <qualifiedname>CDEK.ApplicationWin.cmbiFragilePackage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="190" column="52" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1ab22462593276488b1f1423c1e711fb83" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Grid</type>
+        <definition>System Windows Controls Grid CDEK.ApplicationWin::gridRecipient</definition>
+        <argsstring></argsstring>
+        <name>gridRecipient</name>
+        <qualifiedname>CDEK.ApplicationWin.gridRecipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="198" column="44" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a9c0490112f4cb5ec6a6ff9a941443c6d" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ApplicationWin::lbFirstnameRecipient</definition>
+        <argsstring></argsstring>
+        <name>lbFirstnameRecipient</name>
+        <qualifiedname>CDEK.ApplicationWin.lbFirstnameRecipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="206" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1abe31c2fbeacd41503e4d47f26fa026b9" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ApplicationWin::tbFirstnameRecipient</definition>
+        <argsstring></argsstring>
+        <name>tbFirstnameRecipient</name>
+        <qualifiedname>CDEK.ApplicationWin.tbFirstnameRecipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="214" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a958a48e30eab39ab3c9c98aa6a3a3590" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ApplicationWin::lbSecondnameRecipient</definition>
+        <argsstring></argsstring>
+        <name>lbSecondnameRecipient</name>
+        <qualifiedname>CDEK.ApplicationWin.lbSecondnameRecipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="222" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a72f5f77e87abe22986e8ca63a2d2897a" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ApplicationWin::tbSecondnameRecipient</definition>
+        <argsstring></argsstring>
+        <name>tbSecondnameRecipient</name>
+        <qualifiedname>CDEK.ApplicationWin.tbSecondnameRecipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="230" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1ae5b053db4ac7901f9e1db34ca6eb78f0" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ApplicationWin::tbNumberPhoneRecipient</definition>
+        <argsstring></argsstring>
+        <name>tbNumberPhoneRecipient</name>
+        <qualifiedname>CDEK.ApplicationWin.tbNumberPhoneRecipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="238" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a570eeef1f7487200134df18057f40c9c" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ApplicationWin::lbNumberPhoneRecipient</definition>
+        <argsstring></argsstring>
+        <name>lbNumberPhoneRecipient</name>
+        <qualifiedname>CDEK.ApplicationWin.lbNumberPhoneRecipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="246" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a2c58afb31efac5760c2f2370da66c192" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.ApplicationWin::tbAdressRecipient</definition>
+        <argsstring></argsstring>
+        <name>tbAdressRecipient</name>
+        <qualifiedname>CDEK.ApplicationWin.tbAdressRecipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="254" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1a20deeb17e66b5486fa93841a0e33ce39" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.ApplicationWin::lbAdressRecipient</definition>
+        <argsstring></argsstring>
+        <name>lbAdressRecipient</name>
+        <qualifiedname>CDEK.ApplicationWin.lbAdressRecipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="262" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1ae0e61c811bb85527b24a663cab5edc86" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button CDEK.ApplicationWin::btnSend</definition>
+        <argsstring></argsstring>
+        <name>btnSend</name>
+        <qualifiedname>CDEK.ApplicationWin.btnSend</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="270" column="46" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_application_win_1ae37b7e51aaa22454ef78789b70e954f7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CDEK.ApplicationWin::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>CDEK.ApplicationWin._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="275" column="22" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_d_e_k_1_1_application_win_1a03bea7047d78954a7c0a513154a98d19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CDEK.ApplicationWin.ApplicationWin</definition>
+        <argsstring>()</argsstring>
+        <name>ApplicationWin</name>
+        <qualifiedname>CDEK.ApplicationWin.ApplicationWin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/ApplicationWin.xaml.cs" line="22" column="8" bodyfile="E:/programs/CDEK/CDEK/ApplicationWin.xaml.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_application_win_1a06b4378afd64fc6dd396c41dcb63c19d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.ApplicationWin.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>CDEK.ApplicationWin.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="282" column="21" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="282" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_application_win_1a06b4378afd64fc6dd396c41dcb63c19d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.ApplicationWin.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>CDEK.ApplicationWin.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.i.cs" line="282" column="21" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.i.cs" bodystart="282" bodyend="294"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_d_e_k_1_1_application_win_1ab7e03e9011607078898b989c21a1e9a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.ApplicationWin.btnSend_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btnSend_Click</name>
+        <qualifiedname>CDEK.ApplicationWin.btnSend_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Событие btnSend_Click предназначен для отправки заявки в базу данных </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная относящаяся к классу Object</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Содержит информацию о состоянии и данные события</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/ApplicationWin.xaml.cs" line="32" column="14" bodyfile="E:/programs/CDEK/CDEK/ApplicationWin.xaml.cs" bodystart="32" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_application_win_1a54949397eb4e0b5c4f744d79cde58366" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.ApplicationWin.AppWin_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>AppWin_Loaded</name>
+        <qualifiedname>CDEK.ApplicationWin.AppWin_Loaded</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Событие AppWin_Loaded предназначен для подключения к БД при загрузке </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная относящаяся к классу Object</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Содержит информацию о состоянии и данные события</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/ApplicationWin.xaml.cs" line="50" column="14" bodyfile="E:/programs/CDEK/CDEK/ApplicationWin.xaml.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_application_win_1a2b4a9a659c82e946ddac096a9f5d6f45" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. CDEK.ApplicationWin.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>CDEK.ApplicationWin.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" line="302" column="52" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs" bodystart="302" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_application_win_1a2b4a9a659c82e946ddac096a9f5d6f45" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. CDEK.ApplicationWin.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>CDEK.ApplicationWin.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.i.cs" line="302" column="52" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.i.cs" bodystart="302" bodyend="406"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Логика взаимодействия для ApplicationWin.xaml. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>ApplicationWin. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CDEK.ApplicationWin</label>
+        <link refid="class_c_d_e_k_1_1_application_win"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>CDEK</label>
+      </node>
+      <node id="1">
+        <label>CDEK.ApplicationWin</label>
+        <link refid="class_c_d_e_k_1_1_application_win"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>AppWin</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>btnSend</edgelabel>
+          <edgelabel>cmbTypePackage</edgelabel>
+          <edgelabel>cmbiFragilePackage</edgelabel>
+          <edgelabel>cmbiMessage</edgelabel>
+          <edgelabel>cmbiPackage</edgelabel>
+          <edgelabel>gridPackage</edgelabel>
+          <edgelabel>gridRecipient</edgelabel>
+          <edgelabel>gridSender</edgelabel>
+          <edgelabel>lbAdressRecipient</edgelabel>
+          <edgelabel>lbAdressSender</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>System</label>
+      </node>
+      <node id="4">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/programs/CDEK/CDEK/ApplicationWin.xaml.cs" line="20" column="15" bodyfile="E:/programs/CDEK/CDEK/ApplicationWin.xaml.cs" bodystart="21" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_c_d_e_k_1_1_application_win_1ae37b7e51aaa22454ef78789b70e954f7" prot="private" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>_contentLoaded</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a03bea7047d78954a7c0a513154a98d19" prot="public" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>ApplicationWin</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1ab6974433df1e104a679aa6398af3fe8c" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>AppWin</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a54949397eb4e0b5c4f744d79cde58366" prot="private" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>AppWin_Loaded</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1ae0e61c811bb85527b24a663cab5edc86" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>btnSend</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1ab7e03e9011607078898b989c21a1e9a8" prot="private" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>btnSend_Click</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a0909b2e5b8c9a4d9785222c8aba1396a" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>cmbiFragilePackage</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1ae6288affda92a9e0a8d6d99f1165265e" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>cmbiMessage</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a6d97acf85eb1212e8beaeafa476e7c5b" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>cmbiPackage</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a264014c99de609b12a3eae2f1b9f48b3" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>cmbTypePackage</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a2b4a9a659c82e946ddac096a9f5d6f45" prot="private" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>Connect</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a2b4a9a659c82e946ddac096a9f5d6f45" prot="private" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>Connect</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a6351bc90ad2b14647165188a9317dc74" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>gridPackage</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1ab22462593276488b1f1423c1e711fb83" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>gridRecipient</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a7f75357f5fdad6118963acd812b041af" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>gridSender</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a06b4378afd64fc6dd396c41dcb63c19d" prot="public" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>InitializeComponent</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a06b4378afd64fc6dd396c41dcb63c19d" prot="public" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>InitializeComponent</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a20deeb17e66b5486fa93841a0e33ce39" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>lbAdressRecipient</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a67d6fc26aec989bc5df38c68d5e49347" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>lbAdressSender</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a9c0490112f4cb5ec6a6ff9a941443c6d" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>lbFirstnameRecipient</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a59fbb11e751d097def8b4175181d4aca" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>lbFirstnameSender</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a7d5861d4bd965293405a020e377fd86c" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>lbMailSender</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a570eeef1f7487200134df18057f40c9c" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>lbNumberPhoneRecipient</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a38ddc7e5e22b471a12c67d75784e1124" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>lbNumberPhoneSender</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a958a48e30eab39ab3c9c98aa6a3a3590" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>lbSecondnameRecipient</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a1bcc5647ef30533adadbe9e24946d586" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>lbSecondnameSender</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a76ee7062b83bdbd1a6321011d71f24de" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>lbTitle</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a72b8d4d57b4ba4d86aabb762a3abdee1" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>lbTypePackage</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a2c58afb31efac5760c2f2370da66c192" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>tbAdressRecipient</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a2cd1918bfe00ac026afe15e584ca0b10" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>tbAdressSender</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1abe31c2fbeacd41503e4d47f26fa026b9" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>tbFirstnameRecipient</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a50e1ba762f36824ae70990ea71b2401d" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>tbFirstnameSender</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1aaa309c38556489f2dda8c4988854210e" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>tbMailSender</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1ae5b053db4ac7901f9e1db34ca6eb78f0" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>tbNumberPhoneRecipient</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a2b81dab1fe4c904f5303c1ebbbf51085" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>tbNumberPhoneSender</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a72f5f77e87abe22986e8ca63a2d2897a" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>tbSecondnameRecipient</name></member>
+      <member refid="class_c_d_e_k_1_1_application_win_1a5580488764c13df4cbdb6e8149c55684" prot="package" virt="non-virtual"><scope>CDEK::ApplicationWin</scope><name>tbSecondnameSender</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

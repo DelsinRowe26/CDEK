@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__settings_8_designer_8cs_source" xml:lang="ru">
+<title>Settings.Designer.cs</title>
+<indexterm><primary>E:/programs/CDEK/CDEK/Properties/Settings.Designer.cs</primary></indexterm>
+<programlisting linenumbering="unnumbered"><anchor xml:id="__settings_8_designer_8cs_source_1l00001"/>00001 <emphasis role="comment">//------------------------------------------------------------------------------</emphasis>
+<anchor xml:id="__settings_8_designer_8cs_source_1l00002"/>00002 <emphasis role="comment">//&#32;&lt;auto-generated&gt;</emphasis>
+<anchor xml:id="__settings_8_designer_8cs_source_1l00003"/>00003 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Этот&#32;код&#32;создан&#32;программой.</emphasis>
+<anchor xml:id="__settings_8_designer_8cs_source_1l00004"/>00004 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Исполняемая&#32;версия:4.0.30319.42000</emphasis>
+<anchor xml:id="__settings_8_designer_8cs_source_1l00005"/>00005 <emphasis role="comment">//</emphasis>
+<anchor xml:id="__settings_8_designer_8cs_source_1l00006"/>00006 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Изменения&#32;в&#32;этом&#32;файле&#32;могут&#32;привести&#32;к&#32;неправильной&#32;работе&#32;и&#32;будут&#32;потеряны&#32;в&#32;случае</emphasis>
+<anchor xml:id="__settings_8_designer_8cs_source_1l00007"/>00007 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;повторной&#32;генерации&#32;кода.</emphasis>
+<anchor xml:id="__settings_8_designer_8cs_source_1l00008"/>00008 <emphasis role="comment">//&#32;&lt;/auto-generated&gt;</emphasis>
+<anchor xml:id="__settings_8_designer_8cs_source_1l00009"/>00009 <emphasis role="comment">//------------------------------------------------------------------------------</emphasis>
+<anchor xml:id="__settings_8_designer_8cs_source_1l00010"/>00010 
+<anchor xml:id="__settings_8_designer_8cs_source_1l00011"/>00011 <emphasis role="keyword">namespace&#32;</emphasis><link linkend="_namespace_c_d_e_k_1_1_properties">CDEK.Properties</link>&#32;{
+<anchor xml:id="__settings_8_designer_8cs_source_1l00012"/>00012 &#32;&#32;&#32;&#32;
+<anchor xml:id="__settings_8_designer_8cs_source_1l00013"/>00013 &#32;&#32;&#32;&#32;
+<anchor xml:id="__settings_8_designer_8cs_source_1l00014"/>00014 &#32;&#32;&#32;&#32;[global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+<anchor xml:id="__settings_8_designer_8cs_source_1l00015"/>00015 &#32;&#32;&#32;&#32;[global::System.CodeDom.Compiler.GeneratedCodeAttribute(<emphasis role="stringliteral">&quot;Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;17.5.0.0&quot;</emphasis>)]
+<anchor xml:id="__settings_8_designer_8cs_source_1l00016"/>00016 &#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;sealed&#32;<emphasis role="keyword">partial&#32;class&#32;</emphasis>Settings&#32;:&#32;global::System.Configuration.ApplicationSettingsBase&#32;{
+<anchor xml:id="__settings_8_designer_8cs_source_1l00017"/>00017 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__settings_8_designer_8cs_source_1l00018"/>00018 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;Settings&#32;defaultInstance&#32;=&#32;((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(<emphasis role="keyword">new</emphasis>&#32;Settings())));
+<anchor xml:id="__settings_8_designer_8cs_source_1l00019"/>00019 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__settings_8_designer_8cs_source_1l00020"/>00020 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;Settings&#32;Default&#32;{
+<anchor xml:id="__settings_8_designer_8cs_source_1l00021"/>00021 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">get</emphasis>&#32;{
+<anchor xml:id="__settings_8_designer_8cs_source_1l00022"/>00022 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;defaultInstance;
+<anchor xml:id="__settings_8_designer_8cs_source_1l00023"/>00023 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__settings_8_designer_8cs_source_1l00024"/>00024 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__settings_8_designer_8cs_source_1l00025"/>00025 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__settings_8_designer_8cs_source_1l00026"/>00026 }
+</programlisting></section>

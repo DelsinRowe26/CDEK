@@ -27,10 +27,13 @@ namespace CDEK
 		public ViewApplicationsWin()
 		{
 			InitializeComponent();
-
-			
 		}
 
+		/// <summary>
+		/// Событие ViewApplicationWin_Loaded прездназначено для подключения к БД и вывода данных на экран при загрузке окна
+		/// </summary>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
+		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void ViewApplicationWin_Loaded(object sender, RoutedEventArgs e)
 		{
 			string sqlConn = @"Data Source = DESKTOP-R2UPGH3\DR; Initial Catalog = CDEK; Integrated Security = True";
@@ -43,6 +46,11 @@ namespace CDEK
 			//this.Width = dgApplication.Width;
 		}
 
+		/// <summary>
+		/// Событие btnReport_Click предназначен для сохранения данных, и запуска окна договора
+		/// </summary>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
+		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void btnReport_Click(object sender, RoutedEventArgs e)
 		{
 			DataSenderRecipient.id_Application = ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[0].ToString();

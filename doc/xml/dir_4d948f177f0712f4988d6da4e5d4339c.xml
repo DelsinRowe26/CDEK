@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="dir_4d948f177f0712f4988d6da4e5d4339c" kind="dir">
+    <compoundname>E:/programs/CDEK/CDEK</compoundname>
+    <innerdir refid="dir_68790244aae04a083f0ee785c38a7cb1">E:/programs/CDEK/CDEK/obj</innerdir>
+    <innerdir refid="dir_564aad1feb519ed9d211db30cdabe173">E:/programs/CDEK/CDEK/Properties</innerdir>
+    <innerfile refid="_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_application_win_8xaml_8cs">ApplicationWin.xaml.cs</innerfile>
+    <innerfile refid="_data_sender_recipient_8cs">DataSenderRecipient.cs</innerfile>
+    <innerfile refid="_d_b_connect_8cs">DBConnect.cs</innerfile>
+    <innerfile refid="_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <innerfile refid="_report_win_8xaml_8cs">ReportWin.xaml.cs</innerfile>
+    <innerfile refid="_view_applications_win_8xaml_8cs">ViewApplicationsWin.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/programs/CDEK/CDEK/"/>
+  </compounddef>
+</doxygen>

@@ -28,9 +28,14 @@ namespace CDEK
 	public partial class ReportWin : Window
 	{
 
-		int lengt, width, height, sum;
+		int sum;
 		SaveFileDialog saveFileDialog = new SaveFileDialog();
 
+		/// <summary>
+		/// Событие tbLengthPack_KeyDown предназначено для добавления к сумме, дополнительную плату за длину посылки
+		/// </summary>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
+		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void tbLengthPack_KeyDown(object sender, KeyEventArgs e)
 		{
 			if(e.Key == Key.Enter)
@@ -40,6 +45,11 @@ namespace CDEK
 			}
 		}
 
+		/// <summary>
+		/// Событие tbWidthPack_KeyDown предназначено для добавления к сумме, дополнительную плату за ширину посылки
+		/// </summary>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
+		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void tbWidthPack_KeyDown(object sender, KeyEventArgs e)
 		{
 			if(e.Key == Key.Enter)
@@ -49,6 +59,11 @@ namespace CDEK
 			}
 		}
 
+		/// <summary>
+		/// Событие tbHeightPack_KeyDown предназначено для добавления к сумме, дополнительную плату за высоту посылки
+		/// </summary>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
+		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void tbHeightPack_KeyDown(object sender, KeyEventArgs e)
 		{
 			if (e.Key == Key.Enter)
@@ -58,6 +73,11 @@ namespace CDEK
 			}
 		}
 
+		/// <summary>
+		/// Событие btnSaveSend_Click предназначен для сохранения договора в текстовый файл, отправки файла на почту
+		/// </summary>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
+		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private async void btnSaveSend_Click(object sender, RoutedEventArgs e)
 		{
 			/*if (saveFileDialog.ShowDialog() == DialogResult.)
@@ -109,13 +129,13 @@ namespace CDEK
 			saveFileDialog.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
 		}
 
+		/// <summary>
+		/// Событие RepWin_Loaded предназначен для автоматического заполнения полей окна при загрузке 
+		/// </summary>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
+		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void RepWin_Loaded(object sender, RoutedEventArgs e)
 		{
-			/*tbReport.Text = DataSenderRecipient.id_Application + "\n" + DataSenderRecipient.Firstname_sender + "\n"
-							+ DataSenderRecipient.Secondname_sender + "\n" + DataSenderRecipient.Number_phone_sender + "\n"
-							+ DataSenderRecipient.Type_package + "\n" + DataSenderRecipient.Adress_sender + "\n"
-							+ DataSenderRecipient.Firstname_recipient + "\n" + DataSenderRecipient.Secondname_recipient + "\n"
-							+ DataSenderRecipient.Number_phone_recipient + "\n" + DataSenderRecipient.Adress_recipient;*/
 			tblNumberApplic.Text = DataSenderRecipient.id_Application;
 			tbFirstname_sender.Text = DataSenderRecipient.Firstname_sender;
 			tbSecondname_sender.Text = DataSenderRecipient.Secondname_sender;
@@ -142,6 +162,11 @@ namespace CDEK
 
 		}
 
+		/// <summary>
+		/// Событие cmbDeliveryCompany_SelectionChanged предназначен для вывода цены за доставку, когда происходит выбор в комбобоксе
+		/// </summary>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
+		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void cmbDeliveryCompany_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{
 			if (DataSenderRecipient.Type_package == "Message")

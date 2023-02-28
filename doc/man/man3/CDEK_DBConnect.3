@@ -1,0 +1,178 @@
+.TH "CDEK.DBConnect" 3 "Вт 28 Фев 2023" "Version 1.0.0.1" "CDEK" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CDEK.DBConnect
+.SH SYNOPSIS
+.br
+.PP
+.SS "Открытые статические члены"
+
+.in +1c
+.ti -1c
+.RI "static void \fBDataBaseConn\fP (string sql)"
+.br
+.RI "Метод DataBaseConn пердназначен для подключения к бд "
+.ti -1c
+.RI "static bool \fBDBC\fP (string sql)"
+.br
+.RI "Метод был создан для unittest\&. "
+.ti -1c
+.RI "static void \fBLoadedDB\fP (string nameTable, out DataTable dt)"
+.br
+.RI "Метод LoadedDB предназначен для вывода таблицы из бд в DataGrid\&. "
+.ti -1c
+.RI "static void \fBDateFilter\fP (string nameTable, string Date, out DataTable dt)"
+.br
+.RI "Метод DateFilter предназначен для фильтрации данных в таблице из бд по датам "
+.ti -1c
+.RI "static void \fBEventFilter\fP (string nameTable, string nameEvent, out DataTable dt)"
+.br
+.RI "Метод EventFilter предназначен для фильтрации данных в таблице из бд по событиям "
+.ti -1c
+.RI "static void \fBAdd_to_table\fP (string command)"
+.br
+.RI "Метод Add_to_table предназначен для добавления данных в таблицу "
+.ti -1c
+.RI "static void \fBSQLQueryAutorization\fP (string id, string password, string nameTable, string nameColumnMail, string nameColumnPassword, out bool Autorization)"
+.br
+.RI "Метод SQLQueryAutorization предназначен для проверки пароля и логина пользователя "
+.in -1c
+.SS "Статические открытые данные"
+
+.in +1c
+.ti -1c
+.RI "static SqlConnection \fBsqlConn\fP"
+.br
+.in -1c
+.SH "Подробное описание"
+.PP 
+См\&. определение в файле \fBDBConnect\&.cs\fP строка \fB15\fP
+.SH "Методы"
+.PP 
+.SS "static void CDEK\&.DBConnect\&.Add_to_table (string command)\fC [static]\fP"
+
+.PP
+Метод Add_to_table предназначен для добавления данных в таблицу 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIcommand\fP Пременная в которую мы вносим команду для добавления данных в таблицу бд
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBDBConnect\&.cs\fP строка \fB113\fP
+.SS "static void CDEK\&.DBConnect\&.DataBaseConn (string sql)\fC [static]\fP"
+
+.PP
+Метод DataBaseConn пердназначен для подключения к бд 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIsql\fP Переменная в которую нужна присваивать путь подключения к бд
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBDBConnect\&.cs\fP строка \fB23\fP
+.SS "static void CDEK\&.DBConnect\&.DateFilter (string nameTable, string Date, out DataTable dt)\fC [static]\fP"
+
+.PP
+Метод DateFilter предназначен для фильтрации данных в таблице из бд по датам 
+.PP
+\fBАргументы\fP
+.RS 4
+\fInameTable\fP Название таблицы в которой мы будем делать фильтрацию
+.br
+\fIDate\fP Переменная даты по которой происходит фильтрация
+.br
+\fIdt\fP Переменная для записи отфильтрованной таблицы
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBDBConnect\&.cs\fP строка \fB74\fP
+.SS "static bool CDEK\&.DBConnect\&.DBC (string sql)\fC [static]\fP"
+
+.PP
+Метод был создан для unittest\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIsql\fP Переменная в которую нужна присваивать путь подключения к бд
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Возвращает True если подключение к бд произошло, и возвращает False если не было подключения
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBDBConnect\&.cs\fP строка \fB33\fP
+.SS "static void CDEK\&.DBConnect\&.EventFilter (string nameTable, string nameEvent, out DataTable dt)\fC [static]\fP"
+
+.PP
+Метод EventFilter предназначен для фильтрации данных в таблице из бд по событиям 
+.PP
+\fBАргументы\fP
+.RS 4
+\fInameTable\fP Название таблицы в которой мы будем делать фильтрацию
+.br
+\fInameEvent\fP Переменная для фильтрации таблицы по событиям
+.br
+\fIdt\fP Переменная для записи отфильтрованной таблицы и вывода её
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBDBConnect\&.cs\fP строка \fB95\fP
+.SS "static void CDEK\&.DBConnect\&.LoadedDB (string nameTable, out DataTable dt)\fC [static]\fP"
+
+.PP
+Метод LoadedDB предназначен для вывода таблицы из бд в DataGrid\&. 
+.PP
+\fBАргументы\fP
+.RS 4
+\fInameTable\fP Название таблицы которую будем выводит в DataGrid
+.br
+\fIdt\fP Переменная для записи в неё таблицы с бд
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBDBConnect\&.cs\fP строка \fB53\fP
+.SS "static void CDEK\&.DBConnect\&.SQLQueryAutorization (string id, string password, string nameTable, string nameColumnMail, string nameColumnPassword, out bool Autorization)\fC [static]\fP"
+
+.PP
+Метод SQLQueryAutorization предназначен для проверки пароля и логина пользователя 
+.PP
+\fBАргументы\fP
+.RS 4
+\fIid\fP Логин пользователя
+.br
+\fIpassword\fP Парооль пользователя
+.br
+\fInameTable\fP Название таблицы где хранятся логин и пароль пользователя
+.br
+\fInameColumnMail\fP Название столбца Логина
+.br
+\fInameColumnPassword\fP Название столбца пароля
+.br
+\fIAutorization\fP Логическая переменная в которой записывается True когда пароль и логин совали, и false когда не совпали
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBDBConnect\&.cs\fP строка \fB137\fP
+.SH "Данные класса"
+.PP 
+.SS "SqlConnection CDEK\&.DBConnect\&.sqlConn\fC [static]\fP"
+
+.PP
+См\&. определение в файле \fBDBConnect\&.cs\fP строка \fB17\fP
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для CDEK из исходного текста\&.

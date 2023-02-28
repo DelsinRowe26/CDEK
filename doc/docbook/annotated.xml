@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="ru">
+<title>Классы</title>
+Классы с их кратким описанием.<link linkend="_class_c_d_e_k_1_1_app">CDEK.App</link>
+<para>Логика взаимодействия для App.xaml </para>
+<link linkend="_class_c_d_e_k_1_1_application_win">CDEK.ApplicationWin</link>
+<para>Логика взаимодействия для ApplicationWin.xaml </para>
+<link linkend="_class_c_d_e_k_1_1_d_b_connect">CDEK.DBConnect</link><link linkend="_class_c_d_e_k_1_1_main_window">CDEK.MainWindow</link>
+<para>Логика взаимодействия для MainWindow.xaml </para>
+<link linkend="_class_c_d_e_k_1_1_report_win">CDEK.ReportWin</link>
+<para>ReportWin </para>
+<link linkend="_class_c_d_e_k_1_1_view_applications_win">CDEK.ViewApplicationsWin</link>
+<para>ViewApplicationsWin </para>
+</section>

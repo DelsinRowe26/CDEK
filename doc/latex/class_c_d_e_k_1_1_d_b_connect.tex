@@ -1,0 +1,208 @@
+\doxysection{Класс CDEK.\+DBConnect}
+\label{class_c_d_e_k_1_1_d_b_connect}\index{CDEK.DBConnect@{CDEK.DBConnect}}
+\doxysubsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static void \textbf{ Data\+Base\+Conn} (string sql)
+\begin{DoxyCompactList}\small\item\em Метод Data\+Base\+Conn пердназначен для подключения к бд \end{DoxyCompactList}\item 
+static bool \textbf{ DBC} (string sql)
+\begin{DoxyCompactList}\small\item\em Метод был создан для unittest. \end{DoxyCompactList}\item 
+static void \textbf{ Loaded\+DB} (string name\+Table, out Data\+Table dt)
+\begin{DoxyCompactList}\small\item\em Метод Loaded\+DB предназначен для вывода таблицы из бд в Data\+Grid. \end{DoxyCompactList}\item 
+static void \textbf{ Date\+Filter} (string name\+Table, string Date, out Data\+Table dt)
+\begin{DoxyCompactList}\small\item\em Метод Date\+Filter предназначен для фильтрации данных в таблице из бд по датам \end{DoxyCompactList}\item 
+static void \textbf{ Event\+Filter} (string name\+Table, string name\+Event, out Data\+Table dt)
+\begin{DoxyCompactList}\small\item\em Метод Event\+Filter предназначен для фильтрации данных в таблице из бд по событиям \end{DoxyCompactList}\item 
+static void \textbf{ Add\+\_\+to\+\_\+table} (string command)
+\begin{DoxyCompactList}\small\item\em Метод Add\+\_\+to\+\_\+table предназначен для добавления данных в таблицу \end{DoxyCompactList}\item 
+static void \textbf{ SQLQuery\+Autorization} (string id, string password, string name\+Table, string name\+Column\+Mail, string name\+Column\+Password, out bool Autorization)
+\begin{DoxyCompactList}\small\item\em Метод SQLQuery\+Autorization предназначен для проверки пароля и логина пользователя \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Статические открытые данные}
+\begin{DoxyCompactItemize}
+\item 
+static Sql\+Connection \textbf{ sql\+Conn}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+
+
+См. определение в файле \textbf{ DBConnect.\+cs} строка \textbf{ 15}
+
+
+
+\doxysubsection{Методы}
+\mbox{\label{class_c_d_e_k_1_1_d_b_connect_a5573f568c2031b0ece40f67d1c17b9be}} 
+\index{CDEK.DBConnect@{CDEK.DBConnect}!Add\_to\_table@{Add\_to\_table}}
+\index{Add\_to\_table@{Add\_to\_table}!CDEK.DBConnect@{CDEK.DBConnect}}
+\doxysubsubsection{Add\_to\_table()}
+{\footnotesize\ttfamily static void CDEK.\+DBConnect.\+Add\+\_\+to\+\_\+table (\begin{DoxyParamCaption}\item[{string}]{command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Метод Add\+\_\+to\+\_\+table предназначен для добавления данных в таблицу 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em command} & Пременная в которую мы вносим команду для добавления данных в таблицу бд\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле \textbf{ DBConnect.\+cs} строка \textbf{ 113}
+
+\mbox{\label{class_c_d_e_k_1_1_d_b_connect_ab96da8ad6f6eb1a6e9a5a8a6cd6a171c}} 
+\index{CDEK.DBConnect@{CDEK.DBConnect}!DataBaseConn@{DataBaseConn}}
+\index{DataBaseConn@{DataBaseConn}!CDEK.DBConnect@{CDEK.DBConnect}}
+\doxysubsubsection{DataBaseConn()}
+{\footnotesize\ttfamily static void CDEK.\+DBConnect.\+Data\+Base\+Conn (\begin{DoxyParamCaption}\item[{string}]{sql }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Метод Data\+Base\+Conn пердназначен для подключения к бд 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em sql} & Переменная в которую нужна присваивать путь подключения к бд\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле \textbf{ DBConnect.\+cs} строка \textbf{ 23}
+
+\mbox{\label{class_c_d_e_k_1_1_d_b_connect_aa377a06807ab163f0fb98c4149322f35}} 
+\index{CDEK.DBConnect@{CDEK.DBConnect}!DateFilter@{DateFilter}}
+\index{DateFilter@{DateFilter}!CDEK.DBConnect@{CDEK.DBConnect}}
+\doxysubsubsection{DateFilter()}
+{\footnotesize\ttfamily static void CDEK.\+DBConnect.\+Date\+Filter (\begin{DoxyParamCaption}\item[{string}]{name\+Table,  }\item[{string}]{Date,  }\item[{out Data\+Table}]{dt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Метод Date\+Filter предназначен для фильтрации данных в таблице из бд по датам 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em name\+Table} & Название таблицы в которой мы будем делать фильтрацию\\
+\hline
+{\em Date} & Переменная даты по которой происходит фильтрация\\
+\hline
+{\em dt} & Переменная для записи отфильтрованной таблицы\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле \textbf{ DBConnect.\+cs} строка \textbf{ 74}
+
+\mbox{\label{class_c_d_e_k_1_1_d_b_connect_a466a65e1e8de7c16e25ec49418853b94}} 
+\index{CDEK.DBConnect@{CDEK.DBConnect}!DBC@{DBC}}
+\index{DBC@{DBC}!CDEK.DBConnect@{CDEK.DBConnect}}
+\doxysubsubsection{DBC()}
+{\footnotesize\ttfamily static bool CDEK.\+DBConnect.\+DBC (\begin{DoxyParamCaption}\item[{string}]{sql }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Метод был создан для unittest. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em sql} & Переменная в которую нужна присваивать путь подключения к бд\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Возвращает True если подключение к бд произошло, и возвращает False если не было подключения
+\end{DoxyReturn}
+
+
+См. определение в файле \textbf{ DBConnect.\+cs} строка \textbf{ 33}
+
+\mbox{\label{class_c_d_e_k_1_1_d_b_connect_acbcbf174f813cfbfc50c492f214651e1}} 
+\index{CDEK.DBConnect@{CDEK.DBConnect}!EventFilter@{EventFilter}}
+\index{EventFilter@{EventFilter}!CDEK.DBConnect@{CDEK.DBConnect}}
+\doxysubsubsection{EventFilter()}
+{\footnotesize\ttfamily static void CDEK.\+DBConnect.\+Event\+Filter (\begin{DoxyParamCaption}\item[{string}]{name\+Table,  }\item[{string}]{name\+Event,  }\item[{out Data\+Table}]{dt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Метод Event\+Filter предназначен для фильтрации данных в таблице из бд по событиям 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em name\+Table} & Название таблицы в которой мы будем делать фильтрацию\\
+\hline
+{\em name\+Event} & Переменная для фильтрации таблицы по событиям\\
+\hline
+{\em dt} & Переменная для записи отфильтрованной таблицы и вывода её\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле \textbf{ DBConnect.\+cs} строка \textbf{ 95}
+
+\mbox{\label{class_c_d_e_k_1_1_d_b_connect_a0e0357fb746e7c48df8b940eb836d555}} 
+\index{CDEK.DBConnect@{CDEK.DBConnect}!LoadedDB@{LoadedDB}}
+\index{LoadedDB@{LoadedDB}!CDEK.DBConnect@{CDEK.DBConnect}}
+\doxysubsubsection{LoadedDB()}
+{\footnotesize\ttfamily static void CDEK.\+DBConnect.\+Loaded\+DB (\begin{DoxyParamCaption}\item[{string}]{name\+Table,  }\item[{out Data\+Table}]{dt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Метод Loaded\+DB предназначен для вывода таблицы из бд в Data\+Grid. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em name\+Table} & Название таблицы которую будем выводит в Data\+Grid\\
+\hline
+{\em dt} & Переменная для записи в неё таблицы с бд\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле \textbf{ DBConnect.\+cs} строка \textbf{ 53}
+
+\mbox{\label{class_c_d_e_k_1_1_d_b_connect_a55ee9322ae2f90cda32f5729be7ae429}} 
+\index{CDEK.DBConnect@{CDEK.DBConnect}!SQLQueryAutorization@{SQLQueryAutorization}}
+\index{SQLQueryAutorization@{SQLQueryAutorization}!CDEK.DBConnect@{CDEK.DBConnect}}
+\doxysubsubsection{SQLQueryAutorization()}
+{\footnotesize\ttfamily static void CDEK.\+DBConnect.\+SQLQuery\+Autorization (\begin{DoxyParamCaption}\item[{string}]{id,  }\item[{string}]{password,  }\item[{string}]{name\+Table,  }\item[{string}]{name\+Column\+Mail,  }\item[{string}]{name\+Column\+Password,  }\item[{out bool}]{Autorization }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Метод SQLQuery\+Autorization предназначен для проверки пароля и логина пользователя 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em id} & Логин пользователя\\
+\hline
+{\em password} & Парооль пользователя\\
+\hline
+{\em name\+Table} & Название таблицы где хранятся логин и пароль пользователя\\
+\hline
+{\em name\+Column\+Mail} & Название столбца Логина\\
+\hline
+{\em name\+Column\+Password} & Название столбца пароля\\
+\hline
+{\em Autorization} & Логическая переменная в которой записывается True когда пароль и логин совали, и false когда не совпали\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле \textbf{ DBConnect.\+cs} строка \textbf{ 137}
+
+
+
+\doxysubsection{Данные класса}
+\mbox{\label{class_c_d_e_k_1_1_d_b_connect_a2325218c20187fa9ab0f01a228071527}} 
+\index{CDEK.DBConnect@{CDEK.DBConnect}!sqlConn@{sqlConn}}
+\index{sqlConn@{sqlConn}!CDEK.DBConnect@{CDEK.DBConnect}}
+\doxysubsubsection{sqlConn}
+{\footnotesize\ttfamily Sql\+Connection CDEK.\+DBConnect.\+sql\+Conn\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+См. определение в файле \textbf{ DBConnect.\+cs} строка \textbf{ 17}
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/programs/\+CDEK/\+CDEK/DBConnect.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__resources_8_designer_8cs_source" xml:lang="ru">
+<title>Resources.Designer.cs</title>
+<indexterm><primary>E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs</primary></indexterm>
+<programlisting linenumbering="unnumbered"><anchor xml:id="__resources_8_designer_8cs_source_1l00001"/>00001 <emphasis role="comment">//------------------------------------------------------------------------------</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00002"/>00002 <emphasis role="comment">//&#32;&lt;auto-generated&gt;</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00003"/>00003 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Этот&#32;код&#32;создан&#32;программой.</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00004"/>00004 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Исполняемая&#32;версия:4.0.30319.42000</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00005"/>00005 <emphasis role="comment">//</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00006"/>00006 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Изменения&#32;в&#32;этом&#32;файле&#32;могут&#32;привести&#32;к&#32;неправильной&#32;работе&#32;и&#32;будут&#32;потеряны&#32;в&#32;случае</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00007"/>00007 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;повторной&#32;генерации&#32;кода.</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00008"/>00008 <emphasis role="comment">//&#32;&lt;/auto-generated&gt;</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00009"/>00009 <emphasis role="comment">//------------------------------------------------------------------------------</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00010"/>00010 
+<anchor xml:id="__resources_8_designer_8cs_source_1l00011"/><link linkend="_namespace_c_d_e_k_1_1_properties">00011</link> <emphasis role="keyword">namespace&#32;</emphasis><link linkend="_namespace_c_d_e_k_1_1_properties">CDEK.Properties</link>&#32;{
+<anchor xml:id="__resources_8_designer_8cs_source_1l00012"/>00012 &#32;&#32;&#32;&#32;<emphasis role="keyword">using&#32;</emphasis>System;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00013"/>00013 &#32;&#32;&#32;&#32;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00014"/>00014 &#32;&#32;&#32;&#32;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00018"/>00018 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;Этот&#32;класс&#32;создан&#32;автоматически&#32;классом&#32;StronglyTypedResourceBuilder</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00019"/>00019 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;с&#32;помощью&#32;такого&#32;средства,&#32;как&#32;ResGen&#32;или&#32;Visual&#32;Studio.</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00020"/>00020 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;Чтобы&#32;добавить&#32;или&#32;удалить&#32;член,&#32;измените&#32;файл&#32;.ResX&#32;и&#32;снова&#32;запустите&#32;ResGen</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00021"/>00021 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;с&#32;параметром&#32;/str&#32;или&#32;перестройте&#32;свой&#32;проект&#32;VS.</emphasis>
+<anchor xml:id="__resources_8_designer_8cs_source_1l00022"/>00022 &#32;&#32;&#32;&#32;[global::System.CodeDom.Compiler.GeneratedCodeAttribute(<emphasis role="stringliteral">&quot;System.Resources.Tools.StronglyTypedResourceBuilder&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;17.0.0.0&quot;</emphasis>)]
+<anchor xml:id="__resources_8_designer_8cs_source_1l00023"/>00023 &#32;&#32;&#32;&#32;[global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+<anchor xml:id="__resources_8_designer_8cs_source_1l00024"/>00024 &#32;&#32;&#32;&#32;[global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+<anchor xml:id="__resources_8_designer_8cs_source_1l00025"/>00025 &#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis>Resources&#32;{
+<anchor xml:id="__resources_8_designer_8cs_source_1l00026"/>00026 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00027"/>00027 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;global::System.<link linkend="_class_c_d_e_k_1_1_properties_1_1_resources">Resources</link>.ResourceManager&#32;resourceMan;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00028"/>00028 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00029"/>00029 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;global::System.Globalization.CultureInfo&#32;resourceCulture;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00030"/>00030 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00031"/>00031 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1811:AvoidUncalledPrivateCode&quot;</emphasis>)]
+<anchor xml:id="__resources_8_designer_8cs_source_1l00032"/>00032 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;Resources()&#32;{
+<anchor xml:id="__resources_8_designer_8cs_source_1l00033"/>00033 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__resources_8_designer_8cs_source_1l00034"/>00034 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00038"/>00038 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+<anchor xml:id="__resources_8_designer_8cs_source_1l00039"/>00039 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;global::System.Resources.ResourceManager&#32;ResourceManager&#32;{
+<anchor xml:id="__resources_8_designer_8cs_source_1l00040"/>00040 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">get</emphasis>&#32;{
+<anchor xml:id="__resources_8_designer_8cs_source_1l00041"/>00041 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(<emphasis role="keywordtype">object</emphasis>.ReferenceEquals(resourceMan,&#32;<emphasis role="keyword">null</emphasis>))&#32;{
+<anchor xml:id="__resources_8_designer_8cs_source_1l00042"/>00042 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;global::System.Resources.ResourceManager&#32;temp&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;global::System.Resources.ResourceManager(<emphasis role="stringliteral">&quot;CDEK.Properties.Resources&quot;</emphasis>,&#32;typeof(Resources).Assembly);
+<anchor xml:id="__resources_8_designer_8cs_source_1l00043"/>00043 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;resourceMan&#32;=&#32;temp;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00044"/>00044 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__resources_8_designer_8cs_source_1l00045"/>00045 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;resourceMan;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00046"/>00046 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__resources_8_designer_8cs_source_1l00047"/>00047 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__resources_8_designer_8cs_source_1l00048"/>00048 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00053"/>00053 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+<anchor xml:id="__resources_8_designer_8cs_source_1l00054"/>00054 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;global::System.Globalization.CultureInfo&#32;Culture&#32;{
+<anchor xml:id="__resources_8_designer_8cs_source_1l00055"/>00055 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">get</emphasis>&#32;{
+<anchor xml:id="__resources_8_designer_8cs_source_1l00056"/>00056 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;resourceCulture;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00057"/>00057 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__resources_8_designer_8cs_source_1l00058"/>00058 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">set</emphasis>&#32;{
+<anchor xml:id="__resources_8_designer_8cs_source_1l00059"/>00059 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;resourceCulture&#32;=&#32;value;
+<anchor xml:id="__resources_8_designer_8cs_source_1l00060"/>00060 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__resources_8_designer_8cs_source_1l00061"/>00061 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__resources_8_designer_8cs_source_1l00062"/>00062 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__resources_8_designer_8cs_source_1l00063"/>00063 }
+</programlisting></section>

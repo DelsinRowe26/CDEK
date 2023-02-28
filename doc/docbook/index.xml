@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="ru">
+    <info>
+    <title>CDEK</title>
+    </info>
+<chapter>
+    <title>Пространства имен</title>
+<xi:include href="namespace_c_d_e_k.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_c_d_e_k_1_1_properties.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Классы</title>
+    <xi:include href="class_c_d_e_k_1_1_app.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_c_d_e_k_1_1_application_win.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_c_d_e_k_1_1_d_b_connect.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_c_d_e_k_1_1_main_window.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_c_d_e_k_1_1_report_win.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_c_d_e_k_1_1_view_applications_win.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Файлы</title>
+    <xi:include href="_app_8xaml_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_application_win_8xaml_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_data_sender_recipient_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_d_b_connect_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_main_window_8xaml_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_8_n_e_t_framework_00_version_0av4_88_8_assembly_attributes_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_app_8g_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_app_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_application_win_8g_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_application_win_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_autorization_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_c_d_e_k___content_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_main_window_8g_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_main_window_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_report_win_8g_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_report_win_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_view_applications_win_8g_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_view_applications_win_8g_8i_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_assembly_info_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_resources_8_designer_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_settings_8_designer_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_report_win_8xaml_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_view_applications_win_8xaml_8cs_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

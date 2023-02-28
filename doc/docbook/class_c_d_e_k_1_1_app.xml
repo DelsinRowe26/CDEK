@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_c_d_e_k_1_1_app" xml:lang="ru">
+<title>Класс CDEK.App</title>
+<indexterm><primary>CDEK.App</primary></indexterm>
+<para>
+
+<para>Логика взаимодействия для App.xaml. </para>
+ 
+</para>
+<para>Граф наследования:CDEK.App:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_c_d_e_k_1_1_app.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_c_d_e_k_1_1_app_1a7f08321370251f4f8b2bc606a8ce691b">InitializeComponent</link> ()</para>
+
+<para>InitializeComponent. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_c_d_e_k_1_1_app_1a7f08321370251f4f8b2bc606a8ce691b">InitializeComponent</link> ()</para>
+
+<para>InitializeComponent. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Открытые статические члены    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_c_d_e_k_1_1_app_1af55d221a486aee89feb2518703ce7753">Main</link> ()</para>
+
+<para>Application Entry Point. </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_c_d_e_k_1_1_app_1af55d221a486aee89feb2518703ce7753">Main</link> ()</para>
+
+<para>Application Entry Point. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Логика взаимодействия для App.xaml. </para>
+
+
+
+<para>App. </para>
+<para>
+См. определение в файле <link linkend="__app_8xaml_8cs_source">App.xaml.cs</link> строка <link linkend="__app_8xaml_8cs_source_1l00014">14</link></para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_c_d_e_k_1_1_app_1a7f08321370251f4f8b2bc606a8ce691b"/><section>
+    <title>InitializeComponent()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>InitializeComponent</primary><secondary>CDEK.App</secondary></indexterm>
+<indexterm><primary>CDEK.App</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void CDEK.App.InitializeComponent ( )</computeroutput></para><para>
+
+<para>InitializeComponent. </para>
+</para>
+<para>
+См. определение в файле <link linkend="__app_8g_8cs_source">App.g.cs</link> строка <link linkend="__app_8g_8cs_source_1l00048">48</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_app_1a7f08321370251f4f8b2bc606a8ce691b"/><section>
+    <title>InitializeComponent()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>InitializeComponent</primary><secondary>CDEK.App</secondary></indexterm>
+<indexterm><primary>CDEK.App</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void CDEK.App.InitializeComponent ( )</computeroutput></para><para>
+
+<para>InitializeComponent. </para>
+</para>
+<para>
+См. определение в файле <link linkend="__app_8g_8i_8cs_source">App.g.i.cs</link> строка <link linkend="__app_8g_8i_8cs_source_1l00048">48</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_app_1af55d221a486aee89feb2518703ce7753"/><section>
+    <title>Main()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Main</primary><secondary>CDEK.App</secondary></indexterm>
+<indexterm><primary>CDEK.App</primary><secondary>Main</secondary></indexterm>
+<para><computeroutput>static void CDEK.App.Main ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Application Entry Point. </para>
+</para>
+<para>
+См. определение в файле <link linkend="__app_8g_8cs_source">App.g.cs</link> строка <link linkend="__app_8g_8cs_source_1l00063">63</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_app_1af55d221a486aee89feb2518703ce7753"/><section>
+    <title>Main()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Main</primary><secondary>CDEK.App</secondary></indexterm>
+<indexterm><primary>CDEK.App</primary><secondary>Main</secondary></indexterm>
+<para><computeroutput>static void CDEK.App.Main ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Application Entry Point. </para>
+</para>
+<para>
+См. определение в файле <link linkend="__app_8g_8i_8cs_source">App.g.i.cs</link> строка <link linkend="__app_8g_8i_8cs_source_1l00063">63</link></para>
+</section>
+<para>
+Объявления и описания членов классов находятся в файлах:</para>
+E:/programs/CDEK/CDEK/App.xaml.csE:/programs/CDEK/CDEK/obj/Debug/App.g.csE:/programs/CDEK/CDEK/obj/Debug/App.g.i.cs</section>
+</section>

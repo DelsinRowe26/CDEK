@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="class_c_d_e_k_1_1_view_applications_win" kind="class" language="C#" prot="public">
+    <compoundname>CDEK::ViewApplicationsWin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IStyleConnector</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_view_applications_win_1a47247cd501297a967e21c83d1e065c83" prot="package" static="no" mutable="no">
+        <type><ref refid="class_c_d_e_k_1_1_view_applications_win" kindref="compound">CDEK.ViewApplicationsWin</ref></type>
+        <definition>CDEK ViewApplicationsWin CDEK.ViewApplicationsWin::ViewApplicationWin</definition>
+        <argsstring></argsstring>
+        <name>ViewApplicationWin</name>
+        <qualifiedname>CDEK.ViewApplicationsWin.ViewApplicationWin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" line="46" column="42" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_view_applications_win_1aa43b3cec81bb75be727a53f983896bf4" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.DataGrid</type>
+        <definition>System Windows Controls DataGrid CDEK.ViewApplicationsWin::dgApplication</definition>
+        <argsstring></argsstring>
+        <name>dgApplication</name>
+        <qualifiedname>CDEK.ViewApplicationsWin.dgApplication</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" line="54" column="48" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_view_applications_win_1a6ef5b721a2269c6668b6ebf865a0b820" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CDEK.ViewApplicationsWin::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>CDEK.ViewApplicationsWin._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" line="59" column="22" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_d_e_k_1_1_view_applications_win_1aa82f40d592d501f30d6b4eafba13f849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.ViewApplicationsWin.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>CDEK.ViewApplicationsWin.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" line="66" column="21" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_view_applications_win_1aa82f40d592d501f30d6b4eafba13f849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.ViewApplicationsWin.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>CDEK.ViewApplicationsWin.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.i.cs" line="66" column="21" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.i.cs" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_view_applications_win_1ac2a7fc0d540a27cd003ed76f173db545" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CDEK.ViewApplicationsWin.ViewApplicationsWin</definition>
+        <argsstring>()</argsstring>
+        <name>ViewApplicationsWin</name>
+        <qualifiedname>CDEK.ViewApplicationsWin.ViewApplicationsWin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/ViewApplicationsWin.xaml.cs" line="27" column="8" bodyfile="E:/programs/CDEK/CDEK/ViewApplicationsWin.xaml.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_d_e_k_1_1_view_applications_win_1ad8a0f565eee9ae16b9561b19d3053dc7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. CDEK.ViewApplicationsWin.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>CDEK.ViewApplicationsWin.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" line="86" column="52" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" bodystart="86" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_view_applications_win_1a089557f8e322080c4fd6c98c0bd3ae02" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IStyleConnector.</type>
+        <definition>void System.Windows.Markup.IStyleConnector. CDEK.ViewApplicationsWin.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>CDEK.ViewApplicationsWin.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" line="111" column="48" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" bodystart="111" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_view_applications_win_1ad8a0f565eee9ae16b9561b19d3053dc7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. CDEK.ViewApplicationsWin.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>CDEK.ViewApplicationsWin.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.i.cs" line="86" column="52" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.i.cs" bodystart="86" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_view_applications_win_1a089557f8e322080c4fd6c98c0bd3ae02" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IStyleConnector.</type>
+        <definition>void System.Windows.Markup.IStyleConnector. CDEK.ViewApplicationsWin.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>CDEK.ViewApplicationsWin.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.i.cs" line="111" column="48" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.i.cs" bodystart="111" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_view_applications_win_1a0439f8fd57817e90da0e50ec47bad095" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.ViewApplicationsWin.ViewApplicationWin_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>ViewApplicationWin_Loaded</name>
+        <qualifiedname>CDEK.ViewApplicationsWin.ViewApplicationWin_Loaded</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Событие ViewApplicationWin_Loaded прездназначено для подключения к БД и вывода данных на экран при загрузке окна </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная относящаяся к классу Object</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Содержит информацию о состоянии и данные события</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/ViewApplicationsWin.xaml.cs" line="37" column="14" bodyfile="E:/programs/CDEK/CDEK/ViewApplicationsWin.xaml.cs" bodystart="37" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_view_applications_win_1a23b44067c6ceb9ce0cfa0a09eb5efc53" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.ViewApplicationsWin.btnReport_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btnReport_Click</name>
+        <qualifiedname>CDEK.ViewApplicationsWin.btnReport_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Событие btnReport_Click предназначен для сохранения данных, и запуска окна договора </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная относящаяся к классу Object</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Содержит информацию о состоянии и данные события</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/ViewApplicationsWin.xaml.cs" line="54" column="14" bodyfile="E:/programs/CDEK/CDEK/ViewApplicationsWin.xaml.cs" bodystart="54" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ViewApplicationsWin. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Логика взаимодействия для ViewApplicationsWin.xaml. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CDEK.ViewApplicationsWin</label>
+        <link refid="class_c_d_e_k_1_1_view_applications_win"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>System::Windows::Markup::IStyleConnector</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>CDEK</label>
+      </node>
+      <node id="1">
+        <label>CDEK.ViewApplicationsWin</label>
+        <link refid="class_c_d_e_k_1_1_view_applications_win"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>ViewApplicationWin</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>dgApplication</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>System</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="4">
+        <label>System::Windows::Markup::IStyleConnector</label>
+      </node>
+      <node id="2">
+        <label>System::Windows::Window</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" line="41" column="19" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.cs" bodystart="41" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_c_d_e_k_1_1_view_applications_win_1a6ef5b721a2269c6668b6ebf865a0b820" prot="private" virt="non-virtual"><scope>CDEK::ViewApplicationsWin</scope><name>_contentLoaded</name></member>
+      <member refid="class_c_d_e_k_1_1_view_applications_win_1a23b44067c6ceb9ce0cfa0a09eb5efc53" prot="private" virt="non-virtual"><scope>CDEK::ViewApplicationsWin</scope><name>btnReport_Click</name></member>
+      <member refid="class_c_d_e_k_1_1_view_applications_win_1ad8a0f565eee9ae16b9561b19d3053dc7" prot="private" virt="non-virtual"><scope>CDEK::ViewApplicationsWin</scope><name>Connect</name></member>
+      <member refid="class_c_d_e_k_1_1_view_applications_win_1a089557f8e322080c4fd6c98c0bd3ae02" prot="private" virt="non-virtual"><scope>CDEK::ViewApplicationsWin</scope><name>Connect</name></member>
+      <member refid="class_c_d_e_k_1_1_view_applications_win_1ad8a0f565eee9ae16b9561b19d3053dc7" prot="private" virt="non-virtual"><scope>CDEK::ViewApplicationsWin</scope><name>Connect</name></member>
+      <member refid="class_c_d_e_k_1_1_view_applications_win_1a089557f8e322080c4fd6c98c0bd3ae02" prot="private" virt="non-virtual"><scope>CDEK::ViewApplicationsWin</scope><name>Connect</name></member>
+      <member refid="class_c_d_e_k_1_1_view_applications_win_1aa43b3cec81bb75be727a53f983896bf4" prot="package" virt="non-virtual"><scope>CDEK::ViewApplicationsWin</scope><name>dgApplication</name></member>
+      <member refid="class_c_d_e_k_1_1_view_applications_win_1aa82f40d592d501f30d6b4eafba13f849" prot="public" virt="non-virtual"><scope>CDEK::ViewApplicationsWin</scope><name>InitializeComponent</name></member>
+      <member refid="class_c_d_e_k_1_1_view_applications_win_1aa82f40d592d501f30d6b4eafba13f849" prot="public" virt="non-virtual"><scope>CDEK::ViewApplicationsWin</scope><name>InitializeComponent</name></member>
+      <member refid="class_c_d_e_k_1_1_view_applications_win_1ac2a7fc0d540a27cd003ed76f173db545" prot="public" virt="non-virtual"><scope>CDEK::ViewApplicationsWin</scope><name>ViewApplicationsWin</name></member>
+      <member refid="class_c_d_e_k_1_1_view_applications_win_1a47247cd501297a967e21c83d1e065c83" prot="package" virt="non-virtual"><scope>CDEK::ViewApplicationsWin</scope><name>ViewApplicationWin</name></member>
+      <member refid="class_c_d_e_k_1_1_view_applications_win_1a0439f8fd57817e90da0e50ec47bad095" prot="private" virt="non-virtual"><scope>CDEK::ViewApplicationsWin</scope><name>ViewApplicationWin_Loaded</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

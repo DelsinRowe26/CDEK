@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_c_d_e_k_1_1_view_applications_win" xml:lang="ru">
+<title>Класс CDEK.ViewApplicationsWin</title>
+<indexterm><primary>CDEK.ViewApplicationsWin</primary></indexterm>
+<para>
+
+<para>ViewApplicationsWin. </para>
+ 
+</para>
+<para>Граф наследования:CDEK.ViewApplicationsWin:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_c_d_e_k_1_1_view_applications_win.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_c_d_e_k_1_1_view_applications_win_1aa82f40d592d501f30d6b4eafba13f849">InitializeComponent</link> ()</para>
+
+<para>InitializeComponent. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_c_d_e_k_1_1_view_applications_win_1aa82f40d592d501f30d6b4eafba13f849">InitializeComponent</link> ()</para>
+
+<para>InitializeComponent. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>ViewApplicationsWin. </para>
+
+
+
+<para>Логика взаимодействия для ViewApplicationsWin.xaml. </para>
+<para>
+См. определение в файле <link linkend="__view_applications_win_8g_8cs_source">ViewApplicationsWin.g.cs</link> строка <link linkend="__view_applications_win_8g_8cs_source_1l00041">41</link></para>
+</section>
+<section>
+<title>Конструктор(ы)</title>
+<anchor xml:id="_class_c_d_e_k_1_1_view_applications_win_1ac2a7fc0d540a27cd003ed76f173db545"/><section>
+    <title>ViewApplicationsWin()</title>
+<indexterm><primary>ViewApplicationsWin</primary><secondary>CDEK.ViewApplicationsWin</secondary></indexterm>
+<indexterm><primary>CDEK.ViewApplicationsWin</primary><secondary>ViewApplicationsWin</secondary></indexterm>
+<para><computeroutput>CDEK.ViewApplicationsWin.ViewApplicationsWin ( )</computeroutput></para><para>
+См. определение в файле <link linkend="__view_applications_win_8xaml_8cs_source">ViewApplicationsWin.xaml.cs</link> строка <link linkend="__view_applications_win_8xaml_8cs_source_1l00027">27</link></para>
+</section>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_c_d_e_k_1_1_view_applications_win_1aa82f40d592d501f30d6b4eafba13f849"/><section>
+    <title>InitializeComponent()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>InitializeComponent</primary><secondary>CDEK.ViewApplicationsWin</secondary></indexterm>
+<indexterm><primary>CDEK.ViewApplicationsWin</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void CDEK.ViewApplicationsWin.InitializeComponent ( )</computeroutput></para><para>
+
+<para>InitializeComponent. </para>
+</para>
+<para>
+См. определение в файле <link linkend="__view_applications_win_8g_8cs_source">ViewApplicationsWin.g.cs</link> строка <link linkend="__view_applications_win_8g_8cs_source_1l00066">66</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_view_applications_win_1aa82f40d592d501f30d6b4eafba13f849"/><section>
+    <title>InitializeComponent()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>InitializeComponent</primary><secondary>CDEK.ViewApplicationsWin</secondary></indexterm>
+<indexterm><primary>CDEK.ViewApplicationsWin</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void CDEK.ViewApplicationsWin.InitializeComponent ( )</computeroutput></para><para>
+
+<para>InitializeComponent. </para>
+</para>
+<para>
+См. определение в файле <link linkend="__view_applications_win_8g_8i_8cs_source">ViewApplicationsWin.g.i.cs</link> строка <link linkend="__view_applications_win_8g_8i_8cs_source_1l00066">66</link></para>
+</section>
+<para>
+Объявления и описания членов классов находятся в файлах:</para>
+E:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.csE:/programs/CDEK/CDEK/obj/Debug/ViewApplicationsWin.g.i.csE:/programs/CDEK/CDEK/ViewApplicationsWin.xaml.cs</section>
+</section>

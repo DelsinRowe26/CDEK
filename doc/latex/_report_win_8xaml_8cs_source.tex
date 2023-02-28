@@ -1,0 +1,198 @@
+\doxysection{Report\+Win.\+xaml.\+cs}
+\label{_report_win_8xaml_8cs_source}\index{E:/programs/CDEK/CDEK/ReportWin.xaml.cs@{E:/programs/CDEK/CDEK/ReportWin.xaml.cs}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{00003\ \textcolor{keyword}{using\ }System.Linq;}
+\DoxyCodeLine{00004\ \textcolor{keyword}{using\ }System.Text;}
+\DoxyCodeLine{00005\ \textcolor{keyword}{using\ }System.Threading.Tasks;}
+\DoxyCodeLine{00006\ \textcolor{keyword}{using\ }System.Windows;}
+\DoxyCodeLine{00007\ \textcolor{keyword}{using\ }System.Windows.Controls;}
+\DoxyCodeLine{00008\ \textcolor{keyword}{using\ }System.Net.Mail;}
+\DoxyCodeLine{00009\ \textcolor{keyword}{using\ }System.Windows.Data;}
+\DoxyCodeLine{00010\ \textcolor{keyword}{using\ }System.Windows.Documents;}
+\DoxyCodeLine{00011\ \textcolor{keyword}{using\ }System.Windows.Input;}
+\DoxyCodeLine{00012\ \textcolor{keyword}{using\ }System.Windows.Media;}
+\DoxyCodeLine{00013\ \textcolor{keyword}{using\ }System.Windows.Media.Imaging;}
+\DoxyCodeLine{00014\ \textcolor{keyword}{using\ }System.Windows.Shapes;}
+\DoxyCodeLine{00015\ \textcolor{keyword}{using\ }System.Data.Entity.Core.Objects;}
+\DoxyCodeLine{00016\ \textcolor{keyword}{using\ }Microsoft.Win32;}
+\DoxyCodeLine{00017\ \textcolor{keyword}{using\ }System.IO;}
+\DoxyCodeLine{00018\ \textcolor{keyword}{using\ }System.Data;}
+\DoxyCodeLine{00019\ \textcolor{keyword}{using\ }System.ComponentModel.DataAnnotations;}
+\DoxyCodeLine{00020\ \textcolor{keyword}{using\ }Path\ =\ System.IO.Path;}
+\DoxyCodeLine{00021\ \textcolor{keyword}{using\ }System.Net;}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{namespace\ }CDEK}
+\DoxyCodeLine{00024\ \{}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{partial\ class\ }ReportWin\ :\ Window}
+\DoxyCodeLine{00029\ \ \ \ \ \{}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ sum;}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ SaveFileDialog\ saveFileDialog\ =\ \textcolor{keyword}{new}\ SaveFileDialog();}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ tbLengthPack\_KeyDown(\textcolor{keywordtype}{object}\ sender,\ KeyEventArgs\ e)}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}(e.Key\ ==\ Key.Enter)}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sum\ =\ (int)(sum\ +\ (Convert.ToInt32(tbLengthPack.Text)\ *\ 0.25));}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lbSum.Content\ =\ sum\ +\ \textcolor{stringliteral}{"{}\$"{}};}
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ tbWidthPack\_KeyDown(\textcolor{keywordtype}{object}\ sender,\ KeyEventArgs\ e)}
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00055\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}(e.Key\ ==\ Key.Enter)}
+\DoxyCodeLine{00056\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00057\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sum\ =\ (int)(sum\ +\ (Convert.ToInt32(tbWidthPack.Text)\ *\ 0.25));}
+\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lbSum.Content\ =\ sum\ +\ \textcolor{stringliteral}{"{}\$"{}};}
+\DoxyCodeLine{00059\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00067\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ tbHeightPack\_KeyDown(\textcolor{keywordtype}{object}\ sender,\ KeyEventArgs\ e)}
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (e.Key\ ==\ Key.Enter)}
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00071\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sum\ =\ (int)(sum\ +\ (Convert.ToInt32(tbHeightPack.Text)\ *\ 0.25));}
+\DoxyCodeLine{00072\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lbSum.Content\ =\ sum\ +\ \textcolor{stringliteral}{"{}\$"{}};}
+\DoxyCodeLine{00073\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00074\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ async\ \textcolor{keywordtype}{void}\ btnSaveSend\_Click(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{00082\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{/*if\ (saveFileDialog.ShowDialog()\ ==\ DialogResult.)}}
+\DoxyCodeLine{00084\ \textcolor{comment}{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return;*/}}
+\DoxyCodeLine{00085\ \ \ \ \ \ \ \ \ \ \ \ \ saveFileDialog.ShowDialog();}
+\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ \ \ \ \ DateTime\ date\ =\ DateTime.Today;}
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ fileName\ =\ saveFileDialog.FileName;}
+\DoxyCodeLine{00088\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ doc\ =\ lbNumberApplic.Content\ +\ \textcolor{stringliteral}{"{}\ "{}}\ +\ tblNumberApplic.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n\(\backslash\)n"{}}\ +\ lbSenderData.Content\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n\(\backslash\)n"{}}}
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbFirstname\_sender.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ tbFirstname\_sender.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00090\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbSecondname.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ tbSecondname\_sender.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00091\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbNumber\_phone.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ tbNumber\_phone\_sender.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00092\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbTypePackage.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ tbTypePackage.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00093\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbAdress\_sender.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ tbAdress\_sender.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n\(\backslash\)n"{}}}
+\DoxyCodeLine{00094\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbRecipientData.Content\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n\(\backslash\)n"{}}}
+\DoxyCodeLine{00095\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbFirstname\_recipient.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ tbFirstname\_recipient.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00096\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbSecondname\_recipient.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ tbSecondname\_recipient.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00097\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbNumber\_Phone\_recipient.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ tbNumber\_phone\_recipient.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00098\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbAdress\_recipient.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ tbAdress\_recipient.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00099\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbDeliveryType.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ cmbDeliveryCompany.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00100\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbLengthPack.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ tbLengthPack.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00101\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbWidthPack.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ tbWidthPack.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00102\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbHeightPack.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ tbHeightPack.Text\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00103\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ \textcolor{stringliteral}{"{}Date:\ "{}}\ +\ date.ToString()\ +\ \textcolor{stringliteral}{"{}\(\backslash\)n"{}}}
+\DoxyCodeLine{00104\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ +\ lbPrice.Content\ +\ \textcolor{stringliteral}{"{}:\ "{}}\ +\ lbSum.Content\ +\ \textcolor{stringliteral}{"{}\ \ \ \ "{}}\ +\ lbSignature.Content\ +\ \textcolor{stringliteral}{"{}\ "{}}\ +\ lbSignatureSpace.Content;}
+\DoxyCodeLine{00105\ \ \ \ \ \ \ \ \ \ \ \ \ File.WriteAllText(fileName,\ doc);}
+\DoxyCodeLine{00106\ \ \ \ \ \ \ \ \ \ \ \ \ MessageBox.Show(\textcolor{stringliteral}{"{}File\ saved."{}});}
+\DoxyCodeLine{00107\ }
+\DoxyCodeLine{00108\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ path\ =\ Path.GetFullPath(fileName);}
+\DoxyCodeLine{00109\ }
+\DoxyCodeLine{00110\ \ \ \ \ \ \ \ \ \ \ \ \ MailAddress\ from\ =\ \textcolor{keyword}{new}\ MailAddress(\textcolor{stringliteral}{"{}npl1u1pc@mail.ru"{}},\ \textcolor{stringliteral}{"{}Company"{}});}
+\DoxyCodeLine{00111\ \ \ \ \ \ \ \ \ \ \ \ \ MailAddress\ to\ =\ \textcolor{keyword}{new}\ MailAddress(DataSenderRecipient.Mail);}
+\DoxyCodeLine{00112\ \ \ \ \ \ \ \ \ \ \ \ \ MailMessage\ message\ =\ \textcolor{keyword}{new}\ MailMessage(from,\ to);}
+\DoxyCodeLine{00113\ \ \ \ \ \ \ \ \ \ \ \ \ message.Subject\ =\ \textcolor{stringliteral}{"{}Treaty"{}};}
+\DoxyCodeLine{00114\ \ \ \ \ \ \ \ \ \ \ \ \ message.Attachments.Add(\textcolor{keyword}{new}\ Attachment(path));}
+\DoxyCodeLine{00115\ \ \ \ \ \ \ \ \ \ \ \ \ message.Body\ =\ \textcolor{stringliteral}{"{}Delivery\ contract"{}};}
+\DoxyCodeLine{00116\ \ \ \ \ \ \ \ \ \ \ \ \ message.IsBodyHtml\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{00117\ \ \ \ \ \ \ \ \ \ \ \ \ SmtpClient\ smtpClient\ =\ \textcolor{keyword}{new}\ SmtpClient(\textcolor{stringliteral}{"{}smtp.mail.ru"{}},\ 465);}
+\DoxyCodeLine{00118\ \ \ \ \ \ \ \ \ \ \ \ \ smtpClient.Credentials\ =\ \textcolor{keyword}{new}\ NetworkCredential(\textcolor{stringliteral}{"{}npl1u1pc@mail.ru"{}},\ \textcolor{stringliteral}{"{}NPL\_npl"{}});}
+\DoxyCodeLine{00119\ \ \ \ \ \ \ \ \ \ \ \ \ smtpClient.EnableSsl\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{00120\ \ \ \ \ \ \ \ \ \ \ \ \ await\ smtpClient.SendMailAsync(message);}
+\DoxyCodeLine{00121\ }
+\DoxyCodeLine{00122\ \ \ \ \ \ \ \ \ \ \ \ \ this.Close();}
+\DoxyCodeLine{00123\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00124\ }
+\DoxyCodeLine{00125\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ ReportWin()}
+\DoxyCodeLine{00126\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00127\ \ \ \ \ \ \ \ \ \ \ \ \ InitializeComponent();}
+\DoxyCodeLine{00128\ }
+\DoxyCodeLine{00129\ \ \ \ \ \ \ \ \ \ \ \ \ saveFileDialog.Filter\ =\ \textcolor{stringliteral}{"{}Text\ files(*.txt)|*.txt|All\ files(*.*)|*.*"{}};}
+\DoxyCodeLine{00130\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00131\ }
+\DoxyCodeLine{00137\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ RepWin\_Loaded(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{00138\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00139\ \ \ \ \ \ \ \ \ \ \ \ \ tblNumberApplic.Text\ =\ DataSenderRecipient.id\_Application;}
+\DoxyCodeLine{00140\ \ \ \ \ \ \ \ \ \ \ \ \ tbFirstname\_sender.Text\ =\ DataSenderRecipient.Firstname\_sender;}
+\DoxyCodeLine{00141\ \ \ \ \ \ \ \ \ \ \ \ \ tbSecondname\_sender.Text\ =\ DataSenderRecipient.Secondname\_sender;}
+\DoxyCodeLine{00142\ \ \ \ \ \ \ \ \ \ \ \ \ tbNumber\_phone\_sender.Text\ =\ DataSenderRecipient.Number\_phone\_sender;}
+\DoxyCodeLine{00143\ \ \ \ \ \ \ \ \ \ \ \ \ tbTypePackage.Text\ =\ DataSenderRecipient.Type\_package;}
+\DoxyCodeLine{00144\ \ \ \ \ \ \ \ \ \ \ \ \ tbAdress\_sender.Text\ =\ DataSenderRecipient.Adress\_sender;}
+\DoxyCodeLine{00145\ \ \ \ \ \ \ \ \ \ \ \ \ tbFirstname\_recipient.Text\ =\ DataSenderRecipient.Firstname\_recipient;}
+\DoxyCodeLine{00146\ \ \ \ \ \ \ \ \ \ \ \ \ tbSecondname\_recipient.Text\ =\ DataSenderRecipient.Secondname\_recipient;}
+\DoxyCodeLine{00147\ \ \ \ \ \ \ \ \ \ \ \ \ tbNumber\_phone\_recipient.Text\ =\ DataSenderRecipient.Number\_phone\_recipient;}
+\DoxyCodeLine{00148\ \ \ \ \ \ \ \ \ \ \ \ \ tbAdress\_recipient.Text\ =\ DataSenderRecipient.Adress\_recipient;}
+\DoxyCodeLine{00149\ }
+\DoxyCodeLine{00150\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}(DataSenderRecipient.Type\_package\ ==\ \textcolor{stringliteral}{"{}Message"{}})}
+\DoxyCodeLine{00151\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00152\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ tcDeliveryType.SelectedItem\ =\ tbiMessage;}
+\DoxyCodeLine{00153\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00154\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}(DataSenderRecipient.Type\_package\ ==\ \textcolor{stringliteral}{"{}Package"{}})}
+\DoxyCodeLine{00155\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00156\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ tcDeliveryType.SelectedItem\ =\ tbiPackage;}
+\DoxyCodeLine{00157\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00158\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}(DataSenderRecipient.Type\_package\ ==\ \textcolor{stringliteral}{"{}Fragile\ package"{}})}
+\DoxyCodeLine{00159\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00160\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ tcDeliveryType.SelectedItem\ =\ tbiPackage;}
+\DoxyCodeLine{00161\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00162\ }
+\DoxyCodeLine{00163\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00164\ }
+\DoxyCodeLine{00170\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ cmbDeliveryCompany\_SelectionChanged(\textcolor{keywordtype}{object}\ sender,\ SelectionChangedEventArgs\ e)}
+\DoxyCodeLine{00171\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00172\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (DataSenderRecipient.Type\_package\ ==\ \textcolor{stringliteral}{"{}Message"{}})}
+\DoxyCodeLine{00173\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00174\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}(cmbDeliveryCompany.SelectedIndex\ ==\ 0)}
+\DoxyCodeLine{00175\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00176\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lbSum.Content\ =\ \textcolor{stringliteral}{"{}1\$"{}};}
+\DoxyCodeLine{00177\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00178\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}(cmbDeliveryCompany.SelectedIndex\ ==\ 1)}
+\DoxyCodeLine{00179\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00180\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lbSum.Content\ =\ \textcolor{stringliteral}{"{}5\$"{}};}
+\DoxyCodeLine{00181\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00182\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}(cmbDeliveryCompany.SelectedIndex\ ==\ 2)}
+\DoxyCodeLine{00183\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00184\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lbSum.Content\ =\ \textcolor{stringliteral}{"{}10\$"{}};}
+\DoxyCodeLine{00185\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00186\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00187\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}\ (DataSenderRecipient.Type\_package\ ==\ \textcolor{stringliteral}{"{}Package"{}})}
+\DoxyCodeLine{00188\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00189\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (cmbDeliveryCompany.SelectedIndex\ ==\ 0)}
+\DoxyCodeLine{00190\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00191\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sum\ =\ 15;}
+\DoxyCodeLine{00192\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lbSum.Content\ =\ \textcolor{stringliteral}{"{}15\$"{}};}
+\DoxyCodeLine{00193\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00194\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}\ (cmbDeliveryCompany.SelectedIndex\ ==\ 1)}
+\DoxyCodeLine{00195\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00196\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sum\ =\ 25;}
+\DoxyCodeLine{00197\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lbSum.Content\ =\ \textcolor{stringliteral}{"{}25\$"{}};}
+\DoxyCodeLine{00198\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00199\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}\ (cmbDeliveryCompany.SelectedIndex\ ==\ 2)}
+\DoxyCodeLine{00200\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00201\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sum\ =\ 35;}
+\DoxyCodeLine{00202\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lbSum.Content\ =\ \textcolor{stringliteral}{"{}35\$"{}};}
+\DoxyCodeLine{00203\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00204\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00205\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}\ (DataSenderRecipient.Type\_package\ ==\ \textcolor{stringliteral}{"{}Fragile\ package"{}})}
+\DoxyCodeLine{00206\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00207\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (cmbDeliveryCompany.SelectedIndex\ ==\ 0)}
+\DoxyCodeLine{00208\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00209\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sum\ =\ 20;}
+\DoxyCodeLine{00210\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lbSum.Content\ =\ \textcolor{stringliteral}{"{}20\$"{}};}
+\DoxyCodeLine{00211\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00212\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}\ (cmbDeliveryCompany.SelectedIndex\ ==\ 1)}
+\DoxyCodeLine{00213\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00214\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sum\ =\ 40;}
+\DoxyCodeLine{00215\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lbSum.Content\ =\ \textcolor{stringliteral}{"{}40\$"{}};}
+\DoxyCodeLine{00216\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00217\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}\ (cmbDeliveryCompany.SelectedIndex\ ==\ 2)}
+\DoxyCodeLine{00218\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00219\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sum\ =\ 60;}
+\DoxyCodeLine{00220\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lbSum.Content\ =\ \textcolor{stringliteral}{"{}60\$"{}};}
+\DoxyCodeLine{00221\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00222\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00223\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00224\ \ \ \ \ \}}
+\DoxyCodeLine{00225\ \}}
+
+\end{DoxyCode}

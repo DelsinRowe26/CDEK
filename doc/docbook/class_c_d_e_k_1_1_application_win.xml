@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_c_d_e_k_1_1_application_win" xml:lang="ru">
+<title>Класс CDEK.ApplicationWin</title>
+<indexterm><primary>CDEK.ApplicationWin</primary></indexterm>
+<para>
+
+<para>Логика взаимодействия для ApplicationWin.xaml. </para>
+ 
+</para>
+<para>Граф наследования:CDEK.ApplicationWin:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_c_d_e_k_1_1_application_win.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_c_d_e_k_1_1_application_win_1a06b4378afd64fc6dd396c41dcb63c19d">InitializeComponent</link> ()</para>
+
+<para>InitializeComponent. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_c_d_e_k_1_1_application_win_1a06b4378afd64fc6dd396c41dcb63c19d">InitializeComponent</link> ()</para>
+
+<para>InitializeComponent. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Логика взаимодействия для ApplicationWin.xaml. </para>
+
+
+
+<para>ApplicationWin. </para>
+<para>
+См. определение в файле <link linkend="__application_win_8xaml_8cs_source">ApplicationWin.xaml.cs</link> строка <link linkend="__application_win_8xaml_8cs_source_1l00020">20</link></para>
+</section>
+<section>
+<title>Конструктор(ы)</title>
+<anchor xml:id="_class_c_d_e_k_1_1_application_win_1a03bea7047d78954a7c0a513154a98d19"/><section>
+    <title>ApplicationWin()</title>
+<indexterm><primary>ApplicationWin</primary><secondary>CDEK.ApplicationWin</secondary></indexterm>
+<indexterm><primary>CDEK.ApplicationWin</primary><secondary>ApplicationWin</secondary></indexterm>
+<para><computeroutput>CDEK.ApplicationWin.ApplicationWin ( )</computeroutput></para><para>
+См. определение в файле <link linkend="__application_win_8xaml_8cs_source">ApplicationWin.xaml.cs</link> строка <link linkend="__application_win_8xaml_8cs_source_1l00022">22</link></para>
+</section>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_c_d_e_k_1_1_application_win_1a06b4378afd64fc6dd396c41dcb63c19d"/><section>
+    <title>InitializeComponent()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>InitializeComponent</primary><secondary>CDEK.ApplicationWin</secondary></indexterm>
+<indexterm><primary>CDEK.ApplicationWin</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void CDEK.ApplicationWin.InitializeComponent ( )</computeroutput></para><para>
+
+<para>InitializeComponent. </para>
+</para>
+<para>
+См. определение в файле <link linkend="__application_win_8g_8cs_source">ApplicationWin.g.cs</link> строка <link linkend="__application_win_8g_8cs_source_1l00282">282</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_application_win_1a06b4378afd64fc6dd396c41dcb63c19d"/><section>
+    <title>InitializeComponent()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>InitializeComponent</primary><secondary>CDEK.ApplicationWin</secondary></indexterm>
+<indexterm><primary>CDEK.ApplicationWin</primary><secondary>InitializeComponent</secondary></indexterm>
+<para><computeroutput>void CDEK.ApplicationWin.InitializeComponent ( )</computeroutput></para><para>
+
+<para>InitializeComponent. </para>
+</para>
+<para>
+См. определение в файле <link linkend="__application_win_8g_8i_8cs_source">ApplicationWin.g.i.cs</link> строка <link linkend="__application_win_8g_8i_8cs_source_1l00282">282</link></para>
+</section>
+<para>
+Объявления и описания членов классов находятся в файлах:</para>
+E:/programs/CDEK/CDEK/ApplicationWin.xaml.csE:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.csE:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.i.cs</section>
+</section>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__c_d_e_k___content_8g_8i_8cs_source" xml:lang="ru">
+<title>CDEK_Content.g.i.cs</title>
+<indexterm><primary>E:/programs/CDEK/CDEK/obj/Debug/CDEK_Content.g.i.cs</primary></indexterm>
+<programlisting linenumbering="unnumbered"><anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00001"/>00001 <emphasis role="comment">//------------------------------------------------------------------------------</emphasis>
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00002"/>00002 <emphasis role="comment">//&#32;&lt;auto-generated&gt;</emphasis>
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00003"/>00003 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Этот&#32;код&#32;создан&#32;программой.</emphasis>
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00004"/>00004 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Исполняемая&#32;версия:4.0.30319.42000</emphasis>
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00005"/>00005 <emphasis role="comment">//</emphasis>
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00006"/>00006 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Изменения&#32;в&#32;этом&#32;файле&#32;могут&#32;привести&#32;к&#32;неправильной&#32;работе&#32;и&#32;будут&#32;потеряны&#32;в&#32;случае</emphasis>
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00007"/>00007 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;повторной&#32;генерации&#32;кода.</emphasis>
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00008"/>00008 <emphasis role="comment">//&#32;&lt;/auto-generated&gt;</emphasis>
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00009"/>00009 <emphasis role="comment">//------------------------------------------------------------------------------</emphasis>
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00010"/>00010 
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00011"/>00011 [assembly:&#32;System.Windows.Resources.AssemblyAssociatedContentFileAttribute(<emphasis role="stringliteral">&quot;model1.context.tt&quot;</emphasis>)]
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00012"/>00012 [assembly:&#32;System.Windows.Resources.AssemblyAssociatedContentFileAttribute(<emphasis role="stringliteral">&quot;model1.tt&quot;</emphasis>)]
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00013"/>00013 
+<anchor xml:id="__c_d_e_k___content_8g_8i_8cs_source_1l00014"/>00014 
+</programlisting></section>

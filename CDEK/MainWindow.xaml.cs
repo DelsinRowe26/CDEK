@@ -22,7 +22,7 @@ namespace CDEK
 	public partial class MainWindow : Window
 	{
 		/// <summary>
-		/// Метод MainWindow предназначен для инициализации компонентов.
+		/// Событие MainWindow предназначен для инициализации компонентов.
 		/// </summary>
 		int countTab = 0;
 		public MainWindow()
@@ -31,9 +31,9 @@ namespace CDEK
 		}
 
 		/// <summary>
-		/// Метод btnSetApplication_Click предназначен для открытия окна подачи заявок пользователя
+		/// Событие btnSetApplication_Click предназначен для открытия окна подачи заявок пользователя
 		/// </summary>
-		/// <param name="sender"></param>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
 		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void btnSetApplication_Click(object sender, RoutedEventArgs e)
 		{
@@ -43,9 +43,9 @@ namespace CDEK
 		}
 
 		/// <summary>
-		/// Метод Autorization_Loaded предназначен для того, чтобы при загрузке окна происходило подключение к базе данных.
+		/// Событие Autorization_Loaded предназначен для того, чтобы при загрузке окна происходило подключение к базе данных.
 		/// </summary>
-		/// <param name="sender"></param>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
 		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void Autorization_Loaded(object sender, RoutedEventArgs e)
 		{
@@ -61,9 +61,9 @@ namespace CDEK
 		}
 
 		/// <summary>
-		/// Метод btnSignIn_Click предназначен для того, чтобы менеджер мог зайти на окно заявок
+		/// Событие btnSignIn_Click предназначен для того, чтобы менеджер мог зайти на окно заявок
 		/// </summary>
-		/// <param name="sender"></param>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
 		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void btnSignIn_Click(object sender, RoutedEventArgs e)
 		{
@@ -89,9 +89,9 @@ namespace CDEK
 		}
 
 		/// <summary>
-		/// Метод pbManager_KeyDown предназначена для отслеживания события нажатия кнопки enter и запуска метода btnSetApplication_Click
+		/// Событие pbManager_KeyDown предназначена для отслеживания события нажатия кнопки enter и запуска события btnSetApplication_Click
 		/// </summary>
-		/// <param name="sender"></param>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
 		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void pbManager_KeyDown(object sender, KeyEventArgs e)
 		{

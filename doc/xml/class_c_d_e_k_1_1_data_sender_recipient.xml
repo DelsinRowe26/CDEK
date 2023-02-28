@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="class_c_d_e_k_1_1_data_sender_recipient" kind="class" language="C#" prot="public">
+    <compoundname>CDEK::DataSenderRecipient</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_data_sender_recipient_1a958837cc1e45c029908e37f3d80588de" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string CDEK.DataSenderRecipient.id_Application</definition>
+        <argsstring></argsstring>
+        <name>id_Application</name>
+        <qualifiedname>CDEK.DataSenderRecipient.id_Application</qualifiedname>
+        <briefdescription>
+<para>Переменная id_Application для хранения id заявки </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" line="14" column="22" bodyfile="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_data_sender_recipient_1a1d8f4efd60d785eb1b0e146104fa74df" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string CDEK.DataSenderRecipient.Firstname_sender</definition>
+        <argsstring></argsstring>
+        <name>Firstname_sender</name>
+        <qualifiedname>CDEK.DataSenderRecipient.Firstname_sender</qualifiedname>
+        <briefdescription>
+<para>Переменная Firstname_sender для хранения фамилии отправителя </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" line="19" column="22" bodyfile="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_data_sender_recipient_1a2052b7bb873db3f21b768960ed01f3d4" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string CDEK.DataSenderRecipient.Secondname_sender</definition>
+        <argsstring></argsstring>
+        <name>Secondname_sender</name>
+        <qualifiedname>CDEK.DataSenderRecipient.Secondname_sender</qualifiedname>
+        <briefdescription>
+<para>Переменная Secondname_sender для хранения имени отправителя </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" line="24" column="22" bodyfile="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_data_sender_recipient_1aba4e00a7d1ada9a7401e304f23a0f745" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string CDEK.DataSenderRecipient.Number_phone_sender</definition>
+        <argsstring></argsstring>
+        <name>Number_phone_sender</name>
+        <qualifiedname>CDEK.DataSenderRecipient.Number_phone_sender</qualifiedname>
+        <briefdescription>
+<para>Переменная Number_phone_sender для хранения номера телефона отправителя </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" line="29" column="22" bodyfile="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_data_sender_recipient_1ad984cba8828c150020a0c3b0c69cbf32" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string CDEK.DataSenderRecipient.Type_package</definition>
+        <argsstring></argsstring>
+        <name>Type_package</name>
+        <qualifiedname>CDEK.DataSenderRecipient.Type_package</qualifiedname>
+        <briefdescription>
+<para>Переменная Type_package для хранения типа посылки </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" line="34" column="22" bodyfile="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_data_sender_recipient_1add86869d2a939e3f684681637ef8be19" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string CDEK.DataSenderRecipient.Adress_sender</definition>
+        <argsstring></argsstring>
+        <name>Adress_sender</name>
+        <qualifiedname>CDEK.DataSenderRecipient.Adress_sender</qualifiedname>
+        <briefdescription>
+<para>Переменная Adress_sender для хранения адреса отправителя </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" line="39" column="22" bodyfile="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_data_sender_recipient_1ad943257615bbb60e50bab6e2e4576ea0" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string CDEK.DataSenderRecipient.Firstname_recipient</definition>
+        <argsstring></argsstring>
+        <name>Firstname_recipient</name>
+        <qualifiedname>CDEK.DataSenderRecipient.Firstname_recipient</qualifiedname>
+        <briefdescription>
+<para>Переменная Firstname_recipient для хранения фамилии получателя </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" line="44" column="22" bodyfile="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_data_sender_recipient_1a00367e9a1c7c530bf914a306ae1bdab1" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string CDEK.DataSenderRecipient.Secondname_recipient</definition>
+        <argsstring></argsstring>
+        <name>Secondname_recipient</name>
+        <qualifiedname>CDEK.DataSenderRecipient.Secondname_recipient</qualifiedname>
+        <briefdescription>
+<para>Переменная Secondname_recipient для хранения имени получателя </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" line="49" column="22" bodyfile="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_data_sender_recipient_1a6b2d9a0b27d60bb01e85f5940e6a917e" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string CDEK.DataSenderRecipient.Number_phone_recipient</definition>
+        <argsstring></argsstring>
+        <name>Number_phone_recipient</name>
+        <qualifiedname>CDEK.DataSenderRecipient.Number_phone_recipient</qualifiedname>
+        <briefdescription>
+<para>Переменная Number_phone_recipient для хранения номера телефона получателя </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" line="54" column="22" bodyfile="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_data_sender_recipient_1a6e4002c1b0c41abd3d82885b7a912a80" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string CDEK.DataSenderRecipient.Adress_recipient</definition>
+        <argsstring></argsstring>
+        <name>Adress_recipient</name>
+        <qualifiedname>CDEK.DataSenderRecipient.Adress_recipient</qualifiedname>
+        <briefdescription>
+<para>Переменная Adress_recipient для хранения адреса получателя </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" line="59" column="22" bodyfile="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_data_sender_recipient_1ad7c95d27817f8f0846e666fb44af5728" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string CDEK.DataSenderRecipient.Mail</definition>
+        <argsstring></argsstring>
+        <name>Mail</name>
+        <qualifiedname>CDEK.DataSenderRecipient.Mail</qualifiedname>
+        <briefdescription>
+<para>Переменная Mail для хранения электронной почты отправителя </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" line="64" column="22" bodyfile="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" line="9" column="15" bodyfile="E:/programs/CDEK/CDEK/DataSenderRecipient.cs" bodystart="10" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_c_d_e_k_1_1_data_sender_recipient_1a6e4002c1b0c41abd3d82885b7a912a80" prot="public" virt="non-virtual"><scope>CDEK::DataSenderRecipient</scope><name>Adress_recipient</name></member>
+      <member refid="class_c_d_e_k_1_1_data_sender_recipient_1add86869d2a939e3f684681637ef8be19" prot="public" virt="non-virtual"><scope>CDEK::DataSenderRecipient</scope><name>Adress_sender</name></member>
+      <member refid="class_c_d_e_k_1_1_data_sender_recipient_1ad943257615bbb60e50bab6e2e4576ea0" prot="public" virt="non-virtual"><scope>CDEK::DataSenderRecipient</scope><name>Firstname_recipient</name></member>
+      <member refid="class_c_d_e_k_1_1_data_sender_recipient_1a1d8f4efd60d785eb1b0e146104fa74df" prot="public" virt="non-virtual"><scope>CDEK::DataSenderRecipient</scope><name>Firstname_sender</name></member>
+      <member refid="class_c_d_e_k_1_1_data_sender_recipient_1a958837cc1e45c029908e37f3d80588de" prot="public" virt="non-virtual"><scope>CDEK::DataSenderRecipient</scope><name>id_Application</name></member>
+      <member refid="class_c_d_e_k_1_1_data_sender_recipient_1ad7c95d27817f8f0846e666fb44af5728" prot="public" virt="non-virtual"><scope>CDEK::DataSenderRecipient</scope><name>Mail</name></member>
+      <member refid="class_c_d_e_k_1_1_data_sender_recipient_1a6b2d9a0b27d60bb01e85f5940e6a917e" prot="public" virt="non-virtual"><scope>CDEK::DataSenderRecipient</scope><name>Number_phone_recipient</name></member>
+      <member refid="class_c_d_e_k_1_1_data_sender_recipient_1aba4e00a7d1ada9a7401e304f23a0f745" prot="public" virt="non-virtual"><scope>CDEK::DataSenderRecipient</scope><name>Number_phone_sender</name></member>
+      <member refid="class_c_d_e_k_1_1_data_sender_recipient_1a00367e9a1c7c530bf914a306ae1bdab1" prot="public" virt="non-virtual"><scope>CDEK::DataSenderRecipient</scope><name>Secondname_recipient</name></member>
+      <member refid="class_c_d_e_k_1_1_data_sender_recipient_1a2052b7bb873db3f21b768960ed01f3d4" prot="public" virt="non-virtual"><scope>CDEK::DataSenderRecipient</scope><name>Secondname_sender</name></member>
+      <member refid="class_c_d_e_k_1_1_data_sender_recipient_1ad984cba8828c150020a0c3b0c69cbf32" prot="public" virt="non-virtual"><scope>CDEK::DataSenderRecipient</scope><name>Type_package</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

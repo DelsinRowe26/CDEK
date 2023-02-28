@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__application_win_8g_8cs_source" xml:lang="ru">
+<title>ApplicationWin.g.cs</title>
+<indexterm><primary>E:/programs/CDEK/CDEK/obj/Debug/ApplicationWin.g.cs</primary></indexterm>
+<programlisting linenumbering="unnumbered"><anchor xml:id="__application_win_8g_8cs_source_1l00001"/>00001 <emphasis role="preprocessor">#pragma&#32;checksum&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>&#32;&quot;{8829d00f-11b8-4213-878b-770e8597ac16}&quot;&#32;&quot;A165C6D2C433B1E2F3C0D2E8483FC02E91C25ED405DEE3ADD823C7FB595833B7&quot;
+<anchor xml:id="__application_win_8g_8cs_source_1l00002"/>00002 <emphasis role="comment">//------------------------------------------------------------------------------</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00003"/>00003 <emphasis role="comment">//&#32;&lt;auto-generated&gt;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00004"/>00004 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Этот&#32;код&#32;создан&#32;программой.</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00005"/>00005 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Исполняемая&#32;версия:4.0.30319.42000</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00006"/>00006 <emphasis role="comment">//</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00007"/>00007 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;Изменения&#32;в&#32;этом&#32;файле&#32;могут&#32;привести&#32;к&#32;неправильной&#32;работе&#32;и&#32;будут&#32;потеряны&#32;в&#32;случае</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00008"/>00008 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;повторной&#32;генерации&#32;кода.</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00009"/>00009 <emphasis role="comment">//&#32;&lt;/auto-generated&gt;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00010"/>00010 <emphasis role="comment">//------------------------------------------------------------------------------</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00011"/>00011 
+<anchor xml:id="__application_win_8g_8cs_source_1l00012"/>00012 <emphasis role="keyword">using&#32;</emphasis><link linkend="_namespace_c_d_e_k">CDEK</link>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00013"/>00013 <emphasis role="keyword">using&#32;</emphasis>System;
+<anchor xml:id="__application_win_8g_8cs_source_1l00014"/>00014 <emphasis role="keyword">using&#32;</emphasis>System.Diagnostics;
+<anchor xml:id="__application_win_8g_8cs_source_1l00015"/>00015 <emphasis role="keyword">using&#32;</emphasis>System.Windows;
+<anchor xml:id="__application_win_8g_8cs_source_1l00016"/>00016 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Automation;
+<anchor xml:id="__application_win_8g_8cs_source_1l00017"/>00017 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Controls;
+<anchor xml:id="__application_win_8g_8cs_source_1l00018"/>00018 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Controls.Primitives;
+<anchor xml:id="__application_win_8g_8cs_source_1l00019"/>00019 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Data;
+<anchor xml:id="__application_win_8g_8cs_source_1l00020"/>00020 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Documents;
+<anchor xml:id="__application_win_8g_8cs_source_1l00021"/>00021 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Ink;
+<anchor xml:id="__application_win_8g_8cs_source_1l00022"/>00022 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Input;
+<anchor xml:id="__application_win_8g_8cs_source_1l00023"/>00023 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Markup;
+<anchor xml:id="__application_win_8g_8cs_source_1l00024"/>00024 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media;
+<anchor xml:id="__application_win_8g_8cs_source_1l00025"/>00025 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media.Animation;
+<anchor xml:id="__application_win_8g_8cs_source_1l00026"/>00026 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media.Effects;
+<anchor xml:id="__application_win_8g_8cs_source_1l00027"/>00027 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media.Imaging;
+<anchor xml:id="__application_win_8g_8cs_source_1l00028"/>00028 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media.Media3D;
+<anchor xml:id="__application_win_8g_8cs_source_1l00029"/>00029 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Media.TextFormatting;
+<anchor xml:id="__application_win_8g_8cs_source_1l00030"/>00030 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Navigation;
+<anchor xml:id="__application_win_8g_8cs_source_1l00031"/>00031 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Shapes;
+<anchor xml:id="__application_win_8g_8cs_source_1l00032"/>00032 <emphasis role="keyword">using&#32;</emphasis>System.Windows.Shell;
+<anchor xml:id="__application_win_8g_8cs_source_1l00033"/>00033 
+<anchor xml:id="__application_win_8g_8cs_source_1l00034"/>00034 
+<anchor xml:id="__application_win_8g_8cs_source_1l00035"/>00035 <emphasis role="keyword">namespace&#32;</emphasis><link linkend="_namespace_c_d_e_k">CDEK</link>&#32;{
+<anchor xml:id="__application_win_8g_8cs_source_1l00036"/>00036 &#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00037"/>00037 &#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00041"/>00041 &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">partial&#32;class&#32;</emphasis><link linkend="_class_c_d_e_k_1_1_application_win">ApplicationWin</link>&#32;:&#32;System.Windows.Window,&#32;System.Windows.Markup.IComponentConnector&#32;{
+<anchor xml:id="__application_win_8g_8cs_source_1l00042"/>00042 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00043"/>00043 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00044"/>00044 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;1&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00045"/>00045 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00046"/>00046 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;<link linkend="_class_c_d_e_k_1_1_application_win">CDEK.ApplicationWin</link>&#32;AppWin;
+<anchor xml:id="__application_win_8g_8cs_source_1l00047"/>00047 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00048"/>00048 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00049"/>00049 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00050"/>00050 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00051"/>00051 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00052"/>00052 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;10&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00053"/>00053 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00054"/>00054 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Label&#32;lbTitle;
+<anchor xml:id="__application_win_8g_8cs_source_1l00055"/>00055 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00056"/>00056 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00057"/>00057 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00058"/>00058 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00059"/>00059 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00060"/>00060 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;11&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00061"/>00061 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00062"/>00062 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Grid&#32;gridSender;
+<anchor xml:id="__application_win_8g_8cs_source_1l00063"/>00063 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00064"/>00064 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00065"/>00065 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00066"/>00066 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00067"/>00067 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00068"/>00068 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;12&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00069"/>00069 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00070"/>00070 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.TextBox&#32;tbFirstnameSender;
+<anchor xml:id="__application_win_8g_8cs_source_1l00071"/>00071 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00072"/>00072 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00073"/>00073 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00074"/>00074 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00075"/>00075 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00076"/>00076 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;13&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00077"/>00077 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00078"/>00078 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Label&#32;lbFirstnameSender;
+<anchor xml:id="__application_win_8g_8cs_source_1l00079"/>00079 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00080"/>00080 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00081"/>00081 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00082"/>00082 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00083"/>00083 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00084"/>00084 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;14&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00085"/>00085 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00086"/>00086 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.TextBox&#32;tbSecondnameSender;
+<anchor xml:id="__application_win_8g_8cs_source_1l00087"/>00087 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00088"/>00088 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00089"/>00089 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00090"/>00090 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00091"/>00091 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00092"/>00092 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;15&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00093"/>00093 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00094"/>00094 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Label&#32;lbSecondnameSender;
+<anchor xml:id="__application_win_8g_8cs_source_1l00095"/>00095 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00096"/>00096 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00097"/>00097 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00098"/>00098 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00099"/>00099 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00100"/>00100 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;16&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00101"/>00101 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00102"/>00102 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.TextBox&#32;tbNumberPhoneSender;
+<anchor xml:id="__application_win_8g_8cs_source_1l00103"/>00103 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00104"/>00104 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00105"/>00105 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00106"/>00106 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00107"/>00107 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00108"/>00108 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;17&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00109"/>00109 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00110"/>00110 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Label&#32;lbNumberPhoneSender;
+<anchor xml:id="__application_win_8g_8cs_source_1l00111"/>00111 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00112"/>00112 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00113"/>00113 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00114"/>00114 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00115"/>00115 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00116"/>00116 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;18&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00117"/>00117 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00118"/>00118 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.TextBox&#32;tbAdressSender;
+<anchor xml:id="__application_win_8g_8cs_source_1l00119"/>00119 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00120"/>00120 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00121"/>00121 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00122"/>00122 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00123"/>00123 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00124"/>00124 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;19&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00125"/>00125 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00126"/>00126 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Label&#32;lbAdressSender;
+<anchor xml:id="__application_win_8g_8cs_source_1l00127"/>00127 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00128"/>00128 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00129"/>00129 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00130"/>00130 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00131"/>00131 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00132"/>00132 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;20&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00133"/>00133 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00134"/>00134 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.TextBox&#32;tbMailSender;
+<anchor xml:id="__application_win_8g_8cs_source_1l00135"/>00135 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00136"/>00136 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00137"/>00137 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00138"/>00138 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00139"/>00139 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00140"/>00140 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;21&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00141"/>00141 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00142"/>00142 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Label&#32;lbMailSender;
+<anchor xml:id="__application_win_8g_8cs_source_1l00143"/>00143 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00144"/>00144 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00145"/>00145 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00146"/>00146 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00147"/>00147 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00148"/>00148 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;24&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00149"/>00149 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00150"/>00150 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Grid&#32;gridPackage;
+<anchor xml:id="__application_win_8g_8cs_source_1l00151"/>00151 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00152"/>00152 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00153"/>00153 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00154"/>00154 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00155"/>00155 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00156"/>00156 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;25&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00157"/>00157 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00158"/>00158 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Label&#32;lbTypePackage;
+<anchor xml:id="__application_win_8g_8cs_source_1l00159"/>00159 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00160"/>00160 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00161"/>00161 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00162"/>00162 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00163"/>00163 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00164"/>00164 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;26&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00165"/>00165 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00166"/>00166 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.ComboBox&#32;cmbTypePackage;
+<anchor xml:id="__application_win_8g_8cs_source_1l00167"/>00167 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00168"/>00168 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00169"/>00169 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00170"/>00170 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00171"/>00171 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00172"/>00172 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;27&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00173"/>00173 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00174"/>00174 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.ComboBoxItem&#32;cmbiMessage;
+<anchor xml:id="__application_win_8g_8cs_source_1l00175"/>00175 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00176"/>00176 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00177"/>00177 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00178"/>00178 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00179"/>00179 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00180"/>00180 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;28&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00181"/>00181 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00182"/>00182 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.ComboBoxItem&#32;cmbiPackage;
+<anchor xml:id="__application_win_8g_8cs_source_1l00183"/>00183 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00184"/>00184 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00185"/>00185 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00186"/>00186 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00187"/>00187 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00188"/>00188 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;29&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00189"/>00189 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00190"/>00190 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.ComboBoxItem&#32;cmbiFragilePackage;
+<anchor xml:id="__application_win_8g_8cs_source_1l00191"/>00191 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00192"/>00192 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00193"/>00193 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00194"/>00194 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00195"/>00195 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00196"/>00196 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;32&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00197"/>00197 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00198"/>00198 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Grid&#32;gridRecipient;
+<anchor xml:id="__application_win_8g_8cs_source_1l00199"/>00199 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00200"/>00200 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00201"/>00201 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00202"/>00202 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00203"/>00203 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00204"/>00204 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;33&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00205"/>00205 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00206"/>00206 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Label&#32;lbFirstnameRecipient;
+<anchor xml:id="__application_win_8g_8cs_source_1l00207"/>00207 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00208"/>00208 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00209"/>00209 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00210"/>00210 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00211"/>00211 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00212"/>00212 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;34&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00213"/>00213 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00214"/>00214 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.TextBox&#32;tbFirstnameRecipient;
+<anchor xml:id="__application_win_8g_8cs_source_1l00215"/>00215 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00216"/>00216 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00217"/>00217 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00218"/>00218 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00219"/>00219 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00220"/>00220 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;35&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00221"/>00221 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00222"/>00222 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Label&#32;lbSecondnameRecipient;
+<anchor xml:id="__application_win_8g_8cs_source_1l00223"/>00223 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00224"/>00224 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00225"/>00225 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00226"/>00226 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00227"/>00227 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00228"/>00228 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;36&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00229"/>00229 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00230"/>00230 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.TextBox&#32;tbSecondnameRecipient;
+<anchor xml:id="__application_win_8g_8cs_source_1l00231"/>00231 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00232"/>00232 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00233"/>00233 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00234"/>00234 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00235"/>00235 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00236"/>00236 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;37&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00237"/>00237 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00238"/>00238 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.TextBox&#32;tbNumberPhoneRecipient;
+<anchor xml:id="__application_win_8g_8cs_source_1l00239"/>00239 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00240"/>00240 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00241"/>00241 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00242"/>00242 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00243"/>00243 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00244"/>00244 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;38&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00245"/>00245 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00246"/>00246 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Label&#32;lbNumberPhoneRecipient;
+<anchor xml:id="__application_win_8g_8cs_source_1l00247"/>00247 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00248"/>00248 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00249"/>00249 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00250"/>00250 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00251"/>00251 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00252"/>00252 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;39&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00253"/>00253 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00254"/>00254 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.TextBox&#32;tbAdressRecipient;
+<anchor xml:id="__application_win_8g_8cs_source_1l00255"/>00255 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00256"/>00256 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00257"/>00257 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00258"/>00258 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00259"/>00259 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00260"/>00260 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;40&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00261"/>00261 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00262"/>00262 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Label&#32;lbAdressRecipient;
+<anchor xml:id="__application_win_8g_8cs_source_1l00263"/>00263 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00264"/>00264 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00265"/>00265 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00266"/>00266 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00267"/>00267 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00268"/>00268 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;43&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00269"/>00269 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1823:AvoidUnusedPrivateFields&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00270"/>00270 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">internal</emphasis>&#32;System.Windows.Controls.Button&#32;btnSend;
+<anchor xml:id="__application_win_8g_8cs_source_1l00271"/>00271 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00272"/>00272 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00273"/>00273 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00274"/>00274 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00275"/>00275 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">bool</emphasis>&#32;_contentLoaded;
+<anchor xml:id="__application_win_8g_8cs_source_1l00276"/>00276 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00280"/>00280 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.DebuggerNonUserCodeAttribute()]
+<anchor xml:id="__application_win_8g_8cs_source_1l00281"/>00281 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.CodeDom.Compiler.GeneratedCodeAttribute(<emphasis role="stringliteral">&quot;PresentationBuildTasks&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;4.0.0.0&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00282"/><link linkend="_class_c_d_e_k_1_1_application_win_1a06b4378afd64fc6dd396c41dcb63c19d">00282</link> &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_c_d_e_k_1_1_application_win_1a06b4378afd64fc6dd396c41dcb63c19d">InitializeComponent</link>()&#32;{
+<anchor xml:id="__application_win_8g_8cs_source_1l00283"/>00283 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(_contentLoaded)&#32;{
+<anchor xml:id="__application_win_8g_8cs_source_1l00284"/>00284 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00285"/>00285 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__application_win_8g_8cs_source_1l00286"/>00286 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_contentLoaded&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00287"/>00287 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.Uri&#32;resourceLocater&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;System.Uri(<emphasis role="stringliteral">&quot;/CDEK;component/applicationwin.xaml&quot;</emphasis>,&#32;System.UriKind.Relative);
+<anchor xml:id="__application_win_8g_8cs_source_1l00288"/>00288 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00289"/>00289 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;1&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00290"/>00290 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.Windows.Application.LoadComponent(<emphasis role="keyword">this</emphasis>,&#32;resourceLocater);
+<anchor xml:id="__application_win_8g_8cs_source_1l00291"/>00291 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00292"/>00292 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00293"/>00293 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00294"/>00294 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__application_win_8g_8cs_source_1l00295"/>00295 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00296"/>00296 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.DebuggerNonUserCodeAttribute()]
+<anchor xml:id="__application_win_8g_8cs_source_1l00297"/>00297 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.CodeDom.Compiler.GeneratedCodeAttribute(<emphasis role="stringliteral">&quot;PresentationBuildTasks&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;4.0.0.0&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00298"/>00298 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00299"/>00299 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Design&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1033:InterfaceMethodsShouldBeCallableByChildTypes&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00300"/>00300 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Maintainability&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1502:AvoidExcessiveComplexity&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00301"/>00301 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;[System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(<emphasis role="stringliteral">&quot;Microsoft.Performance&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CA1800:DoNotCastUnnecessarily&quot;</emphasis>)]
+<anchor xml:id="__application_win_8g_8cs_source_1l00302"/>00302 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;System.Windows.Markup.IComponentConnector.Connect(<emphasis role="keywordtype">int</emphasis>&#32;connectionId,&#32;<emphasis role="keywordtype">object</emphasis>&#32;target)&#32;{
+<anchor xml:id="__application_win_8g_8cs_source_1l00303"/>00303 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">switch</emphasis>&#32;(connectionId)
+<anchor xml:id="__application_win_8g_8cs_source_1l00304"/>00304 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+<anchor xml:id="__application_win_8g_8cs_source_1l00305"/>00305 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;1:
+<anchor xml:id="__application_win_8g_8cs_source_1l00306"/>00306 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.AppWin&#32;=&#32;((<link linkend="_namespace_c_d_e_k">CDEK</link>.<link linkend="_class_c_d_e_k_1_1_application_win">ApplicationWin</link>)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00307"/>00307 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00308"/>00308 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;8&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00309"/>00309 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.AppWin.Loaded&#32;+=&#32;<emphasis role="keyword">new</emphasis>&#32;System.Windows.RoutedEventHandler(this.AppWin_Loaded);
+<anchor xml:id="__application_win_8g_8cs_source_1l00310"/>00310 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00311"/>00311 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00312"/>00312 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00313"/>00313 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00314"/>00314 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;2:
+<anchor xml:id="__application_win_8g_8cs_source_1l00315"/>00315 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.lbTitle&#32;=&#32;((System.Windows.Controls.Label)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00316"/>00316 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00317"/>00317 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;3:
+<anchor xml:id="__application_win_8g_8cs_source_1l00318"/>00318 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.gridSender&#32;=&#32;((System.Windows.Controls.Grid)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00319"/>00319 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00320"/>00320 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;4:
+<anchor xml:id="__application_win_8g_8cs_source_1l00321"/>00321 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.tbFirstnameSender&#32;=&#32;((System.Windows.Controls.TextBox)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00322"/>00322 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00323"/>00323 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;5:
+<anchor xml:id="__application_win_8g_8cs_source_1l00324"/>00324 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.lbFirstnameSender&#32;=&#32;((System.Windows.Controls.Label)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00325"/>00325 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00326"/>00326 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;6:
+<anchor xml:id="__application_win_8g_8cs_source_1l00327"/>00327 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.tbSecondnameSender&#32;=&#32;((System.Windows.Controls.TextBox)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00328"/>00328 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00329"/>00329 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;7:
+<anchor xml:id="__application_win_8g_8cs_source_1l00330"/>00330 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.lbSecondnameSender&#32;=&#32;((System.Windows.Controls.Label)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00331"/>00331 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00332"/>00332 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;8:
+<anchor xml:id="__application_win_8g_8cs_source_1l00333"/>00333 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.tbNumberPhoneSender&#32;=&#32;((System.Windows.Controls.TextBox)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00334"/>00334 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00335"/>00335 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;9:
+<anchor xml:id="__application_win_8g_8cs_source_1l00336"/>00336 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.lbNumberPhoneSender&#32;=&#32;((System.Windows.Controls.Label)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00337"/>00337 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00338"/>00338 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;10:
+<anchor xml:id="__application_win_8g_8cs_source_1l00339"/>00339 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.tbAdressSender&#32;=&#32;((System.Windows.Controls.TextBox)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00340"/>00340 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00341"/>00341 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;11:
+<anchor xml:id="__application_win_8g_8cs_source_1l00342"/>00342 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.lbAdressSender&#32;=&#32;((System.Windows.Controls.Label)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00343"/>00343 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00344"/>00344 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;12:
+<anchor xml:id="__application_win_8g_8cs_source_1l00345"/>00345 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.tbMailSender&#32;=&#32;((System.Windows.Controls.TextBox)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00346"/>00346 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00347"/>00347 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;13:
+<anchor xml:id="__application_win_8g_8cs_source_1l00348"/>00348 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.lbMailSender&#32;=&#32;((System.Windows.Controls.Label)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00349"/>00349 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00350"/>00350 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;14:
+<anchor xml:id="__application_win_8g_8cs_source_1l00351"/>00351 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.gridPackage&#32;=&#32;((System.Windows.Controls.Grid)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00352"/>00352 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00353"/>00353 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;15:
+<anchor xml:id="__application_win_8g_8cs_source_1l00354"/>00354 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.lbTypePackage&#32;=&#32;((System.Windows.Controls.Label)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00355"/>00355 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00356"/>00356 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;16:
+<anchor xml:id="__application_win_8g_8cs_source_1l00357"/>00357 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.cmbTypePackage&#32;=&#32;((System.Windows.Controls.ComboBox)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00358"/>00358 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00359"/>00359 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;17:
+<anchor xml:id="__application_win_8g_8cs_source_1l00360"/>00360 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.cmbiMessage&#32;=&#32;((System.Windows.Controls.ComboBoxItem)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00361"/>00361 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00362"/>00362 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;18:
+<anchor xml:id="__application_win_8g_8cs_source_1l00363"/>00363 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.cmbiPackage&#32;=&#32;((System.Windows.Controls.ComboBoxItem)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00364"/>00364 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00365"/>00365 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;19:
+<anchor xml:id="__application_win_8g_8cs_source_1l00366"/>00366 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.cmbiFragilePackage&#32;=&#32;((System.Windows.Controls.ComboBoxItem)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00367"/>00367 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00368"/>00368 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;20:
+<anchor xml:id="__application_win_8g_8cs_source_1l00369"/>00369 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.gridRecipient&#32;=&#32;((System.Windows.Controls.Grid)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00370"/>00370 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00371"/>00371 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;21:
+<anchor xml:id="__application_win_8g_8cs_source_1l00372"/>00372 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.lbFirstnameRecipient&#32;=&#32;((System.Windows.Controls.Label)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00373"/>00373 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00374"/>00374 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;22:
+<anchor xml:id="__application_win_8g_8cs_source_1l00375"/>00375 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.tbFirstnameRecipient&#32;=&#32;((System.Windows.Controls.TextBox)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00376"/>00376 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00377"/>00377 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;23:
+<anchor xml:id="__application_win_8g_8cs_source_1l00378"/>00378 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.lbSecondnameRecipient&#32;=&#32;((System.Windows.Controls.Label)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00379"/>00379 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00380"/>00380 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;24:
+<anchor xml:id="__application_win_8g_8cs_source_1l00381"/>00381 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.tbSecondnameRecipient&#32;=&#32;((System.Windows.Controls.TextBox)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00382"/>00382 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00383"/>00383 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;25:
+<anchor xml:id="__application_win_8g_8cs_source_1l00384"/>00384 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.tbNumberPhoneRecipient&#32;=&#32;((System.Windows.Controls.TextBox)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00385"/>00385 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00386"/>00386 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;26:
+<anchor xml:id="__application_win_8g_8cs_source_1l00387"/>00387 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.lbNumberPhoneRecipient&#32;=&#32;((System.Windows.Controls.Label)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00388"/>00388 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00389"/>00389 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;27:
+<anchor xml:id="__application_win_8g_8cs_source_1l00390"/>00390 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.tbAdressRecipient&#32;=&#32;((System.Windows.Controls.TextBox)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00391"/>00391 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00392"/>00392 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;28:
+<anchor xml:id="__application_win_8g_8cs_source_1l00393"/>00393 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.lbAdressRecipient&#32;=&#32;((System.Windows.Controls.Label)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00394"/>00394 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00395"/>00395 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">case</emphasis>&#32;29:
+<anchor xml:id="__application_win_8g_8cs_source_1l00396"/>00396 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.btnSend&#32;=&#32;((System.Windows.Controls.Button)(target));
+<anchor xml:id="__application_win_8g_8cs_source_1l00397"/>00397 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00398"/>00398 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;43&#32;&quot;..\..\ApplicationWin.xaml&quot;</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00399"/>00399 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.btnSend.Click&#32;+=&#32;<emphasis role="keyword">new</emphasis>&#32;System.Windows.RoutedEventHandler(this.btnSend_Click);
+<anchor xml:id="__application_win_8g_8cs_source_1l00400"/>00400 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__application_win_8g_8cs_source_1l00401"/>00401 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;default</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00402"/>00402 <emphasis role="preprocessor">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#line&#32;hidden</emphasis>
+<anchor xml:id="__application_win_8g_8cs_source_1l00403"/>00403 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00404"/>00404 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__application_win_8g_8cs_source_1l00405"/>00405 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this._contentLoaded&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__application_win_8g_8cs_source_1l00406"/>00406 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__application_win_8g_8cs_source_1l00407"/>00407 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__application_win_8g_8cs_source_1l00408"/>00408 }
+<anchor xml:id="__application_win_8g_8cs_source_1l00409"/>00409 
+</programlisting></section>

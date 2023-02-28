@@ -1,0 +1,66 @@
+\doxysection{View\+Applications\+Win.\+xaml.\+cs}
+\label{_view_applications_win_8xaml_8cs_source}\index{E:/programs/CDEK/CDEK/ViewApplicationsWin.xaml.cs@{E:/programs/CDEK/CDEK/ViewApplicationsWin.xaml.cs}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{00003\ \textcolor{keyword}{using\ }System.Data;}
+\DoxyCodeLine{00004\ \textcolor{keyword}{using\ }System.Linq;}
+\DoxyCodeLine{00005\ \textcolor{keyword}{using\ }System.Text;}
+\DoxyCodeLine{00006\ \textcolor{keyword}{using\ }System.Threading.Tasks;}
+\DoxyCodeLine{00007\ \textcolor{keyword}{using\ }System.Windows;}
+\DoxyCodeLine{00008\ \textcolor{keyword}{using\ }System.Data.Entity.SqlServer;}
+\DoxyCodeLine{00009\ \textcolor{keyword}{using\ }System.Windows.Controls;}
+\DoxyCodeLine{00010\ \textcolor{keyword}{using\ }System.Windows.Data;}
+\DoxyCodeLine{00011\ \textcolor{keyword}{using\ }System.Windows.Documents;}
+\DoxyCodeLine{00012\ \textcolor{keyword}{using\ }System.Windows.Input;}
+\DoxyCodeLine{00013\ \textcolor{keyword}{using\ }System.Windows.Media;}
+\DoxyCodeLine{00014\ \textcolor{keyword}{using\ }System.Windows.Media.Imaging;}
+\DoxyCodeLine{00015\ \textcolor{keyword}{using\ }System.Windows.Shapes;}
+\DoxyCodeLine{00016\ \textcolor{keyword}{using\ }System.Data.Entity;}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{namespace\ }CDEK}
+\DoxyCodeLine{00019\ \{}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{partial\ class\ }ViewApplicationsWin\ :\ Window}
+\DoxyCodeLine{00024\ \ \ \ \ \{}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ ViewApplicationsWin()}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00029\ \ \ \ \ \ \ \ \ \ \ \ \ InitializeComponent();}
+\DoxyCodeLine{00030\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ ViewApplicationWin\_Loaded(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ sqlConn\ =\ \textcolor{stringliteral}{@"{}Data\ Source\ =\ DESKTOP-\/R2UPGH3\(\backslash\)DR;\ Initial\ Catalog\ =\ CDEK;\ Integrated\ Security\ =\ True"{}};}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ tableName\ =\ \textcolor{stringliteral}{"{}Table\_Application"{}};}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \ \ \ \ DBConnect.DataBaseConn(sqlConn);}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \ \ \ \ DataTable\ dt;}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \ \ \ \ DBConnect.LoadedDB(tableName,\ out\ dt);}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \ \ \ \ dgApplication.ItemsSource\ =\ dt.DefaultView;}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//this.Width\ =\ dgApplication.Width;}}
+\DoxyCodeLine{00047\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ btnReport\_Click(\textcolor{keywordtype}{object}\ sender,\ RoutedEventArgs\ e)}
+\DoxyCodeLine{00055\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00056\ \ \ \ \ \ \ \ \ \ \ \ \ DataSenderRecipient.id\_Application\ =\ ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[0].ToString();}
+\DoxyCodeLine{00057\ \ \ \ \ \ \ \ \ \ \ \ \ DataSenderRecipient.Firstname\_sender\ =\ ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[1].ToString();}
+\DoxyCodeLine{00058\ \ \ \ \ \ \ \ \ \ \ \ \ DataSenderRecipient.Secondname\_sender\ =\ ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[2].ToString();}
+\DoxyCodeLine{00059\ \ \ \ \ \ \ \ \ \ \ \ \ DataSenderRecipient.Number\_phone\_sender\ =\ ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[3].ToString();}
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ \ \ \ \ DataSenderRecipient.Type\_package\ =\ ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[4].ToString();}
+\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ \ \ \ \ DataSenderRecipient.Adress\_sender\ =\ ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[5].ToString();}
+\DoxyCodeLine{00062\ \ \ \ \ \ \ \ \ \ \ \ \ DataSenderRecipient.Firstname\_recipient\ =\ ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[6].ToString();}
+\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ \ \ \ \ DataSenderRecipient.Secondname\_recipient\ =\ ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[7].ToString();}
+\DoxyCodeLine{00064\ \ \ \ \ \ \ \ \ \ \ \ \ DataSenderRecipient.Number\_phone\_recipient\ =\ ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[8].ToString();}
+\DoxyCodeLine{00065\ \ \ \ \ \ \ \ \ \ \ \ \ DataSenderRecipient.Adress\_recipient\ =\ ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[9].ToString();}
+\DoxyCodeLine{00066\ \ \ \ \ \ \ \ \ \ \ \ \ DataSenderRecipient.Mail\ =\ ((DataRowView)dgApplication.SelectedItem).Row.ItemArray[10].ToString();}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ \ \ \ \ ReportWin\ win\ =\ \textcolor{keyword}{new}\ ReportWin();}
+\DoxyCodeLine{00069\ \ \ \ \ \ \ \ \ \ \ \ \ win.Show();}
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ \ \ \ \ this.Close();}
+\DoxyCodeLine{00071\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00072\ \ \ \ \ \}}
+\DoxyCodeLine{00073\ \}}
+
+\end{DoxyCode}

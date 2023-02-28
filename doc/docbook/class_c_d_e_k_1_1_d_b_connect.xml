@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_c_d_e_k_1_1_d_b_connect" xml:lang="ru">
+<title>Класс CDEK.DBConnect</title>
+<indexterm><primary>CDEK.DBConnect</primary></indexterm>
+<simplesect>
+    <title>Открытые статические члены    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_c_d_e_k_1_1_d_b_connect_1ab96da8ad6f6eb1a6e9a5a8a6cd6a171c">DataBaseConn</link> (string sql)</para>
+
+<para>Метод DataBaseConn пердназначен для подключения к бд </para>
+</listitem>
+            <listitem><para>static bool <link linkend="_class_c_d_e_k_1_1_d_b_connect_1a466a65e1e8de7c16e25ec49418853b94">DBC</link> (string sql)</para>
+
+<para>Метод был создан для unittest. </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_c_d_e_k_1_1_d_b_connect_1a0e0357fb746e7c48df8b940eb836d555">LoadedDB</link> (string nameTable, out DataTable dt)</para>
+
+<para>Метод LoadedDB предназначен для вывода таблицы из бд в DataGrid. </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_c_d_e_k_1_1_d_b_connect_1aa377a06807ab163f0fb98c4149322f35">DateFilter</link> (string nameTable, string Date, out DataTable dt)</para>
+
+<para>Метод DateFilter предназначен для фильтрации данных в таблице из бд по датам </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_c_d_e_k_1_1_d_b_connect_1acbcbf174f813cfbfc50c492f214651e1">EventFilter</link> (string nameTable, string nameEvent, out DataTable dt)</para>
+
+<para>Метод EventFilter предназначен для фильтрации данных в таблице из бд по событиям </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_c_d_e_k_1_1_d_b_connect_1a5573f568c2031b0ece40f67d1c17b9be">Add_to_table</link> (string command)</para>
+
+<para>Метод Add_to_table предназначен для добавления данных в таблицу </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_c_d_e_k_1_1_d_b_connect_1a55ee9322ae2f90cda32f5729be7ae429">SQLQueryAutorization</link> (string id, string password, string nameTable, string nameColumnMail, string nameColumnPassword, out bool Autorization)</para>
+
+<para>Метод SQLQueryAutorization предназначен для проверки пароля и логина пользователя </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Статические открытые данные    </title>
+        <itemizedlist>
+            <listitem><para>static SqlConnection <link linkend="_class_c_d_e_k_1_1_d_b_connect_1a2325218c20187fa9ab0f01a228071527">sqlConn</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+<para>
+См. определение в файле <link linkend="__d_b_connect_8cs_source">DBConnect.cs</link> строка <link linkend="__d_b_connect_8cs_source_1l00015">15</link></para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_class_c_d_e_k_1_1_d_b_connect_1a5573f568c2031b0ece40f67d1c17b9be"/><section>
+    <title>Add_to_table()</title>
+<indexterm><primary>Add_to_table</primary><secondary>CDEK.DBConnect</secondary></indexterm>
+<indexterm><primary>CDEK.DBConnect</primary><secondary>Add_to_table</secondary></indexterm>
+<para><computeroutput>static void CDEK.DBConnect.Add_to_table (string command)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Метод Add_to_table предназначен для добавления данных в таблицу </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>command</entry><entry>
+<para>Пременная в которую мы вносим команду для добавления данных в таблицу бд</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+См. определение в файле <link linkend="__d_b_connect_8cs_source">DBConnect.cs</link> строка <link linkend="__d_b_connect_8cs_source_1l00113">113</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_d_b_connect_1ab96da8ad6f6eb1a6e9a5a8a6cd6a171c"/><section>
+    <title>DataBaseConn()</title>
+<indexterm><primary>DataBaseConn</primary><secondary>CDEK.DBConnect</secondary></indexterm>
+<indexterm><primary>CDEK.DBConnect</primary><secondary>DataBaseConn</secondary></indexterm>
+<para><computeroutput>static void CDEK.DBConnect.DataBaseConn (string sql)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Метод DataBaseConn пердназначен для подключения к бд </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>sql</entry><entry>
+<para>Переменная в которую нужна присваивать путь подключения к бд</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+См. определение в файле <link linkend="__d_b_connect_8cs_source">DBConnect.cs</link> строка <link linkend="__d_b_connect_8cs_source_1l00023">23</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_d_b_connect_1aa377a06807ab163f0fb98c4149322f35"/><section>
+    <title>DateFilter()</title>
+<indexterm><primary>DateFilter</primary><secondary>CDEK.DBConnect</secondary></indexterm>
+<indexterm><primary>CDEK.DBConnect</primary><secondary>DateFilter</secondary></indexterm>
+<para><computeroutput>static void CDEK.DBConnect.DateFilter (string nameTable, string Date, out DataTable dt)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Метод DateFilter предназначен для фильтрации данных в таблице из бд по датам </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>nameTable</entry><entry>
+<para>Название таблицы в которой мы будем делать фильтрацию</para>
+</entry>
+                            </row>
+                            <row>
+<entry>Date</entry><entry>
+<para>Переменная даты по которой происходит фильтрация</para>
+</entry>
+                            </row>
+                            <row>
+<entry>dt</entry><entry>
+<para>Переменная для записи отфильтрованной таблицы</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+См. определение в файле <link linkend="__d_b_connect_8cs_source">DBConnect.cs</link> строка <link linkend="__d_b_connect_8cs_source_1l00074">74</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_d_b_connect_1a466a65e1e8de7c16e25ec49418853b94"/><section>
+    <title>DBC()</title>
+<indexterm><primary>DBC</primary><secondary>CDEK.DBConnect</secondary></indexterm>
+<indexterm><primary>CDEK.DBConnect</primary><secondary>DBC</secondary></indexterm>
+<para><computeroutput>static bool CDEK.DBConnect.DBC (string sql)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Метод был создан для unittest. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>sql</entry><entry>
+<para>Переменная в которую нужна присваивать путь подключения к бд</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Возвращает</title>
+
+<para>Возвращает True если подключение к бд произошло, и возвращает False если не было подключения</para>
+</formalpara>
+</para>
+<para>
+См. определение в файле <link linkend="__d_b_connect_8cs_source">DBConnect.cs</link> строка <link linkend="__d_b_connect_8cs_source_1l00033">33</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_d_b_connect_1acbcbf174f813cfbfc50c492f214651e1"/><section>
+    <title>EventFilter()</title>
+<indexterm><primary>EventFilter</primary><secondary>CDEK.DBConnect</secondary></indexterm>
+<indexterm><primary>CDEK.DBConnect</primary><secondary>EventFilter</secondary></indexterm>
+<para><computeroutput>static void CDEK.DBConnect.EventFilter (string nameTable, string nameEvent, out DataTable dt)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Метод EventFilter предназначен для фильтрации данных в таблице из бд по событиям </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>nameTable</entry><entry>
+<para>Название таблицы в которой мы будем делать фильтрацию</para>
+</entry>
+                            </row>
+                            <row>
+<entry>nameEvent</entry><entry>
+<para>Переменная для фильтрации таблицы по событиям</para>
+</entry>
+                            </row>
+                            <row>
+<entry>dt</entry><entry>
+<para>Переменная для записи отфильтрованной таблицы и вывода её</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+См. определение в файле <link linkend="__d_b_connect_8cs_source">DBConnect.cs</link> строка <link linkend="__d_b_connect_8cs_source_1l00095">95</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_d_b_connect_1a0e0357fb746e7c48df8b940eb836d555"/><section>
+    <title>LoadedDB()</title>
+<indexterm><primary>LoadedDB</primary><secondary>CDEK.DBConnect</secondary></indexterm>
+<indexterm><primary>CDEK.DBConnect</primary><secondary>LoadedDB</secondary></indexterm>
+<para><computeroutput>static void CDEK.DBConnect.LoadedDB (string nameTable, out DataTable dt)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Метод LoadedDB предназначен для вывода таблицы из бд в DataGrid. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>nameTable</entry><entry>
+<para>Название таблицы которую будем выводит в DataGrid</para>
+</entry>
+                            </row>
+                            <row>
+<entry>dt</entry><entry>
+<para>Переменная для записи в неё таблицы с бд</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+См. определение в файле <link linkend="__d_b_connect_8cs_source">DBConnect.cs</link> строка <link linkend="__d_b_connect_8cs_source_1l00053">53</link></para>
+</section>
+<anchor xml:id="_class_c_d_e_k_1_1_d_b_connect_1a55ee9322ae2f90cda32f5729be7ae429"/><section>
+    <title>SQLQueryAutorization()</title>
+<indexterm><primary>SQLQueryAutorization</primary><secondary>CDEK.DBConnect</secondary></indexterm>
+<indexterm><primary>CDEK.DBConnect</primary><secondary>SQLQueryAutorization</secondary></indexterm>
+<para><computeroutput>static void CDEK.DBConnect.SQLQueryAutorization (string id, string password, string nameTable, string nameColumnMail, string nameColumnPassword, out bool Autorization)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Метод SQLQueryAutorization предназначен для проверки пароля и логина пользователя </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>id</entry><entry>
+<para>Логин пользователя</para>
+</entry>
+                            </row>
+                            <row>
+<entry>password</entry><entry>
+<para>Парооль пользователя</para>
+</entry>
+                            </row>
+                            <row>
+<entry>nameTable</entry><entry>
+<para>Название таблицы где хранятся логин и пароль пользователя</para>
+</entry>
+                            </row>
+                            <row>
+<entry>nameColumnMail</entry><entry>
+<para>Название столбца Логина</para>
+</entry>
+                            </row>
+                            <row>
+<entry>nameColumnPassword</entry><entry>
+<para>Название столбца пароля</para>
+</entry>
+                            </row>
+                            <row>
+<entry>Autorization</entry><entry>
+<para>Логическая переменная в которой записывается True когда пароль и логин совали, и false когда не совпали</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+См. определение в файле <link linkend="__d_b_connect_8cs_source">DBConnect.cs</link> строка <link linkend="__d_b_connect_8cs_source_1l00137">137</link></para>
+</section>
+</section>
+<section>
+<title>Данные класса</title>
+<anchor xml:id="_class_c_d_e_k_1_1_d_b_connect_1a2325218c20187fa9ab0f01a228071527"/><section>
+    <title>sqlConn</title>
+<indexterm><primary>sqlConn</primary><secondary>CDEK.DBConnect</secondary></indexterm>
+<indexterm><primary>CDEK.DBConnect</primary><secondary>sqlConn</secondary></indexterm>
+<para><computeroutput>SqlConnection CDEK.DBConnect.sqlConn<computeroutput>[static]</computeroutput></computeroutput></para><para>
+См. определение в файле <link linkend="__d_b_connect_8cs_source">DBConnect.cs</link> строка <link linkend="__d_b_connect_8cs_source_1l00017">17</link></para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+E:/programs/CDEK/CDEK/DBConnect.cs</section>
+</section>

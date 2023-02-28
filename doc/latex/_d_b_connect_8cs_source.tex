@@ -1,0 +1,125 @@
+\doxysection{DBConnect.\+cs}
+\label{_d_b_connect_8cs_source}\index{E:/programs/CDEK/CDEK/DBConnect.cs@{E:/programs/CDEK/CDEK/DBConnect.cs}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{00002\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{00003\ \textcolor{keyword}{using\ }System.Linq;}
+\DoxyCodeLine{00004\ \textcolor{comment}{//using\ System.Data.Linq;}}
+\DoxyCodeLine{00005\ \textcolor{keyword}{using\ }System.Text;}
+\DoxyCodeLine{00006\ \textcolor{keyword}{using\ }System.Threading.Tasks;}
+\DoxyCodeLine{00007\ \textcolor{keyword}{using\ }System.Data;}
+\DoxyCodeLine{00008\ \textcolor{keyword}{using\ }System.Data.SqlClient;}
+\DoxyCodeLine{00009\ \textcolor{keyword}{using\ }System.Windows;}
+\DoxyCodeLine{00010\ \textcolor{keyword}{using\ }System.Security.Cryptography.X509Certificates;}
+\DoxyCodeLine{00011\ \textcolor{keyword}{using\ }System.Runtime.Remoting.Contexts;}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{namespace\ }CDEK}
+\DoxyCodeLine{00014\ \{}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }DBConnect}
+\DoxyCodeLine{00016\ \ \ \ \ \{}
+\DoxyCodeLine{00017\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ SqlConnection\ sqlConn;}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ DataBaseConn(\textcolor{keywordtype}{string}\ sql)}
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \ \ \ \ sqlConn\ =\ \textcolor{keyword}{new}\ SqlConnection(sql);}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{bool}\ DBC(\textcolor{keywordtype}{string}\ sql)}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \ \ \ \ sqlConn\ =\ \textcolor{keyword}{new}\ SqlConnection(sql);}
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{try}}
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sqlConn.Open();}
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sqlConn.Close();}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{true};}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{catch}}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ LoadedDB(\textcolor{keywordtype}{string}\ nameTable,\ out\ DataTable\ dt)\textcolor{comment}{//предназначен\ при\ загрузке\ и\ выводе\ определенной\ таблицы}}
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00055\ \ \ \ \ \ \ \ \ \ \ \ \ sqlConn.Open();}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ Get\_Data\ =\ \textcolor{stringliteral}{"{}SELECT\ *\ FROM\ ["{}}\ +\ nameTable\ +\ \textcolor{stringliteral}{"{}]"{}};}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00059\ \ \ \ \ \ \ \ \ \ \ \ \ SqlCommand\ cmd\ =\ sqlConn.CreateCommand();}
+\DoxyCodeLine{00060\ \ \ \ \ \ \ \ \ \ \ \ \ cmd.CommandText\ =\ Get\_Data;}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ \ \ \ \ \ \ \ \ \ \ \ \ SqlDataAdapter\ adapter\ =\ \textcolor{keyword}{new}\ SqlDataAdapter(cmd);}
+\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ \ \ \ \ dt\ =\ \textcolor{keyword}{new}\ DataTable(\textcolor{stringliteral}{"{}["{}}\ +\ nameTable\ +\ \textcolor{stringliteral}{"{}]"{}});}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00065\ \ \ \ \ \ \ \ \ \ \ \ \ adapter.Fill(dt);}
+\DoxyCodeLine{00066\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00074\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ DateFilter(\textcolor{keywordtype}{string}\ nameTable\ ,\ \textcolor{keywordtype}{string}\ Date,\ out\ DataTable\ dt)\textcolor{comment}{//фильтр\ по\ дате}}
+\DoxyCodeLine{00075\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ \ \ \ \ sqlConn.Open();}
+\DoxyCodeLine{00078\ }
+\DoxyCodeLine{00079\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ Get\_Data\ =\ \textcolor{stringliteral}{"{}SELECT\ *\ FROM\ ["{}}\ +\ nameTable\ +\ \textcolor{stringliteral}{"{}]\ WHERE\ DATE\ =\ "{}}\ +\ \textcolor{stringliteral}{"{}'"{}}\ +\ Date\ +\ \textcolor{stringliteral}{"{}'"{}};}
+\DoxyCodeLine{00080\ \ \ \ \ \ \ \ \ \ \ \ \ SqlCommand\ cmd\ =\ sqlConn.CreateCommand();}
+\DoxyCodeLine{00081\ \ \ \ \ \ \ \ \ \ \ \ \ cmd.CommandText\ =\ Get\_Data;}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00083\ \ \ \ \ \ \ \ \ \ \ \ \ SqlDataAdapter\ adapter\ =\ \textcolor{keyword}{new}\ SqlDataAdapter(cmd);}
+\DoxyCodeLine{00084\ \ \ \ \ \ \ \ \ \ \ \ \ dt\ =\ \textcolor{keyword}{new}\ DataTable(\textcolor{stringliteral}{"{}["{}}\ +\ nameTable\ +\ \textcolor{stringliteral}{"{}]"{}});}
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00086\ \ \ \ \ \ \ \ \ \ \ \ \ adapter.Fill(dt);}
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00088\ }
+\DoxyCodeLine{00095\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ EventFilter(\textcolor{keywordtype}{string}\ nameTable,\ \textcolor{keywordtype}{string}\ nameEvent,\ out\ DataTable\ dt)\textcolor{comment}{//фильтр\ по\ событиям}}
+\DoxyCodeLine{00096\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00097\ \ \ \ \ \ \ \ \ \ \ \ \ sqlConn.Open();}
+\DoxyCodeLine{00098\ }
+\DoxyCodeLine{00099\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ Get\_Data\ =\ \textcolor{stringliteral}{"{}SELECT\ *\ FROM\ ["{}}\ +\ nameTable\ +\ \textcolor{stringliteral}{"{}]\ WHERE\ [Событие]\ =\ "{}}\ +\ \textcolor{stringliteral}{"{}'"{}}\ +\ nameEvent\ +\ \textcolor{stringliteral}{"{}'"{}};}
+\DoxyCodeLine{00100\ \ \ \ \ \ \ \ \ \ \ \ \ SqlCommand\ cmd\ =\ sqlConn.CreateCommand();}
+\DoxyCodeLine{00101\ \ \ \ \ \ \ \ \ \ \ \ \ cmd.CommandText\ =\ Get\_Data;}
+\DoxyCodeLine{00102\ }
+\DoxyCodeLine{00103\ \ \ \ \ \ \ \ \ \ \ \ \ SqlDataAdapter\ adapter\ =\ \textcolor{keyword}{new}\ SqlDataAdapter(cmd);}
+\DoxyCodeLine{00104\ \ \ \ \ \ \ \ \ \ \ \ \ dt\ =\ \textcolor{keyword}{new}\ DataTable(\textcolor{stringliteral}{"{}["{}}\ +\ nameTable\ +\ \textcolor{stringliteral}{"{}]"{}});}
+\DoxyCodeLine{00105\ }
+\DoxyCodeLine{00106\ \ \ \ \ \ \ \ \ \ \ \ \ adapter.Fill(dt);}
+\DoxyCodeLine{00107\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00108\ }
+\DoxyCodeLine{00113\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ Add\_to\_table(\textcolor{keywordtype}{string}\ command)}
+\DoxyCodeLine{00114\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00115\ \ \ \ \ \ \ \ \ \ \ \ \ sqlConn.Open();}
+\DoxyCodeLine{00116\ \ \ \ \ \ \ \ \ \ \ \ \ SqlCommand\ sqlCommand\ =\ \textcolor{keyword}{new}\ SqlCommand();}
+\DoxyCodeLine{00117\ \ \ \ \ \ \ \ \ \ \ \ \ sqlCommand.CommandType\ =\ System.Data.CommandType.Text;}
+\DoxyCodeLine{00118\ \ \ \ \ \ \ \ \ \ \ \ \ sqlCommand.CommandText\ =\ command;}
+\DoxyCodeLine{00119\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//"{}INSERT\ MAC\_Table\ (MAC)\ VALUES\ ('"{}\ +\ macAddresses\ +\ "{}');"{}}}
+\DoxyCodeLine{00120\ \ \ \ \ \ \ \ \ \ \ \ \ sqlCommand.Connection\ =\ sqlConn;}
+\DoxyCodeLine{00121\ }
+\DoxyCodeLine{00122\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//sqlConn.Open();}}
+\DoxyCodeLine{00123\ \ \ \ \ \ \ \ \ \ \ \ \ sqlCommand.ExecuteNonQuery();}
+\DoxyCodeLine{00124\ \ \ \ \ \ \ \ \ \ \ \ \ sqlConn.Close();}
+\DoxyCodeLine{00125\ }
+\DoxyCodeLine{00126\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00137\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ SQLQueryAutorization(\textcolor{keywordtype}{string}\ \textcolor{keywordtype}{id},\ \textcolor{keywordtype}{string}\ password,\ \textcolor{keywordtype}{string}\ nameTable,\ \textcolor{keywordtype}{string}\ nameColumnMail,\ \textcolor{keywordtype}{string}\ nameColumnPassword,\ out\ \textcolor{keywordtype}{bool}\ Autorization)\textcolor{comment}{//отправление\ sql-\/запросов\ на\ авторизацию}}
+\DoxyCodeLine{00138\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00139\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ sqlQuery\ =\ \textcolor{stringliteral}{"{}SELECT\ *\ FROM\ [dbo].["{}}\ +\ nameTable\ +\ \textcolor{stringliteral}{"{}]\ WHERE\ ["{}}\ +\ nameColumnMail\ +\ \textcolor{stringliteral}{"{}]=\ '"{}}\ +\ \textcolor{keywordtype}{id}\ +\ \textcolor{stringliteral}{"{}'\ and\ ["{}}\ +\ nameColumnPassword\ +\ \textcolor{stringliteral}{"{}]='"{}}\ +\ password\ +\ \textcolor{stringliteral}{"{}'"{}};}
+\DoxyCodeLine{00140\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00141\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{using}\ (SqlDataAdapter\ dataAdapter\ =\ \textcolor{keyword}{new}\ SqlDataAdapter(sqlQuery,\ sqlConn))}
+\DoxyCodeLine{00142\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00143\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ DataTable\ table\ =\ \textcolor{keyword}{new}\ DataTable();}
+\DoxyCodeLine{00144\ }
+\DoxyCodeLine{00145\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ dataAdapter.Fill(table);}
+\DoxyCodeLine{00146\ }
+\DoxyCodeLine{00147\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (table.Rows.Count\ ==\ 0)}
+\DoxyCodeLine{00148\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00149\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Autorization\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00150\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00151\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{00152\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00153\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Autorization\ =\ \textcolor{keyword}{true};}
+\DoxyCodeLine{00154\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00155\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00156\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00157\ \ \ \ \ \}}
+\DoxyCodeLine{00158\ \}}
+
+\end{DoxyCode}

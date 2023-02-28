@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="class_c_d_e_k_1_1_properties_1_1_resources" kind="class" language="C#" prot="package">
+    <compoundname>CDEK::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_properties_1_1_resources_1aa902157ca989df4929263afc7f3a7b18" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager CDEK.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <qualifiedname>CDEK.Properties.Resources.resourceMan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs" line="27" column="63" bodyfile="E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_properties_1_1_resources_1ab6fb73a0b68ff8afc9db1045f820b94c" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo CDEK.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <qualifiedname>CDEK.Properties.Resources.resourceCulture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs" line="29" column="63" bodyfile="E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_c_d_e_k_1_1_properties_1_1_resources_1a365aad32e1cfa69140502ee1730e7518" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager CDEK.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <qualifiedname>CDEK.Properties.Resources.ResourceManager</qualifiedname>
+        <briefdescription>
+<para>Возвращает кэшированный экземпляр ResourceManager, использованный этим классом. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs" line="39" column="64" bodyfile="E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs" bodystart="39" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_c_d_e_k_1_1_properties_1_1_resources_1a5f6d293d2de69c268f2fa0fae1cd87f6" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo CDEK.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <qualifiedname>CDEK.Properties.Resources.Culture</qualifiedname>
+        <briefdescription>
+<para>Перезаписывает свойство CurrentUICulture текущего потока для всех обращений к ресурсу с помощью этого класса ресурса со строгой типизацией. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs" line="54" column="64" bodyfile="E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs" bodystart="54" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_c_d_e_k_1_1_properties_1_1_resources_1a5a7629b00ab8d649801aa74b641f1093" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CDEK.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <qualifiedname>CDEK.Properties.Resources.Resources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs" line="32" column="18" bodyfile="E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs" bodystart="32" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Класс ресурса со строгой типизацией для поиска локализованных строк и т.д. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs" line="25" column="13" bodyfile="E:/programs/CDEK/CDEK/Properties/Resources.Designer.cs" bodystart="25" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_c_d_e_k_1_1_properties_1_1_resources_1a5f6d293d2de69c268f2fa0fae1cd87f6" prot="package" virt="non-virtual"><scope>CDEK::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_c_d_e_k_1_1_properties_1_1_resources_1ab6fb73a0b68ff8afc9db1045f820b94c" prot="private" virt="non-virtual"><scope>CDEK::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_c_d_e_k_1_1_properties_1_1_resources_1aa902157ca989df4929263afc7f3a7b18" prot="private" virt="non-virtual"><scope>CDEK::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_c_d_e_k_1_1_properties_1_1_resources_1a365aad32e1cfa69140502ee1730e7518" prot="package" virt="non-virtual"><scope>CDEK::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_c_d_e_k_1_1_properties_1_1_resources_1a5a7629b00ab8d649801aa74b641f1093" prot="package" virt="non-virtual"><scope>CDEK::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

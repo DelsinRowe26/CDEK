@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.6" xml:lang="ru">
+  <compound refid="class_c_d_e_k_1_1_app" kind="class"><name>CDEK::App</name>
+    <member refid="class_c_d_e_k_1_1_app_1a7f08321370251f4f8b2bc606a8ce691b" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_d_e_k_1_1_app_1a7f08321370251f4f8b2bc606a8ce691b" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_d_e_k_1_1_app_1af55d221a486aee89feb2518703ce7753" kind="function"><name>Main</name></member>
+    <member refid="class_c_d_e_k_1_1_app_1af55d221a486aee89feb2518703ce7753" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_c_d_e_k_1_1_application_win" kind="class"><name>CDEK::ApplicationWin</name>
+    <member refid="class_c_d_e_k_1_1_application_win_1ab6974433df1e104a679aa6398af3fe8c" kind="variable"><name>AppWin</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a76ee7062b83bdbd1a6321011d71f24de" kind="variable"><name>lbTitle</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a7f75357f5fdad6118963acd812b041af" kind="variable"><name>gridSender</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a50e1ba762f36824ae70990ea71b2401d" kind="variable"><name>tbFirstnameSender</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a59fbb11e751d097def8b4175181d4aca" kind="variable"><name>lbFirstnameSender</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a5580488764c13df4cbdb6e8149c55684" kind="variable"><name>tbSecondnameSender</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a1bcc5647ef30533adadbe9e24946d586" kind="variable"><name>lbSecondnameSender</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a2b81dab1fe4c904f5303c1ebbbf51085" kind="variable"><name>tbNumberPhoneSender</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a38ddc7e5e22b471a12c67d75784e1124" kind="variable"><name>lbNumberPhoneSender</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a2cd1918bfe00ac026afe15e584ca0b10" kind="variable"><name>tbAdressSender</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a67d6fc26aec989bc5df38c68d5e49347" kind="variable"><name>lbAdressSender</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1aaa309c38556489f2dda8c4988854210e" kind="variable"><name>tbMailSender</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a7d5861d4bd965293405a020e377fd86c" kind="variable"><name>lbMailSender</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a6351bc90ad2b14647165188a9317dc74" kind="variable"><name>gridPackage</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a72b8d4d57b4ba4d86aabb762a3abdee1" kind="variable"><name>lbTypePackage</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a264014c99de609b12a3eae2f1b9f48b3" kind="variable"><name>cmbTypePackage</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1ae6288affda92a9e0a8d6d99f1165265e" kind="variable"><name>cmbiMessage</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a6d97acf85eb1212e8beaeafa476e7c5b" kind="variable"><name>cmbiPackage</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a0909b2e5b8c9a4d9785222c8aba1396a" kind="variable"><name>cmbiFragilePackage</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1ab22462593276488b1f1423c1e711fb83" kind="variable"><name>gridRecipient</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a9c0490112f4cb5ec6a6ff9a941443c6d" kind="variable"><name>lbFirstnameRecipient</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1abe31c2fbeacd41503e4d47f26fa026b9" kind="variable"><name>tbFirstnameRecipient</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a958a48e30eab39ab3c9c98aa6a3a3590" kind="variable"><name>lbSecondnameRecipient</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a72f5f77e87abe22986e8ca63a2d2897a" kind="variable"><name>tbSecondnameRecipient</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1ae5b053db4ac7901f9e1db34ca6eb78f0" kind="variable"><name>tbNumberPhoneRecipient</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a570eeef1f7487200134df18057f40c9c" kind="variable"><name>lbNumberPhoneRecipient</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a2c58afb31efac5760c2f2370da66c192" kind="variable"><name>tbAdressRecipient</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a20deeb17e66b5486fa93841a0e33ce39" kind="variable"><name>lbAdressRecipient</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1ae0e61c811bb85527b24a663cab5edc86" kind="variable"><name>btnSend</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1ae37b7e51aaa22454ef78789b70e954f7" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a03bea7047d78954a7c0a513154a98d19" kind="function"><name>ApplicationWin</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a06b4378afd64fc6dd396c41dcb63c19d" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a06b4378afd64fc6dd396c41dcb63c19d" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1ab7e03e9011607078898b989c21a1e9a8" kind="function"><name>btnSend_Click</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a54949397eb4e0b5c4f744d79cde58366" kind="function"><name>AppWin_Loaded</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a2b4a9a659c82e946ddac096a9f5d6f45" kind="function"><name>Connect</name></member>
+    <member refid="class_c_d_e_k_1_1_application_win_1a2b4a9a659c82e946ddac096a9f5d6f45" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_c_d_e_k_1_1_data_sender_recipient" kind="class"><name>CDEK::DataSenderRecipient</name>
+    <member refid="class_c_d_e_k_1_1_data_sender_recipient_1a958837cc1e45c029908e37f3d80588de" kind="variable"><name>id_Application</name></member>
+    <member refid="class_c_d_e_k_1_1_data_sender_recipient_1a1d8f4efd60d785eb1b0e146104fa74df" kind="variable"><name>Firstname_sender</name></member>
+    <member refid="class_c_d_e_k_1_1_data_sender_recipient_1a2052b7bb873db3f21b768960ed01f3d4" kind="variable"><name>Secondname_sender</name></member>
+    <member refid="class_c_d_e_k_1_1_data_sender_recipient_1aba4e00a7d1ada9a7401e304f23a0f745" kind="variable"><name>Number_phone_sender</name></member>
+    <member refid="class_c_d_e_k_1_1_data_sender_recipient_1ad984cba8828c150020a0c3b0c69cbf32" kind="variable"><name>Type_package</name></member>
+    <member refid="class_c_d_e_k_1_1_data_sender_recipient_1add86869d2a939e3f684681637ef8be19" kind="variable"><name>Adress_sender</name></member>
+    <member refid="class_c_d_e_k_1_1_data_sender_recipient_1ad943257615bbb60e50bab6e2e4576ea0" kind="variable"><name>Firstname_recipient</name></member>
+    <member refid="class_c_d_e_k_1_1_data_sender_recipient_1a00367e9a1c7c530bf914a306ae1bdab1" kind="variable"><name>Secondname_recipient</name></member>
+    <member refid="class_c_d_e_k_1_1_data_sender_recipient_1a6b2d9a0b27d60bb01e85f5940e6a917e" kind="variable"><name>Number_phone_recipient</name></member>
+    <member refid="class_c_d_e_k_1_1_data_sender_recipient_1a6e4002c1b0c41abd3d82885b7a912a80" kind="variable"><name>Adress_recipient</name></member>
+    <member refid="class_c_d_e_k_1_1_data_sender_recipient_1ad7c95d27817f8f0846e666fb44af5728" kind="variable"><name>Mail</name></member>
+  </compound>
+  <compound refid="class_c_d_e_k_1_1_d_b_connect" kind="class"><name>CDEK::DBConnect</name>
+    <member refid="class_c_d_e_k_1_1_d_b_connect_1a2325218c20187fa9ab0f01a228071527" kind="variable"><name>sqlConn</name></member>
+    <member refid="class_c_d_e_k_1_1_d_b_connect_1ab96da8ad6f6eb1a6e9a5a8a6cd6a171c" kind="function"><name>DataBaseConn</name></member>
+    <member refid="class_c_d_e_k_1_1_d_b_connect_1a466a65e1e8de7c16e25ec49418853b94" kind="function"><name>DBC</name></member>
+    <member refid="class_c_d_e_k_1_1_d_b_connect_1a0e0357fb746e7c48df8b940eb836d555" kind="function"><name>LoadedDB</name></member>
+    <member refid="class_c_d_e_k_1_1_d_b_connect_1aa377a06807ab163f0fb98c4149322f35" kind="function"><name>DateFilter</name></member>
+    <member refid="class_c_d_e_k_1_1_d_b_connect_1acbcbf174f813cfbfc50c492f214651e1" kind="function"><name>EventFilter</name></member>
+    <member refid="class_c_d_e_k_1_1_d_b_connect_1a5573f568c2031b0ece40f67d1c17b9be" kind="function"><name>Add_to_table</name></member>
+    <member refid="class_c_d_e_k_1_1_d_b_connect_1a55ee9322ae2f90cda32f5729be7ae429" kind="function"><name>SQLQueryAutorization</name></member>
+  </compound>
+  <compound refid="class_c_d_e_k_1_1_main_window" kind="class"><name>CDEK::MainWindow</name>
+    <member refid="class_c_d_e_k_1_1_main_window_1a3ed7b45f50942796d34a7518732db8f4" kind="variable"><name>countTab</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a2ad9f146140eff91f0aff07f1e7e270f" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1af63e60533c12876bcba0cf823ca3c00c" kind="variable"><name>Autorization</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a7b71b4ff03da1a668eec9fe565045961" kind="variable"><name>tcChoise</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1adbeb779c0e062219d004deef85ea573d" kind="variable"><name>tiUser</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a41016035538230b56e426484b4a119e1" kind="variable"><name>btnSetApplication</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a6b130478010cab21a24f847e022718f9" kind="variable"><name>tiManager</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a3dc2ef90e0602eeda89656dc73e19e46" kind="variable"><name>tbLogin</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a85f25e5e4d81f94e4a128f6a419dfdcd" kind="variable"><name>pbManager</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1ae6c329af931f7221997f25f59b241d6a" kind="variable"><name>btnSignIn</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1afcfc91c6f27fb4c7a8f541d9127c0596" kind="variable"><name>lbLogin</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a8c0864d11bf26872eaa3abadfe029460" kind="variable"><name>lbPassword</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a2180d7ab00a0c7a34e06562099d0e993" kind="function"><name>MainWindow</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a48f3a5c207c3138bb989b63f488b76a4" kind="function"><name>btnSetApplication_Click</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1af3404b8706a472332ea56d845c8df786" kind="function"><name>Autorization_Loaded</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1aa89a935b0047f81342f166a82cccf23b" kind="function"><name>btnSignIn_Click</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1ab8867c1d39fa3a2a6f048037665d7caa" kind="function"><name>pbManager_KeyDown</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a967f74b4a4fead25ccc87dac3be75ef9" kind="function"><name>Connect</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a967f74b4a4fead25ccc87dac3be75ef9" kind="function"><name>Connect</name></member>
+    <member refid="class_c_d_e_k_1_1_main_window_1a967f74b4a4fead25ccc87dac3be75ef9" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_c_d_e_k_1_1_report_win" kind="class"><name>CDEK::ReportWin</name>
+    <member refid="class_c_d_e_k_1_1_report_win_1a69cc6397b7760c84114be111df462bdb" kind="variable"><name>RepWin</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a995293a187dc62b54638a4131dceff64" kind="variable"><name>gridNumberApplic</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a43b4a7bbdaf2d68175a65e5fd7572c7e" kind="variable"><name>tblNumberApplic</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a051d03dbfe4dc1c2b02f7dbee6b45f4f" kind="variable"><name>lbNumberApplic</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a478943f2fdec231679c27bef5b4212e5" kind="variable"><name>lbSenderData</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1aba63dedffaf93d969e99d3fad0d11543" kind="variable"><name>lbFirstname_sender</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1acaa5b618e8f891c1928405593bc084ee" kind="variable"><name>lbSecondname</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1ad3fce4cb833f88b9d69c5a470c3fcaa0" kind="variable"><name>lbNumber_phone</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1ae56aad902f2e040532628b10159e70e4" kind="variable"><name>lbTypePackage</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a9df7d0a4151a494e44601ab714e5e928" kind="variable"><name>lbAdress_sender</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a88ec0010357dc7f63ac1124b7ded66d0" kind="variable"><name>tbFirstname_sender</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a5e80fa9bea09ec46f081e5c18e82912b" kind="variable"><name>tbSecondname_sender</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a3ac1a87881069fed0196856bf61e8593" kind="variable"><name>tbNumber_phone_sender</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a9ae00e9116900689815f747f200f3e26" kind="variable"><name>tbTypePackage</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1ab220a308f5eb5803c5b0ee2172805cda" kind="variable"><name>tbAdress_sender</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a1f6e40657031e72b083d3f5efd9e84c5" kind="variable"><name>gridRecipientData</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1ac1799af7d3140a1f1dacb0857e3d1345" kind="variable"><name>lbRecipientData</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a3f8bf69d48f738601b9a00f255f8c3fc" kind="variable"><name>lbFirstname_recipient</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1ab7c1a14ea2d31ae4fd37aba1ef4aa7e9" kind="variable"><name>lbSecondname_recipient</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a240d8b752708f15a138509abdf66e9c2" kind="variable"><name>lbNumber_Phone_recipient</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1af0974bdd73c8374d7f66a337f2b76dee" kind="variable"><name>lbAdress_recipient</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1af1004ad3c12f43cfde6688197fb4399e" kind="variable"><name>tbFirstname_recipient</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a68b985660ecc05b29049074f8d70e28c" kind="variable"><name>tbSecondname_recipient</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a78462a89f8fbf74dc3db0aa105010fc3" kind="variable"><name>tbNumber_phone_recipient</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a7b247053f2e8b456e6ac3860c89ed8d3" kind="variable"><name>tbAdress_recipient</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1ab89cc76c3a3f6772f96a14783296e3da" kind="variable"><name>tcDeliveryType</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a197025d45760d35ee118376fa5d0e6da" kind="variable"><name>tbiMessage</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a4c4cdb228ce2c05a8957f29b3bc3a4cb" kind="variable"><name>tbiPackage</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a7b53176afc5a7a276837997ac87745d4" kind="variable"><name>gridDataPack</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a8a1e03219f69b283ed1ebbdd1e8a96b1" kind="variable"><name>tbLengthPack</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1ab56d32852be9c44f4f37059c98205467" kind="variable"><name>lbLengthPack</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1aeb5a73411109443af445d97ef785a21d" kind="variable"><name>tbWidthPack</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1ae866fa66b68ca6f93eed319ab24ebe6c" kind="variable"><name>lbWidthPack</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a1cafabf801c438107e7168e73b0cd44f" kind="variable"><name>tbHeightPack</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a86f45aead81bcb96fd6786b8fd28c190" kind="variable"><name>lbHeightPack</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a28416d793405dda440f4a8f143ea06b0" kind="variable"><name>gridDeliveryType</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1ac03ec51f58756c2cadbd0921b6357a79" kind="variable"><name>cmbDeliveryCompany</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a2473acc1a8beebe92a35cc0d1c32492f" kind="variable"><name>lbDeliveryType</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a5109c92b1020e0b859770a007ea1c679" kind="variable"><name>lbSignatureSpace</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a5fd5e075fcf9db44828c29d24b7e66ba" kind="variable"><name>lbSignature</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a326033cfe3252939e279fb879e3feee7" kind="variable"><name>gridPrice</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1afb4aa37c870b9028ef57833bea5a991c" kind="variable"><name>lbPrice</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a71da091fd2e5523443cb8ad884329699" kind="variable"><name>lbSum</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a5726e216124aa00f8b04f85094a06b4f" kind="variable"><name>btnSaveSend</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a52d6ffbd939fc2129630936e8107c910" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a1c648a909ee4b45b5ff0c799182c3979" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1a1c648a909ee4b45b5ff0c799182c3979" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1ac5720e813c6824fb21fdd09b355db6bc" kind="function"><name>Connect</name></member>
+    <member refid="class_c_d_e_k_1_1_report_win_1ac5720e813c6824fb21fdd09b355db6bc" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_c_d_e_k_1_1_properties_1_1_resources" kind="class"><name>CDEK::Properties::Resources</name>
+    <member refid="class_c_d_e_k_1_1_properties_1_1_resources_1aa902157ca989df4929263afc7f3a7b18" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_c_d_e_k_1_1_properties_1_1_resources_1ab6fb73a0b68ff8afc9db1045f820b94c" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_c_d_e_k_1_1_properties_1_1_resources_1a365aad32e1cfa69140502ee1730e7518" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_c_d_e_k_1_1_properties_1_1_resources_1a5f6d293d2de69c268f2fa0fae1cd87f6" kind="property"><name>Culture</name></member>
+    <member refid="class_c_d_e_k_1_1_properties_1_1_resources_1a5a7629b00ab8d649801aa74b641f1093" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_c_d_e_k_1_1_properties_1_1_settings" kind="class"><name>CDEK::Properties::Settings</name>
+    <member refid="class_c_d_e_k_1_1_properties_1_1_settings_1aa8a45c4096e05a8fa874cf148d8ab940" kind="variable"><name>defaultInstance</name></member>
+    <member refid="class_c_d_e_k_1_1_properties_1_1_settings_1ab0af5d020cfe9f0da1a4efbd2d92cc00" kind="property"><name>Default</name></member>
+  </compound>
+  <compound refid="class_c_d_e_k_1_1_view_applications_win" kind="class"><name>CDEK::ViewApplicationsWin</name>
+    <member refid="class_c_d_e_k_1_1_view_applications_win_1a47247cd501297a967e21c83d1e065c83" kind="variable"><name>ViewApplicationWin</name></member>
+    <member refid="class_c_d_e_k_1_1_view_applications_win_1aa43b3cec81bb75be727a53f983896bf4" kind="variable"><name>dgApplication</name></member>
+    <member refid="class_c_d_e_k_1_1_view_applications_win_1a6ef5b721a2269c6668b6ebf865a0b820" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_c_d_e_k_1_1_view_applications_win_1aa82f40d592d501f30d6b4eafba13f849" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_d_e_k_1_1_view_applications_win_1aa82f40d592d501f30d6b4eafba13f849" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_d_e_k_1_1_view_applications_win_1ac2a7fc0d540a27cd003ed76f173db545" kind="function"><name>ViewApplicationsWin</name></member>
+    <member refid="class_c_d_e_k_1_1_view_applications_win_1ad8a0f565eee9ae16b9561b19d3053dc7" kind="function"><name>Connect</name></member>
+    <member refid="class_c_d_e_k_1_1_view_applications_win_1a089557f8e322080c4fd6c98c0bd3ae02" kind="function"><name>Connect</name></member>
+    <member refid="class_c_d_e_k_1_1_view_applications_win_1ad8a0f565eee9ae16b9561b19d3053dc7" kind="function"><name>Connect</name></member>
+    <member refid="class_c_d_e_k_1_1_view_applications_win_1a089557f8e322080c4fd6c98c0bd3ae02" kind="function"><name>Connect</name></member>
+    <member refid="class_c_d_e_k_1_1_view_applications_win_1a0439f8fd57817e90da0e50ec47bad095" kind="function"><name>ViewApplicationWin_Loaded</name></member>
+    <member refid="class_c_d_e_k_1_1_view_applications_win_1a23b44067c6ceb9ce0cfa0a09eb5efc53" kind="function"><name>btnReport_Click</name></member>
+  </compound>
+  <compound refid="namespace_c_d_e_k" kind="namespace"><name>CDEK</name>
+  </compound>
+  <compound refid="namespace_c_d_e_k_1_1_properties" kind="namespace"><name>CDEK::Properties</name>
+  </compound>
+  <compound refid="namespaceglobal" kind="namespace"><name>global</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_configuration" kind="namespace"><name>global::SystemConfiguration</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_win32" kind="namespace"><name>Microsoft::Win32</name>
+  </compound>
+  <compound refid="namespace_path" kind="namespace"><name>Path</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model_1_1_data_annotations" kind="namespace"><name>System::ComponentModel::DataAnnotations</name>
+  </compound>
+  <compound refid="namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity" kind="namespace"><name>System::Data::Entity</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity_1_1_core_1_1_objects" kind="namespace"><name>System::Data::Entity::Core::Objects</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_entity_1_1_sql_server" kind="namespace"><name>System::Data::Entity::SqlServer</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_sql_client" kind="namespace"><name>System::Data::SqlClient</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_mail" kind="namespace"><name>System::Net::Mail</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_resources" kind="namespace"><name>System::Resources</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_remoting_1_1_contexts" kind="namespace"><name>System::Runtime::Remoting::Contexts</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_cryptography_1_1_x509_certificates" kind="namespace"><name>System::Security::Cryptography::X509Certificates</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows" kind="namespace"><name>System::Windows</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_automation" kind="namespace"><name>System::Windows::Automation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls" kind="namespace"><name>System::Windows::Controls</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls_1_1_primitives" kind="namespace"><name>System::Windows::Controls::Primitives</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_data" kind="namespace"><name>System::Windows::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_documents" kind="namespace"><name>System::Windows::Documents</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_ink" kind="namespace"><name>System::Windows::Ink</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_input" kind="namespace"><name>System::Windows::Input</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_markup" kind="namespace"><name>System::Windows::Markup</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media" kind="namespace"><name>System::Windows::Media</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_animation" kind="namespace"><name>System::Windows::Media::Animation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_effects" kind="namespace"><name>System::Windows::Media::Effects</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_imaging" kind="namespace"><name>System::Windows::Media::Imaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_media3_d" kind="namespace"><name>System::Windows::Media::Media3D</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_text_formatting" kind="namespace"><name>System::Windows::Media::TextFormatting</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_navigation" kind="namespace"><name>System::Windows::Navigation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shapes" kind="namespace"><name>System::Windows::Shapes</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shell" kind="namespace"><name>System::Windows::Shell</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_application_win_8xaml_8cs" kind="file"><name>ApplicationWin.xaml.cs</name>
+  </compound>
+  <compound refid="_data_sender_recipient_8cs" kind="file"><name>DataSenderRecipient.cs</name>
+  </compound>
+  <compound refid="_d_b_connect_8cs" kind="file"><name>DBConnect.cs</name>
+  </compound>
+  <compound refid="_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_8_n_e_t_framework_00_version_0av4_87_82_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_8_n_e_t_framework_00_version_0av4_88_8_assembly_attributes_8cs" kind="file"><name>.NETFramework,Version=v4.8.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="_app_8g_8i_8cs" kind="file"><name>App.g.i.cs</name>
+  </compound>
+  <compound refid="_application_win_8g_8cs" kind="file"><name>ApplicationWin.g.cs</name>
+  </compound>
+  <compound refid="_application_win_8g_8i_8cs" kind="file"><name>ApplicationWin.g.i.cs</name>
+  </compound>
+  <compound refid="_autorization_8g_8i_8cs" kind="file"><name>Autorization.g.i.cs</name>
+  </compound>
+  <compound refid="_c_d_e_k___content_8g_8i_8cs" kind="file"><name>CDEK_Content.g.i.cs</name>
+  </compound>
+  <compound refid="_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_report_win_8g_8cs" kind="file"><name>ReportWin.g.cs</name>
+  </compound>
+  <compound refid="_report_win_8g_8i_8cs" kind="file"><name>ReportWin.g.i.cs</name>
+  </compound>
+  <compound refid="_view_applications_win_8g_8cs" kind="file"><name>ViewApplicationsWin.g.cs</name>
+  </compound>
+  <compound refid="_view_applications_win_8g_8i_8cs" kind="file"><name>ViewApplicationsWin.g.i.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="_report_win_8xaml_8cs" kind="file"><name>ReportWin.xaml.cs</name>
+    <member refid="_report_win_8xaml_8cs_1a5d3f395d3257bcd58335037355f0d7cc" kind="typedef"><name>Path</name></member>
+  </compound>
+  <compound refid="_view_applications_win_8xaml_8cs" kind="file"><name>ViewApplicationsWin.xaml.cs</name>
+  </compound>
+  <compound refid="dir_4d948f177f0712f4988d6da4e5d4339c" kind="dir"><name>E:/programs/CDEK/CDEK</name>
+  </compound>
+  <compound refid="dir_7a0815783acdad98941f7f48394889b8" kind="dir"><name>E:/programs/CDEK/CDEK/obj/Debug</name>
+  </compound>
+  <compound refid="dir_68790244aae04a083f0ee785c38a7cb1" kind="dir"><name>E:/programs/CDEK/CDEK/obj</name>
+  </compound>
+  <compound refid="dir_564aad1feb519ed9d211db30cdabe173" kind="dir"><name>E:/programs/CDEK/CDEK/Properties</name>
+  </compound>
+</doxygenindex>

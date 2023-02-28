@@ -25,9 +25,9 @@ namespace CDEK
 		}
 
 		/// <summary>
-		/// Метод btnSend_Click предназначен для отправки заявки в базу данных
+		/// Событие btnSend_Click предназначен для отправки заявки в базу данных
 		/// </summary>
-		/// <param name="sender"></param>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
 		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void btnSend_Click(object sender, RoutedEventArgs e)
 		{
@@ -42,6 +42,11 @@ namespace CDEK
 			}
 		}
 
+		/// <summary>
+		/// Событие AppWin_Loaded предназначен для подключения к БД при загрузке
+		/// </summary>
+		/// <param name="sender">Переменная относящаяся к классу Object</param>
+		/// <param name="e">Содержит информацию о состоянии и данные события</param>
 		private void AppWin_Loaded(object sender, RoutedEventArgs e)
 		{
 			string sqlConn = @"Data Source = DESKTOP-R2UPGH3\DR; Initial Catalog = CDEK; Integrated Security = True";

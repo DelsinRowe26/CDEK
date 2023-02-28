@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="class_c_d_e_k_1_1_d_b_connect" kind="class" language="C#" prot="public">
+    <compoundname>CDEK::DBConnect</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_d_b_connect_1a2325218c20187fa9ab0f01a228071527" prot="public" static="yes" mutable="no">
+        <type>SqlConnection</type>
+        <definition>SqlConnection CDEK.DBConnect.sqlConn</definition>
+        <argsstring></argsstring>
+        <name>sqlConn</name>
+        <qualifiedname>CDEK.DBConnect.sqlConn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DBConnect.cs" line="17" column="29" bodyfile="E:/programs/CDEK/CDEK/DBConnect.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_c_d_e_k_1_1_d_b_connect_1ab96da8ad6f6eb1a6e9a5a8a6cd6a171c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CDEK.DBConnect.DataBaseConn</definition>
+        <argsstring>(string sql)</argsstring>
+        <name>DataBaseConn</name>
+        <qualifiedname>CDEK.DBConnect.DataBaseConn</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>sql</declname>
+        </param>
+        <briefdescription>
+<para>Метод DataBaseConn пердназначен для подключения к бд </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sql</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная в которую нужна присваивать путь подключения к бд</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DBConnect.cs" line="23" column="20" bodyfile="E:/programs/CDEK/CDEK/DBConnect.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_d_b_connect_1a466a65e1e8de7c16e25ec49418853b94" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool CDEK.DBConnect.DBC</definition>
+        <argsstring>(string sql)</argsstring>
+        <name>DBC</name>
+        <qualifiedname>CDEK.DBConnect.DBC</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>sql</declname>
+        </param>
+        <briefdescription>
+<para>Метод был создан для unittest. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sql</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная в которую нужна присваивать путь подключения к бд</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Возвращает True если подключение к бд произошло, и возвращает False если не было подключения</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DBConnect.cs" line="33" column="20" bodyfile="E:/programs/CDEK/CDEK/DBConnect.cs" bodystart="33" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_d_b_connect_1a0e0357fb746e7c48df8b940eb836d555" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CDEK.DBConnect.LoadedDB</definition>
+        <argsstring>(string nameTable, out DataTable dt)</argsstring>
+        <name>LoadedDB</name>
+        <qualifiedname>CDEK.DBConnect.LoadedDB</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nameTable</declname>
+        </param>
+        <param>
+          <type>out DataTable</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+<para>Метод LoadedDB предназначен для вывода таблицы из бд в DataGrid. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nameTable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название таблицы которую будем выводит в DataGrid</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная для записи в неё таблицы с бд</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DBConnect.cs" line="53" column="20" bodyfile="E:/programs/CDEK/CDEK/DBConnect.cs" bodystart="53" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_d_b_connect_1aa377a06807ab163f0fb98c4149322f35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CDEK.DBConnect.DateFilter</definition>
+        <argsstring>(string nameTable, string Date, out DataTable dt)</argsstring>
+        <name>DateFilter</name>
+        <qualifiedname>CDEK.DBConnect.DateFilter</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nameTable</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Date</declname>
+        </param>
+        <param>
+          <type>out DataTable</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+<para>Метод DateFilter предназначен для фильтрации данных в таблице из бд по датам </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nameTable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название таблицы в которой мы будем делать фильтрацию</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная даты по которой происходит фильтрация</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная для записи отфильтрованной таблицы</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DBConnect.cs" line="74" column="20" bodyfile="E:/programs/CDEK/CDEK/DBConnect.cs" bodystart="74" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_d_b_connect_1acbcbf174f813cfbfc50c492f214651e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CDEK.DBConnect.EventFilter</definition>
+        <argsstring>(string nameTable, string nameEvent, out DataTable dt)</argsstring>
+        <name>EventFilter</name>
+        <qualifiedname>CDEK.DBConnect.EventFilter</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nameTable</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nameEvent</declname>
+        </param>
+        <param>
+          <type>out DataTable</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+<para>Метод EventFilter предназначен для фильтрации данных в таблице из бд по событиям </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nameTable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название таблицы в которой мы будем делать фильтрацию</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nameEvent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная для фильтрации таблицы по событиям</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная для записи отфильтрованной таблицы и вывода её</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DBConnect.cs" line="95" column="20" bodyfile="E:/programs/CDEK/CDEK/DBConnect.cs" bodystart="95" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_d_b_connect_1a5573f568c2031b0ece40f67d1c17b9be" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CDEK.DBConnect.Add_to_table</definition>
+        <argsstring>(string command)</argsstring>
+        <name>Add_to_table</name>
+        <qualifiedname>CDEK.DBConnect.Add_to_table</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>Метод Add_to_table предназначен для добавления данных в таблицу </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>command</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Пременная в которую мы вносим команду для добавления данных в таблицу бд</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DBConnect.cs" line="113" column="20" bodyfile="E:/programs/CDEK/CDEK/DBConnect.cs" bodystart="113" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_d_b_connect_1a55ee9322ae2f90cda32f5729be7ae429" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CDEK.DBConnect.SQLQueryAutorization</definition>
+        <argsstring>(string id, string password, string nameTable, string nameColumnMail, string nameColumnPassword, out bool Autorization)</argsstring>
+        <name>SQLQueryAutorization</name>
+        <qualifiedname>CDEK.DBConnect.SQLQueryAutorization</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nameTable</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nameColumnMail</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nameColumnPassword</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>Autorization</declname>
+        </param>
+        <briefdescription>
+<para>Метод SQLQueryAutorization предназначен для проверки пароля и логина пользователя </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Логин пользователя</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Парооль пользователя</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nameTable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название таблицы где хранятся логин и пароль пользователя</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nameColumnMail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название столбца Логина</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nameColumnPassword</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Название столбца пароля</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Autorization</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Логическая переменная в которой записывается True когда пароль и логин совали, и false когда не совпали</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/DBConnect.cs" line="137" column="20" bodyfile="E:/programs/CDEK/CDEK/DBConnect.cs" bodystart="137" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/programs/CDEK/CDEK/DBConnect.cs" line="15" column="7" bodyfile="E:/programs/CDEK/CDEK/DBConnect.cs" bodystart="16" bodyend="157"/>
+    <listofallmembers>
+      <member refid="class_c_d_e_k_1_1_d_b_connect_1a5573f568c2031b0ece40f67d1c17b9be" prot="public" virt="non-virtual"><scope>CDEK::DBConnect</scope><name>Add_to_table</name></member>
+      <member refid="class_c_d_e_k_1_1_d_b_connect_1ab96da8ad6f6eb1a6e9a5a8a6cd6a171c" prot="public" virt="non-virtual"><scope>CDEK::DBConnect</scope><name>DataBaseConn</name></member>
+      <member refid="class_c_d_e_k_1_1_d_b_connect_1aa377a06807ab163f0fb98c4149322f35" prot="public" virt="non-virtual"><scope>CDEK::DBConnect</scope><name>DateFilter</name></member>
+      <member refid="class_c_d_e_k_1_1_d_b_connect_1a466a65e1e8de7c16e25ec49418853b94" prot="public" virt="non-virtual"><scope>CDEK::DBConnect</scope><name>DBC</name></member>
+      <member refid="class_c_d_e_k_1_1_d_b_connect_1acbcbf174f813cfbfc50c492f214651e1" prot="public" virt="non-virtual"><scope>CDEK::DBConnect</scope><name>EventFilter</name></member>
+      <member refid="class_c_d_e_k_1_1_d_b_connect_1a0e0357fb746e7c48df8b940eb836d555" prot="public" virt="non-virtual"><scope>CDEK::DBConnect</scope><name>LoadedDB</name></member>
+      <member refid="class_c_d_e_k_1_1_d_b_connect_1a2325218c20187fa9ab0f01a228071527" prot="public" virt="non-virtual"><scope>CDEK::DBConnect</scope><name>sqlConn</name></member>
+      <member refid="class_c_d_e_k_1_1_d_b_connect_1a55ee9322ae2f90cda32f5729be7ae429" prot="public" virt="non-virtual"><scope>CDEK::DBConnect</scope><name>SQLQueryAutorization</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

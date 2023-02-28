@@ -1,0 +1,559 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="class_c_d_e_k_1_1_main_window" kind="class" language="C#" prot="public">
+    <compoundname>CDEK::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.Windows.Markup.IComponentConnector</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_main_window_1a3ed7b45f50942796d34a7518732db8f4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CDEK.MainWindow.countTab</definition>
+        <argsstring></argsstring>
+        <name>countTab</name>
+        <qualifiedname>CDEK.MainWindow.countTab</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Событие MainWindow предназначен для инициализации компонентов. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" line="27" column="5" bodyfile="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_main_window_1a2ad9f146140eff91f0aff07f1e7e270f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CDEK.MainWindow::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <qualifiedname>CDEK.MainWindow._contentLoaded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/Autorization.g.i.cs" line="51" column="22" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/Autorization.g.i.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_main_window_1af63e60533c12876bcba0cf823ca3c00c" prot="package" static="no" mutable="no">
+        <type><ref refid="class_c_d_e_k_1_1_main_window" kindref="compound">CDEK.MainWindow</ref></type>
+        <definition>CDEK MainWindow CDEK.MainWindow::Autorization</definition>
+        <argsstring></argsstring>
+        <name>Autorization</name>
+        <qualifiedname>CDEK.MainWindow.Autorization</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/Autorization.g.i.cs" line="46" column="33" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/Autorization.g.i.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_main_window_1a7b71b4ff03da1a668eec9fe565045961" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TabControl</type>
+        <definition>System Windows Controls TabControl CDEK.MainWindow::tcChoise</definition>
+        <argsstring></argsstring>
+        <name>tcChoise</name>
+        <qualifiedname>CDEK.MainWindow.tcChoise</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" line="54" column="50" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_main_window_1adbeb779c0e062219d004deef85ea573d" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TabItem</type>
+        <definition>System Windows Controls TabItem CDEK.MainWindow::tiUser</definition>
+        <argsstring></argsstring>
+        <name>tiUser</name>
+        <qualifiedname>CDEK.MainWindow.tiUser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" line="62" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_main_window_1a41016035538230b56e426484b4a119e1" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button CDEK.MainWindow::btnSetApplication</definition>
+        <argsstring></argsstring>
+        <name>btnSetApplication</name>
+        <qualifiedname>CDEK.MainWindow.btnSetApplication</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" line="70" column="46" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_main_window_1a6b130478010cab21a24f847e022718f9" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TabItem</type>
+        <definition>System Windows Controls TabItem CDEK.MainWindow::tiManager</definition>
+        <argsstring></argsstring>
+        <name>tiManager</name>
+        <qualifiedname>CDEK.MainWindow.tiManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" line="78" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_main_window_1a3dc2ef90e0602eeda89656dc73e19e46" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox CDEK.MainWindow::tbLogin</definition>
+        <argsstring></argsstring>
+        <name>tbLogin</name>
+        <qualifiedname>CDEK.MainWindow.tbLogin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" line="86" column="47" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_main_window_1a85f25e5e4d81f94e4a128f6a419dfdcd" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.PasswordBox</type>
+        <definition>System Windows Controls PasswordBox CDEK.MainWindow::pbManager</definition>
+        <argsstring></argsstring>
+        <name>pbManager</name>
+        <qualifiedname>CDEK.MainWindow.pbManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" line="94" column="51" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_main_window_1ae6c329af931f7221997f25f59b241d6a" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button CDEK.MainWindow::btnSignIn</definition>
+        <argsstring></argsstring>
+        <name>btnSignIn</name>
+        <qualifiedname>CDEK.MainWindow.btnSignIn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" line="102" column="46" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_main_window_1afcfc91c6f27fb4c7a8f541d9127c0596" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.MainWindow::lbLogin</definition>
+        <argsstring></argsstring>
+        <name>lbLogin</name>
+        <qualifiedname>CDEK.MainWindow.lbLogin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" line="110" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_d_e_k_1_1_main_window_1a8c0864d11bf26872eaa3abadfe029460" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label CDEK.MainWindow::lbPassword</definition>
+        <argsstring></argsstring>
+        <name>lbPassword</name>
+        <qualifiedname>CDEK.MainWindow.lbPassword</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" line="118" column="45" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_d_e_k_1_1_main_window_1a2180d7ab00a0c7a34e06562099d0e993" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CDEK.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <qualifiedname>CDEK.MainWindow.MainWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" line="28" column="8" bodyfile="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>CDEK.MainWindow.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/Autorization.g.i.cs" line="58" column="21" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/Autorization.g.i.cs" bodystart="58" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>CDEK.MainWindow.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" line="130" column="21" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" bodystart="130" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <qualifiedname>CDEK.MainWindow.InitializeComponent</qualifiedname>
+        <briefdescription>
+<para>InitializeComponent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.i.cs" line="130" column="21" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.i.cs" bodystart="130" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_d_e_k_1_1_main_window_1a48f3a5c207c3138bb989b63f488b76a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.MainWindow.btnSetApplication_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btnSetApplication_Click</name>
+        <qualifiedname>CDEK.MainWindow.btnSetApplication_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Событие btnSetApplication_Click предназначен для открытия окна подачи заявок пользователя </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная относящаяся к классу Object</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Содержит информацию о состоянии и данные события</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" line="38" column="14" bodyfile="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_main_window_1af3404b8706a472332ea56d845c8df786" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.MainWindow.Autorization_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Autorization_Loaded</name>
+        <qualifiedname>CDEK.MainWindow.Autorization_Loaded</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Событие Autorization_Loaded предназначен для того, чтобы при загрузке окна происходило подключение к базе данных. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная относящаяся к классу Object</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Содержит информацию о состоянии и данные события</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" line="50" column="14" bodyfile="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" bodystart="50" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_main_window_1aa89a935b0047f81342f166a82cccf23b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.MainWindow.btnSignIn_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btnSignIn_Click</name>
+        <qualifiedname>CDEK.MainWindow.btnSignIn_Click</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Событие btnSignIn_Click предназначен для того, чтобы менеджер мог зайти на окно заявок </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная относящаяся к классу Object</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Содержит информацию о состоянии и данные события</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" line="68" column="14" bodyfile="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" bodystart="68" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_main_window_1ab8867c1d39fa3a2a6f048037665d7caa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CDEK.MainWindow.pbManager_KeyDown</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>pbManager_KeyDown</name>
+        <qualifiedname>CDEK.MainWindow.pbManager_KeyDown</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Событие pbManager_KeyDown предназначена для отслеживания события нажатия кнопки enter и запуска события btnSetApplication_Click. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Переменная относящаяся к классу Object</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Содержит информацию о состоянии и данные события</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" line="96" column="14" bodyfile="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" bodystart="96" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_main_window_1a967f74b4a4fead25ccc87dac3be75ef9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. CDEK.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>CDEK.MainWindow.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/Autorization.g.i.cs" line="78" column="52" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/Autorization.g.i.cs" bodystart="78" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_main_window_1a967f74b4a4fead25ccc87dac3be75ef9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. CDEK.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>CDEK.MainWindow.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" line="150" column="52" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.cs" bodystart="150" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_d_e_k_1_1_main_window_1a967f74b4a4fead25ccc87dac3be75ef9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. CDEK.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>CDEK.MainWindow.Connect</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.i.cs" line="150" column="52" bodyfile="E:/programs/CDEK/CDEK/obj/Debug/MainWindow.g.i.cs" bodystart="150" bodyend="209"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Логика взаимодействия для MainWindow.xaml. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>MainWindow. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CDEK.MainWindow</label>
+        <link refid="class_c_d_e_k_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>CDEK</label>
+      </node>
+      <node id="1">
+        <label>CDEK.MainWindow</label>
+        <link refid="class_c_d_e_k_1_1_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>Autorization</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>btnSetApplication</edgelabel>
+          <edgelabel>btnSignIn</edgelabel>
+          <edgelabel>lbLogin</edgelabel>
+          <edgelabel>lbPassword</edgelabel>
+          <edgelabel>pbManager</edgelabel>
+          <edgelabel>tbLogin</edgelabel>
+          <edgelabel>tcChoise</edgelabel>
+          <edgelabel>tiManager</edgelabel>
+          <edgelabel>tiUser</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>System</label>
+      </node>
+      <node id="3">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+      <node id="2">
+        <label>Window</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" line="22" column="15" bodyfile="E:/programs/CDEK/CDEK/MainWindow.xaml.cs" bodystart="23" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_c_d_e_k_1_1_main_window_1a2ad9f146140eff91f0aff07f1e7e270f" prot="private" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>_contentLoaded</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1af63e60533c12876bcba0cf823ca3c00c" prot="package" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>Autorization</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1af3404b8706a472332ea56d845c8df786" prot="private" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>Autorization_Loaded</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a41016035538230b56e426484b4a119e1" prot="package" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>btnSetApplication</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a48f3a5c207c3138bb989b63f488b76a4" prot="private" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>btnSetApplication_Click</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1ae6c329af931f7221997f25f59b241d6a" prot="package" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>btnSignIn</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1aa89a935b0047f81342f166a82cccf23b" prot="private" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>btnSignIn_Click</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a967f74b4a4fead25ccc87dac3be75ef9" prot="private" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a967f74b4a4fead25ccc87dac3be75ef9" prot="private" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a967f74b4a4fead25ccc87dac3be75ef9" prot="private" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>Connect</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a3ed7b45f50942796d34a7518732db8f4" prot="private" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>countTab</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea" prot="public" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea" prot="public" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a689a79b4b24c5bcaf6744de0f612a6ea" prot="public" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1afcfc91c6f27fb4c7a8f541d9127c0596" prot="package" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>lbLogin</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a8c0864d11bf26872eaa3abadfe029460" prot="package" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>lbPassword</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a2180d7ab00a0c7a34e06562099d0e993" prot="public" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a85f25e5e4d81f94e4a128f6a419dfdcd" prot="package" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>pbManager</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1ab8867c1d39fa3a2a6f048037665d7caa" prot="private" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>pbManager_KeyDown</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a3dc2ef90e0602eeda89656dc73e19e46" prot="package" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>tbLogin</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a7b71b4ff03da1a668eec9fe565045961" prot="package" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>tcChoise</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1a6b130478010cab21a24f847e022718f9" prot="package" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>tiManager</name></member>
+      <member refid="class_c_d_e_k_1_1_main_window_1adbeb779c0e062219d004deef85ea573d" prot="package" virt="non-virtual"><scope>CDEK::MainWindow</scope><name>tiUser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

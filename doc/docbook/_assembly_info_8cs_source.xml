@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__assembly_info_8cs_source" xml:lang="ru">
+<title>AssemblyInfo.cs</title>
+<indexterm><primary>E:/programs/CDEK/CDEK/Properties/AssemblyInfo.cs</primary></indexterm>
+<programlisting linenumbering="unnumbered"><anchor xml:id="__assembly_info_8cs_source_1l00001"/>00001 <emphasis role="keyword">using&#32;</emphasis>System.Reflection;
+<anchor xml:id="__assembly_info_8cs_source_1l00002"/>00002 <emphasis role="keyword">using&#32;</emphasis>System.Resources;
+<anchor xml:id="__assembly_info_8cs_source_1l00003"/>00003 <emphasis role="keyword">using&#32;</emphasis>System.Runtime.CompilerServices;
+<anchor xml:id="__assembly_info_8cs_source_1l00004"/>00004 <emphasis role="keyword">using&#32;</emphasis>System.Runtime.InteropServices;
+<anchor xml:id="__assembly_info_8cs_source_1l00005"/>00005 <emphasis role="keyword">using&#32;</emphasis>System.Windows;
+<anchor xml:id="__assembly_info_8cs_source_1l00006"/>00006 
+<anchor xml:id="__assembly_info_8cs_source_1l00007"/>00007 <emphasis role="comment">//&#32;Общие&#32;сведения&#32;об&#32;этой&#32;сборке&#32;предоставляются&#32;следующим&#32;набором</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00008"/>00008 <emphasis role="comment">//&#32;набор&#32;атрибутов.&#32;Измените&#32;значения&#32;этих&#32;атрибутов,&#32;чтобы&#32;изменить&#32;сведения,</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00009"/>00009 <emphasis role="comment">//&#32;связанные&#32;со&#32;сборкой.</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00010"/>00010 [assembly:&#32;AssemblyTitle(<emphasis role="stringliteral">&quot;CDEK&quot;</emphasis>)]
+<anchor xml:id="__assembly_info_8cs_source_1l00011"/>00011 [assembly:&#32;AssemblyDescription(<emphasis role="stringliteral">&quot;&quot;</emphasis>)]
+<anchor xml:id="__assembly_info_8cs_source_1l00012"/>00012 [assembly:&#32;AssemblyConfiguration(<emphasis role="stringliteral">&quot;&quot;</emphasis>)]
+<anchor xml:id="__assembly_info_8cs_source_1l00013"/>00013 [assembly:&#32;AssemblyCompany(<emphasis role="stringliteral">&quot;&quot;</emphasis>)]
+<anchor xml:id="__assembly_info_8cs_source_1l00014"/>00014 [assembly:&#32;AssemblyProduct(<emphasis role="stringliteral">&quot;CDEK&quot;</emphasis>)]
+<anchor xml:id="__assembly_info_8cs_source_1l00015"/>00015 [assembly:&#32;AssemblyCopyright(<emphasis role="stringliteral">&quot;Copyright&#32;©&#32;&#32;2023&quot;</emphasis>)]
+<anchor xml:id="__assembly_info_8cs_source_1l00016"/>00016 [assembly:&#32;AssemblyTrademark(<emphasis role="stringliteral">&quot;&quot;</emphasis>)]
+<anchor xml:id="__assembly_info_8cs_source_1l00017"/>00017 [assembly:&#32;AssemblyCulture(<emphasis role="stringliteral">&quot;&quot;</emphasis>)]
+<anchor xml:id="__assembly_info_8cs_source_1l00018"/>00018 
+<anchor xml:id="__assembly_info_8cs_source_1l00019"/>00019 <emphasis role="comment">//&#32;Установка&#32;значения&#32;False&#32;для&#32;параметра&#32;ComVisible&#32;делает&#32;типы&#32;в&#32;этой&#32;сборке&#32;невидимыми</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00020"/>00020 <emphasis role="comment">//&#32;для&#32;компонентов&#32;COM.&#32;Если&#32;необходимо&#32;обратиться&#32;к&#32;типу&#32;в&#32;этой&#32;сборке&#32;через</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00021"/>00021 <emphasis role="comment">//&#32;из&#32;модели&#32;COM,&#32;установите&#32;атрибут&#32;ComVisible&#32;для&#32;этого&#32;типа&#32;в&#32;значение&#32;true.</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00022"/>00022 [assembly:&#32;ComVisible(<emphasis role="keyword">false</emphasis>)]
+<anchor xml:id="__assembly_info_8cs_source_1l00023"/>00023 
+<anchor xml:id="__assembly_info_8cs_source_1l00024"/>00024 <emphasis role="comment">//Чтобы&#32;начать&#32;создание&#32;локализуемых&#32;приложений,&#32;задайте</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00025"/>00025 <emphasis role="comment">//&lt;UICulture&gt;CultureYouAreCodingWith&lt;/UICulture&gt;&#32;в&#32;файле&#32;.csproj</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00026"/>00026 <emphasis role="comment">//в&#32;&lt;PropertyGroup&gt;.&#32;Например,&#32;при&#32;использовании&#32;английского&#32;(США)</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00027"/>00027 <emphasis role="comment">//в&#32;своих&#32;исходных&#32;файлах&#32;установите&#32;&lt;UICulture&gt;&#32;в&#32;en-US.&#32;&#32;Затем&#32;отмените&#32;преобразование&#32;в&#32;комментарий</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00028"/>00028 <emphasis role="comment">//атрибута&#32;NeutralResourceLanguage&#32;ниже.&#32;&#32;Обновите&#32;&quot;en-US&quot;&#32;в</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00029"/>00029 <emphasis role="comment">//строка&#32;внизу&#32;для&#32;обеспечения&#32;соответствия&#32;настройки&#32;UICulture&#32;в&#32;файле&#32;проекта.</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00030"/>00030 
+<anchor xml:id="__assembly_info_8cs_source_1l00031"/>00031 <emphasis role="comment">//[assembly:&#32;NeutralResourcesLanguage(&quot;en-US&quot;,&#32;UltimateResourceFallbackLocation.Satellite)]</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00032"/>00032 
+<anchor xml:id="__assembly_info_8cs_source_1l00033"/>00033 
+<anchor xml:id="__assembly_info_8cs_source_1l00034"/>00034 [assembly:&#32;ThemeInfo(
+<anchor xml:id="__assembly_info_8cs_source_1l00035"/>00035 &#32;&#32;&#32;&#32;ResourceDictionaryLocation.None,&#32;<emphasis role="comment">//где&#32;расположены&#32;словари&#32;ресурсов&#32;по&#32;конкретным&#32;тематикам</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00036"/>00036 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//(используется,&#32;если&#32;ресурс&#32;не&#32;найден&#32;на&#32;странице,</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00037"/>00037 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;или&#32;в&#32;словарях&#32;ресурсов&#32;приложения)</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00038"/>00038 &#32;&#32;&#32;&#32;ResourceDictionaryLocation.SourceAssembly&#32;<emphasis role="comment">//где&#32;расположен&#32;словарь&#32;универсальных&#32;ресурсов</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00039"/>00039 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//(используется,&#32;если&#32;ресурс&#32;не&#32;найден&#32;на&#32;странице,</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00040"/>00040 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;в&#32;приложении&#32;или&#32;в&#32;каких-либо&#32;словарях&#32;ресурсов&#32;для&#32;конкретной&#32;темы)</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00041"/>00041 )]
+<anchor xml:id="__assembly_info_8cs_source_1l00042"/>00042 
+<anchor xml:id="__assembly_info_8cs_source_1l00043"/>00043 
+<anchor xml:id="__assembly_info_8cs_source_1l00044"/>00044 <emphasis role="comment">//&#32;Сведения&#32;о&#32;версии&#32;для&#32;сборки&#32;включают&#32;четыре&#32;следующих&#32;значения:</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00045"/>00045 <emphasis role="comment">//</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00046"/>00046 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;&#32;Основной&#32;номер&#32;версии</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00047"/>00047 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;&#32;Дополнительный&#32;номер&#32;версии</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00048"/>00048 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;&#32;Номер&#32;сборки</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00049"/>00049 <emphasis role="comment">//&#32;&#32;&#32;&#32;&#32;&#32;Номер&#32;редакции</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00050"/>00050 <emphasis role="comment">//</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00051"/>00051 <emphasis role="comment">//&#32;Можно&#32;задать&#32;все&#32;значения&#32;или&#32;принять&#32;номера&#32;сборки&#32;и&#32;редакции&#32;по&#32;умолчанию&#32;</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00052"/>00052 <emphasis role="comment">//&#32;используя&#32;&quot;*&quot;,&#32;как&#32;показано&#32;ниже:</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00053"/>00053 <emphasis role="comment">//&#32;[assembly:&#32;AssemblyVersion(&quot;1.0.*&quot;)]</emphasis>
+<anchor xml:id="__assembly_info_8cs_source_1l00054"/>00054 [assembly:&#32;AssemblyVersion(<emphasis role="stringliteral">&quot;1.0.0.0&quot;</emphasis>)]
+<anchor xml:id="__assembly_info_8cs_source_1l00055"/>00055 [assembly:&#32;AssemblyFileVersion(<emphasis role="stringliteral">&quot;1.0.0.0&quot;</emphasis>)]
+</programlisting></section>
