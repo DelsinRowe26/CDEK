@@ -34,7 +34,7 @@
 # https://www.gnu.org/software/libiconv/ for the list of possible encodings.
 # The default value is: UTF-8.
 
-DOXYFILE_ENCODING      = UTF-8
+DOXYFILE_ENCODING      = cp1251
 
 # The PROJECT_NAME tag is a single word (or a sequence of words surrounded by
 # double-quotes, unless you are using Doxywizard) that should identify the
@@ -113,7 +113,7 @@ ALLOW_UNICODE_NAMES    = NO
 # Swedish, Turkish, Ukrainian and Vietnamese.
 # The default value is: English.
 
-OUTPUT_LANGUAGE        = English
+OUTPUT_LANGUAGE        = Russian
 
 # If the BRIEF_MEMBER_DESC tag is set to YES, doxygen will include brief member
 # descriptions after the members that are listed in the file and class
@@ -299,7 +299,7 @@ OPTIMIZE_OUTPUT_FOR_C  = NO
 # qualified scopes will look different, etc.
 # The default value is: NO.
 
-OPTIMIZE_OUTPUT_JAVA   = NO
+OPTIMIZE_OUTPUT_JAVA   = YES
 
 # Set the OPTIMIZE_FOR_FORTRAN tag to YES if your project consists of Fortran
 # sources. Doxygen will then generate output that is tailored for Fortran.
@@ -1008,7 +1008,7 @@ FILE_PATTERNS          = *.c \
 # be searched for input files as well.
 # The default value is: NO.
 
-RECURSIVE              = NO
+RECURSIVE              = YES
 
 # The EXCLUDE tag can be used to specify files and/or directories that should be
 # excluded from the INPUT source files. This way you can easily exclude a
@@ -1153,7 +1153,7 @@ FORTRAN_COMMENT_AFTER  = 72
 # also VERBATIM_HEADERS is set to NO.
 # The default value is: NO.
 
-SOURCE_BROWSER         = NO
+SOURCE_BROWSER         = YES
 
 # Setting the INLINE_SOURCES tag to YES will include the body of functions,
 # classes and enums directly into the documentation.
@@ -1693,7 +1693,7 @@ DISABLE_INDEX          = NO
 # The default value is: NO.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-GENERATE_TREEVIEW      = NO
+GENERATE_TREEVIEW      = YES
 
 # When both GENERATE_TREEVIEW and DISABLE_INDEX are set to YES, then the
 # FULL_SIDEBAR option determines if the side bar is limited to only the treeview
@@ -2059,7 +2059,7 @@ LATEX_EXTRA_FILES      =
 # The default value is: YES.
 # This tag requires that the tag GENERATE_LATEX is set to YES.
 
-PDF_HYPERLINKS         = YES
+PDF_HYPERLINKS         = NO
 
 # If the USE_PDFLATEX tag is set to YES, doxygen will use the engine as
 # specified with LATEX_CMD_NAME to generate the PDF file directly from the LaTeX
@@ -2119,7 +2119,7 @@ LATEX_EMOJI_DIRECTORY  =
 # readers/editors.
 # The default value is: NO.
 
-GENERATE_RTF           = NO
+GENERATE_RTF           = YES
 
 # The RTF_OUTPUT tag is used to specify where the RTF docs will be put. If a
 # relative path is entered the value of OUTPUT_DIRECTORY will be put in front of
@@ -2174,7 +2174,7 @@ RTF_EXTENSIONS_FILE    =
 # classes and files.
 # The default value is: NO.
 
-GENERATE_MAN           = NO
+GENERATE_MAN           = YES
 
 # The MAN_OUTPUT tag is used to specify where the man pages will be put. If a
 # relative path is entered the value of OUTPUT_DIRECTORY will be put in front of
@@ -2218,7 +2218,7 @@ MAN_LINKS              = NO
 # captures the structure of the code including all documentation.
 # The default value is: NO.
 
-GENERATE_XML           = NO
+GENERATE_XML           = YES
 
 # The XML_OUTPUT tag is used to specify where the XML pages will be put. If a
 # relative path is entered the value of OUTPUT_DIRECTORY will be put in front of
@@ -2252,7 +2252,7 @@ XML_NS_MEMB_FILE_SCOPE = NO
 # that can be used to generate PDF.
 # The default value is: NO.
 
-GENERATE_DOCBOOK       = NO
+GENERATE_DOCBOOK       = YES
 
 # The DOCBOOK_OUTPUT tag is used to specify where the Docbook pages will be put.
 # If a relative path is entered the value of OUTPUT_DIRECTORY will be put in
