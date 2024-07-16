@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище CDEKModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ManagerTable">
+          <Key>
+            <PropertyRef Name="id_Manager" />
+          </Key>
+          <Property Name="id_Manager" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Firstname" Type="nvarchar" MaxLength="50" />
+          <Property Name="Secondname" Type="nvarchar" MaxLength="50" />
+          <Property Name="Login" Type="nvarchar" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Table_Application">
+          <Key>
+            <PropertyRef Name="id_Applications" />
+          </Key>
+          <Property Name="id_Applications" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Firstname_sender" Type="nvarchar" MaxLength="50" />
+          <Property Name="Secondname_sender" Type="nvarchar" MaxLength="50" />
+          <Property Name="Number_phone_sender" Type="nvarchar" MaxLength="50" />
+          <Property Name="Type_package" Type="nvarchar" MaxLength="50" />
+          <Property Name="Adress_sender" Type="nvarchar" MaxLength="150" />
+          <Property Name="Firstname_recipient" Type="nvarchar" MaxLength="50" />
+          <Property Name="Secondname_recipient" Type="nvarchar" MaxLength="50" />
+          <Property Name="Number_phone_recipient" Type="nvarchar" MaxLength="50" />
+          <Property Name="Adress_recipient" Type="nvarchar" MaxLength="150" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="Хранилище CDEKModelContainer">
+          <EntitySet Name="ManagerTable" EntityType="Self.ManagerTable" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Table_Application" EntityType="Self.Table_Application" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CDEKModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ManagerTable">
+          <Key>
+            <PropertyRef Name="id_Manager" />
+          </Key>
+          <Property Name="id_Manager" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Firstname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Secondname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Table_Application">
+          <Key>
+            <PropertyRef Name="id_Applications" />
+          </Key>
+          <Property Name="id_Applications" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Firstname_sender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Secondname_sender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Number_phone_sender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Type_package" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Adress_sender" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="Firstname_recipient" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Secondname_recipient" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Number_phone_recipient" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Adress_recipient" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="CDEKEntities3" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ManagerTable" EntityType="Self.ManagerTable" />
+          <EntitySet Name="Table_Application" EntityType="Self.Table_Application" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище CDEKModelContainer" CdmEntityContainer="CDEKEntities3">
+          <EntitySetMapping Name="ManagerTable">
+            <EntityTypeMapping TypeName="CDEKModel.ManagerTable">
+              <MappingFragment StoreEntitySet="ManagerTable">
+                <ScalarProperty Name="id_Manager" ColumnName="id_Manager" />
+                <ScalarProperty Name="Firstname" ColumnName="Firstname" />
+                <ScalarProperty Name="Secondname" ColumnName="Secondname" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Table_Application">
+            <EntityTypeMapping TypeName="CDEKModel.Table_Application">
+              <MappingFragment StoreEntitySet="Table_Application">
+                <ScalarProperty Name="id_Applications" ColumnName="id_Applications" />
+                <ScalarProperty Name="Firstname_sender" ColumnName="Firstname_sender" />
+                <ScalarProperty Name="Secondname_sender" ColumnName="Secondname_sender" />
+                <ScalarProperty Name="Number_phone_sender" ColumnName="Number_phone_sender" />
+                <ScalarProperty Name="Type_package" ColumnName="Type_package" />
+                <ScalarProperty Name="Adress_sender" ColumnName="Adress_sender" />
+                <ScalarProperty Name="Firstname_recipient" ColumnName="Firstname_recipient" />
+                <ScalarProperty Name="Secondname_recipient" ColumnName="Secondname_recipient" />
+                <ScalarProperty Name="Number_phone_recipient" ColumnName="Number_phone_recipient" />
+                <ScalarProperty Name="Adress_recipient" ColumnName="Adress_recipient" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
